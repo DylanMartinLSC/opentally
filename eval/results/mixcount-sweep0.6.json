@@ -1,0 +1,2423 @@
+{
+ "dataset": "mixcount",
+ "threshold": 0.6,
+ "engines": {
+  "owlv2": {
+   "overall": {
+    "n": 300,
+    "MAE": 21.66,
+    "bias": 18.89,
+    "median_rel_err": 0.923,
+    "within_10pct": 0.113,
+    "exact": 0.057,
+    "precision": 0.444,
+    "recall": 0.812,
+    "F1": 0.574,
+    "sec_per_image": 0.218
+   },
+   "by_category": {},
+   "samples": [
+    {
+     "id": "test/p2/scene_0000/cam_000/rgb.jpg#0",
+     "category": "red artificial strawberry",
+     "gt": 24,
+     "pred": 57,
+     "tp": 24,
+     "sec": 0.41456079483032227
+    },
+    {
+     "id": "test/p2/scene_0000/cam_000/rgb.jpg#1",
+     "category": "artificial pineapple decoration",
+     "gt": 34,
+     "pred": 44,
+     "tp": 31,
+     "sec": 0.14894461631774902
+    },
+    {
+     "id": "test/p2/scene_0001/cam_000/rgb.jpg#0",
+     "category": "winged lioness gargoyle",
+     "gt": 68,
+     "pred": 157,
+     "tp": 57,
+     "sec": 0.5102205276489258
+    },
+    {
+     "id": "test/p2/scene_0001/cam_000/rgb.jpg#1",
+     "category": "winged stone gargoyle statue",
+     "gt": 47,
+     "pred": 100,
+     "tp": 35,
+     "sec": 0.14209485054016113
+    },
+    {
+     "id": "test/p2/scene_0001/cam_000/rgb.jpg#2",
+     "category": "gargoyle with long nose",
+     "gt": 46,
+     "pred": 104,
+     "tp": 46,
+     "sec": 0.5210728645324707
+    },
+    {
+     "id": "test/p2/scene_0002/cam_000/rgb.jpg#0",
+     "category": "artificial pineapple decoration",
+     "gt": 20,
+     "pred": 17,
+     "tp": 17,
+     "sec": 0.1418750286102295
+    },
+    {
+     "id": "test/p2/scene_0002/cam_000/rgb.jpg#1",
+     "category": "granny Smith apple with stem",
+     "gt": 21,
+     "pred": 39,
+     "tp": 21,
+     "sec": 0.13773870468139648
+    },
+    {
+     "id": "test/p2/scene_0002/cam_000/rgb.jpg#2",
+     "category": "artificial dark red apple",
+     "gt": 18,
+     "pred": 37,
+     "tp": 18,
+     "sec": 0.13604998588562012
+    },
+    {
+     "id": "test/p2/scene_0003/cam_000/rgb.jpg#0",
+     "category": "red apple, dark stem",
+     "gt": 8,
+     "pred": 22,
+     "tp": 8,
+     "sec": 0.13633060455322266
+    },
+    {
+     "id": "test/p2/scene_0003/cam_000/rgb.jpg#1",
+     "category": "cashew apple",
+     "gt": 11,
+     "pred": 23,
+     "tp": 11,
+     "sec": 0.13902521133422852
+    },
+    {
+     "id": "test/p2/scene_0003/cam_000/rgb.jpg#2",
+     "category": "mcIntosh apple",
+     "gt": 4,
+     "pred": 23,
+     "tp": 4,
+     "sec": 0.15553951263427734
+    },
+    {
+     "id": "test/p2/scene_0003/cam_000/rgb.jpg#3",
+     "category": "neosporin ointment box",
+     "gt": 3,
+     "pred": 3,
+     "tp": 3,
+     "sec": 0.13906002044677734
+    },
+    {
+     "id": "test/p2/scene_0004/cam_000/rgb.jpg#0",
+     "category": "sky blue Sharpie marker",
+     "gt": 38,
+     "pred": 43,
+     "tp": 25,
+     "sec": 0.12948060035705566
+    },
+    {
+     "id": "test/p2/scene_0004/cam_000/rgb.jpg#1",
+     "category": "orange and white marker",
+     "gt": 37,
+     "pred": 49,
+     "tp": 34,
+     "sec": 0.14913487434387207
+    },
+    {
+     "id": "test/p2/scene_0005/cam_000/rgb.jpg#0",
+     "category": "green and white marker",
+     "gt": 38,
+     "pred": 11,
+     "tp": 3,
+     "sec": 0.13889002799987793
+    },
+    {
+     "id": "test/p2/scene_0005/cam_000/rgb.jpg#1",
+     "category": "black marker with orange tips",
+     "gt": 16,
+     "pred": 3,
+     "tp": 2,
+     "sec": 0.1477055549621582
+    },
+    {
+     "id": "test/p2/scene_0006/cam_000/rgb.jpg#0",
+     "category": "artificial pineapple decoration",
+     "gt": 28,
+     "pred": 18,
+     "tp": 18,
+     "sec": 0.14156627655029297
+    },
+    {
+     "id": "test/p2/scene_0006/cam_000/rgb.jpg#1",
+     "category": "pink Lady apple",
+     "gt": 24,
+     "pred": 20,
+     "tp": 20,
+     "sec": 0.14626336097717285
+    },
+    {
+     "id": "test/p2/scene_0007/cam_000/rgb.jpg#0",
+     "category": "red Gala apple",
+     "gt": 50,
+     "pred": 111,
+     "tp": 48,
+     "sec": 0.13946795463562012
+    },
+    {
+     "id": "test/p2/scene_0007/cam_000/rgb.jpg#1",
+     "category": "pink Lady apple",
+     "gt": 33,
+     "pred": 122,
+     "tp": 32,
+     "sec": 0.17495036125183105
+    },
+    {
+     "id": "test/p2/scene_0007/cam_000/rgb.jpg#2",
+     "category": "artificial dark red apple",
+     "gt": 33,
+     "pred": 104,
+     "tp": 33,
+     "sec": 0.15978288650512695
+    },
+    {
+     "id": "test/p2/scene_0008/cam_000/rgb.jpg#0",
+     "category": "blue Cra-Z-Art marker",
+     "gt": 46,
+     "pred": 49,
+     "tp": 42,
+     "sec": 0.49530768394470215
+    },
+    {
+     "id": "test/p2/scene_0008/cam_000/rgb.jpg#1",
+     "category": "purplish-pink marker",
+     "gt": 27,
+     "pred": 106,
+     "tp": 5,
+     "sec": 0.5235188007354736
+    },
+    {
+     "id": "test/p2/scene_0008/cam_000/rgb.jpg#2",
+     "category": "caramel brown cosmetic pencil",
+     "gt": 41,
+     "pred": 53,
+     "tp": 21,
+     "sec": 0.5068333148956299
+    },
+    {
+     "id": "test/p2/scene_0009/cam_000/rgb.jpg#0",
+     "category": "green yellow Parasaurolophus figurine",
+     "gt": 88,
+     "pred": 172,
+     "tp": 84,
+     "sec": 0.15810394287109375
+    },
+    {
+     "id": "test/p2/scene_0009/cam_000/rgb.jpg#1",
+     "category": "yellow-brown Pachycephalosaurus toy",
+     "gt": 84,
+     "pred": 173,
+     "tp": 69,
+     "sec": 0.5352308750152588
+    },
+    {
+     "id": "test/p2/scene_0010/cam_000/rgb.jpg#0",
+     "category": "yellow Craz-Art marker",
+     "gt": 66,
+     "pred": 46,
+     "tp": 46,
+     "sec": 0.1431102752685547
+    },
+    {
+     "id": "test/p2/scene_0010/cam_000/rgb.jpg#1",
+     "category": "black marker with orange tips",
+     "gt": 46,
+     "pred": 59,
+     "tp": 26,
+     "sec": 0.14487528800964355
+    },
+    {
+     "id": "test/p2/scene_0011/cam_000/rgb.jpg#0",
+     "category": "orange cat figurine",
+     "gt": 2,
+     "pred": 3,
+     "tp": 2,
+     "sec": 0.13875055313110352
+    },
+    {
+     "id": "test/p2/scene_0011/cam_000/rgb.jpg#1",
+     "category": "smiling blue horned creature",
+     "gt": 1,
+     "pred": 5,
+     "tp": 1,
+     "sec": 0.14838600158691406
+    },
+    {
+     "id": "test/p2/scene_0011/cam_000/rgb.jpg#2",
+     "category": "squirrel and mushroom figurine",
+     "gt": 3,
+     "pred": 3,
+     "tp": 2,
+     "sec": 0.1407337188720703
+    },
+    {
+     "id": "test/p2/scene_0012/cam_000/rgb.jpg#0",
+     "category": "purplish-pink marker",
+     "gt": 15,
+     "pred": 17,
+     "tp": 10,
+     "sec": 0.1407310962677002
+    },
+    {
+     "id": "test/p2/scene_0012/cam_000/rgb.jpg#1",
+     "category": "gray shampoo bottle with white cap",
+     "gt": 22,
+     "pred": 28,
+     "tp": 18,
+     "sec": 0.13876819610595703
+    },
+    {
+     "id": "test/p2/scene_0012/cam_000/rgb.jpg#2",
+     "category": "green and black shaver",
+     "gt": 23,
+     "pred": 31,
+     "tp": 15,
+     "sec": 0.1369328498840332
+    },
+    {
+     "id": "test/p2/scene_0012/cam_000/rgb.jpg#3",
+     "category": "gray UOYOX shaver",
+     "gt": 21,
+     "pred": 2,
+     "tp": 1,
+     "sec": 0.5128111839294434
+    },
+    {
+     "id": "test/p2/scene_0013/cam_000/rgb.jpg#0",
+     "category": "cream green dinosaur figure",
+     "gt": 60,
+     "pred": 109,
+     "tp": 37,
+     "sec": 0.4938478469848633
+    },
+    {
+     "id": "test/p2/scene_0013/cam_000/rgb.jpg#1",
+     "category": "reddish-brown Triceratops toy",
+     "gt": 49,
+     "pred": 105,
+     "tp": 32,
+     "sec": 0.5143346786499023
+    },
+    {
+     "id": "test/p2/scene_0013/cam_000/rgb.jpg#2",
+     "category": "green Stegosaurus toy",
+     "gt": 61,
+     "pred": 143,
+     "tp": 56,
+     "sec": 0.1869354248046875
+    },
+    {
+     "id": "test/p2/scene_0014/cam_000/rgb.jpg#0",
+     "category": "cashew apple",
+     "gt": 17,
+     "pred": 42,
+     "tp": 14,
+     "sec": 0.15897679328918457
+    },
+    {
+     "id": "test/p2/scene_0014/cam_000/rgb.jpg#1",
+     "category": "yellow Galia melon with stem",
+     "gt": 11,
+     "pred": 58,
+     "tp": 10,
+     "sec": 0.14873862266540527
+    },
+    {
+     "id": "test/p2/scene_0014/cam_000/rgb.jpg#2",
+     "category": "golden yellow apple",
+     "gt": 15,
+     "pred": 35,
+     "tp": 15,
+     "sec": 0.16575837135314941
+    },
+    {
+     "id": "test/p2/scene_0014/cam_000/rgb.jpg#3",
+     "category": "artificial dark red apple",
+     "gt": 13,
+     "pred": 49,
+     "tp": 13,
+     "sec": 0.14277076721191406
+    },
+    {
+     "id": "test/p2/scene_0015/cam_000/rgb.jpg#0",
+     "category": "stone gargoyle statue",
+     "gt": 15,
+     "pred": 36,
+     "tp": 15,
+     "sec": 0.13891386985778809
+    },
+    {
+     "id": "test/p2/scene_0015/cam_000/rgb.jpg#1",
+     "category": "gargoyle with long nose",
+     "gt": 13,
+     "pred": 8,
+     "tp": 7,
+     "sec": 0.48544883728027344
+    },
+    {
+     "id": "test/p2/scene_0015/cam_000/rgb.jpg#2",
+     "category": "gray stone gargoyle statue",
+     "gt": 16,
+     "pred": 20,
+     "tp": 6,
+     "sec": 0.1378343105316162
+    },
+    {
+     "id": "test/p2/scene_0016/cam_000/rgb.jpg#0",
+     "category": "artificial green apple",
+     "gt": 6,
+     "pred": 18,
+     "tp": 6,
+     "sec": 0.14003539085388184
+    },
+    {
+     "id": "test/p2/scene_0016/cam_000/rgb.jpg#1",
+     "category": "fake green apple",
+     "gt": 6,
+     "pred": 13,
+     "tp": 6,
+     "sec": 0.13642001152038574
+    },
+    {
+     "id": "test/p2/scene_0016/cam_000/rgb.jpg#2",
+     "category": "pink Lady apple",
+     "gt": 7,
+     "pred": 9,
+     "tp": 7,
+     "sec": 0.1405165195465088
+    },
+    {
+     "id": "test/p2/scene_0017/cam_000/rgb.jpg#0",
+     "category": "Smaller dOSS square orange speaker",
+     "gt": 31,
+     "pred": 55,
+     "tp": 31,
+     "sec": 0.15433955192565918
+    },
+    {
+     "id": "test/p2/scene_0017/cam_000/rgb.jpg#1",
+     "category": "Larger dOSS square orange speaker",
+     "gt": 20,
+     "pred": 51,
+     "tp": 20,
+     "sec": 0.1477501392364502
+    },
+    {
+     "id": "test/p2/scene_0018/cam_000/rgb.jpg#0",
+     "category": "winged lioness gargoyle",
+     "gt": 20,
+     "pred": 22,
+     "tp": 12,
+     "sec": 0.5114729404449463
+    },
+    {
+     "id": "test/p2/scene_0018/cam_000/rgb.jpg#1",
+     "category": "gargoyle with long nose",
+     "gt": 40,
+     "pred": 55,
+     "tp": 32,
+     "sec": 0.14333510398864746
+    },
+    {
+     "id": "test/p2/scene_0018/cam_000/rgb.jpg#2",
+     "category": "stone gargoyle statue",
+     "gt": 32,
+     "pred": 14,
+     "tp": 12,
+     "sec": 0.137847900390625
+    },
+    {
+     "id": "test/p2/scene_0019/cam_000/rgb.jpg#0",
+     "category": "striped red apple",
+     "gt": 48,
+     "pred": 89,
+     "tp": 48,
+     "sec": 0.14130878448486328
+    },
+    {
+     "id": "test/p2/scene_0019/cam_000/rgb.jpg#1",
+     "category": "green sweet crisp apple",
+     "gt": 42,
+     "pred": 85,
+     "tp": 42,
+     "sec": 0.13745713233947754
+    },
+    {
+     "id": "test/p2/scene_0020/cam_000/rgb.jpg#0",
+     "category": "herbal Essences hydration bottle",
+     "gt": 38,
+     "pred": 25,
+     "tp": 13,
+     "sec": 0.15236878395080566
+    },
+    {
+     "id": "test/p2/scene_0020/cam_000/rgb.jpg#1",
+     "category": "blue-capped shampoo bottle",
+     "gt": 25,
+     "pred": 67,
+     "tp": 21,
+     "sec": 0.1593317985534668
+    },
+    {
+     "id": "test/p2/scene_0021/cam_000/rgb.jpg#0",
+     "category": "pink Lady apple",
+     "gt": 24,
+     "pred": 24,
+     "tp": 24,
+     "sec": 0.1393733024597168
+    },
+    {
+     "id": "test/p2/scene_0021/cam_000/rgb.jpg#1",
+     "category": "creamy ranch dressing bottle",
+     "gt": 21,
+     "pred": 23,
+     "tp": 20,
+     "sec": 0.14069294929504395
+    },
+    {
+     "id": "test/p2/scene_0022/cam_000/rgb.jpg#0",
+     "category": "Middle-sized wood block C 3 cherries",
+     "gt": 11,
+     "pred": 42,
+     "tp": 10,
+     "sec": 0.14717793464660645
+    },
+    {
+     "id": "test/p2/scene_0022/cam_000/rgb.jpg#1",
+     "category": "Larger wood block C 3 cherries",
+     "gt": 16,
+     "pred": 27,
+     "tp": 16,
+     "sec": 0.1649477481842041
+    },
+    {
+     "id": "test/p2/scene_0022/cam_000/rgb.jpg#2",
+     "category": "Smaller wood block C 3 cherries",
+     "gt": 19,
+     "pred": 33,
+     "tp": 18,
+     "sec": 0.16269183158874512
+    },
+    {
+     "id": "test/p2/scene_0023/cam_000/rgb.jpg#0",
+     "category": "pensive winged gargoyle statue",
+     "gt": 23,
+     "pred": 26,
+     "tp": 19,
+     "sec": 0.15704584121704102
+    },
+    {
+     "id": "test/p2/scene_0023/cam_000/rgb.jpg#1",
+     "category": "gray stone gargoyle statue",
+     "gt": 30,
+     "pred": 35,
+     "tp": 10,
+     "sec": 0.1636371612548828
+    },
+    {
+     "id": "test/p2/scene_0024/cam_000/rgb.jpg#0",
+     "category": "yellow polka-dotted dinosaur toy",
+     "gt": 27,
+     "pred": 52,
+     "tp": 26,
+     "sec": 0.13616323471069336
+    },
+    {
+     "id": "test/p2/scene_0024/cam_000/rgb.jpg#1",
+     "category": "green yellow Parasaurolophus figurine",
+     "gt": 20,
+     "pred": 50,
+     "tp": 15,
+     "sec": 0.13910388946533203
+    },
+    {
+     "id": "test/p2/scene_0024/cam_000/rgb.jpg#2",
+     "category": "yellow-brown Pachycephalosaurus toy",
+     "gt": 16,
+     "pred": 39,
+     "tp": 10,
+     "sec": 0.14230942726135254
+    },
+    {
+     "id": "test/p2/scene_0025/cam_000/rgb.jpg#0",
+     "category": "neosporin ointment box",
+     "gt": 59,
+     "pred": 51,
+     "tp": 39,
+     "sec": 0.15743541717529297
+    },
+    {
+     "id": "test/p2/scene_0025/cam_000/rgb.jpg#1",
+     "category": "green sweet crisp apple",
+     "gt": 52,
+     "pred": 51,
+     "tp": 51,
+     "sec": 0.14030766487121582
+    },
+    {
+     "id": "test/p2/scene_0025/cam_000/rgb.jpg#2",
+     "category": "clorox disinfecting wipes container",
+     "gt": 43,
+     "pred": 39,
+     "tp": 39,
+     "sec": 0.1410682201385498
+    },
+    {
+     "id": "test/p2/scene_0026/cam_000/rgb.jpg#0",
+     "category": "yellow car computer mouse",
+     "gt": 17,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.16647982597351074
+    },
+    {
+     "id": "test/p2/scene_0026/cam_000/rgb.jpg#1",
+     "category": "pink cartoon princess mouse",
+     "gt": 20,
+     "pred": 29,
+     "tp": 15,
+     "sec": 0.14638614654541016
+    },
+    {
+     "id": "test/p2/scene_0027/cam_000/rgb.jpg#0",
+     "category": "sky blue block",
+     "gt": 32,
+     "pred": 46,
+     "tp": 29,
+     "sec": 0.14801502227783203
+    },
+    {
+     "id": "test/p2/scene_0027/cam_000/rgb.jpg#1",
+     "category": "wooden cylinder",
+     "gt": 20,
+     "pred": 4,
+     "tp": 4,
+     "sec": 0.13970184326171875
+    },
+    {
+     "id": "test/p2/scene_0028/cam_000/rgb.jpg#0",
+     "category": "pig-shaped wooden cutting board",
+     "gt": 7,
+     "pred": 23,
+     "tp": 7,
+     "sec": 0.14815282821655273
+    },
+    {
+     "id": "test/p2/scene_0028/cam_000/rgb.jpg#1",
+     "category": "rectangular red cutting board",
+     "gt": 13,
+     "pred": 13,
+     "tp": 13,
+     "sec": 0.14308714866638184
+    },
+    {
+     "id": "test/p2/scene_0029/cam_000/rgb.jpg#0",
+     "category": "red apple with stem",
+     "gt": 34,
+     "pred": 53,
+     "tp": 31,
+     "sec": 0.14564895629882812
+    },
+    {
+     "id": "test/p2/scene_0029/cam_000/rgb.jpg#1",
+     "category": "red artificial strawberry",
+     "gt": 30,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.12978386878967285
+    },
+    {
+     "id": "test/p2/scene_0030/cam_000/rgb.jpg#0",
+     "category": "Smaller artificial dark red apple",
+     "gt": 14,
+     "pred": 24,
+     "tp": 14,
+     "sec": 0.1342155933380127
+    },
+    {
+     "id": "test/p2/scene_0030/cam_000/rgb.jpg#1",
+     "category": "Larger artificial dark red apple",
+     "gt": 8,
+     "pred": 25,
+     "tp": 8,
+     "sec": 0.13109993934631348
+    },
+    {
+     "id": "test/p2/scene_0030/cam_000/rgb.jpg#2",
+     "category": "Middle-sized artificial dark red apple",
+     "gt": 10,
+     "pred": 32,
+     "tp": 10,
+     "sec": 0.13045144081115723
+    },
+    {
+     "id": "test/p2/scene_0031/cam_000/rgb.jpg#0",
+     "category": "Slightly larger claw hammer pink handle",
+     "gt": 17,
+     "pred": 28,
+     "tp": 6,
+     "sec": 0.1496906280517578
+    },
+    {
+     "id": "test/p2/scene_0031/cam_000/rgb.jpg#1",
+     "category": "Largest claw hammer pink handle",
+     "gt": 12,
+     "pred": 21,
+     "tp": 9,
+     "sec": 0.14221405982971191
+    },
+    {
+     "id": "test/p2/scene_0031/cam_000/rgb.jpg#2",
+     "category": "Slightly smaller claw hammer pink handle",
+     "gt": 11,
+     "pred": 33,
+     "tp": 11,
+     "sec": 0.14725351333618164
+    },
+    {
+     "id": "test/p2/scene_0031/cam_000/rgb.jpg#3",
+     "category": "Smallest claw hammer pink handle",
+     "gt": 8,
+     "pred": 12,
+     "tp": 3,
+     "sec": 0.13838529586791992
+    },
+    {
+     "id": "test/p2/scene_0032/cam_000/rgb.jpg#0",
+     "category": "fake green apple",
+     "gt": 60,
+     "pred": 97,
+     "tp": 60,
+     "sec": 0.1643373966217041
+    },
+    {
+     "id": "test/p2/scene_0032/cam_000/rgb.jpg#1",
+     "category": "red apple with stem",
+     "gt": 38,
+     "pred": 48,
+     "tp": 38,
+     "sec": 0.14897894859313965
+    },
+    {
+     "id": "test/p2/scene_0033/cam_000/rgb.jpg#0",
+     "category": "red artificial strawberry",
+     "gt": 18,
+     "pred": 3,
+     "tp": 3,
+     "sec": 0.5115742683410645
+    },
+    {
+     "id": "test/p2/scene_0033/cam_000/rgb.jpg#1",
+     "category": "artificial green apple",
+     "gt": 8,
+     "pred": 16,
+     "tp": 8,
+     "sec": 0.13238906860351562
+    },
+    {
+     "id": "test/p2/scene_0033/cam_000/rgb.jpg#2",
+     "category": "creamy ranch dressing bottle",
+     "gt": 13,
+     "pred": 6,
+     "tp": 6,
+     "sec": 0.13384723663330078
+    },
+    {
+     "id": "test/p2/scene_0034/cam_000/rgb.jpg#0",
+     "category": "neosporin ointment box",
+     "gt": 20,
+     "pred": 32,
+     "tp": 16,
+     "sec": 0.1307048797607422
+    },
+    {
+     "id": "test/p2/scene_0034/cam_000/rgb.jpg#1",
+     "category": "clorox disinfecting wipes container",
+     "gt": 25,
+     "pred": 23,
+     "tp": 23,
+     "sec": 0.13035154342651367
+    },
+    {
+     "id": "test/p2/scene_0035/cam_000/rgb.jpg#0",
+     "category": "artificial green apple",
+     "gt": 5,
+     "pred": 11,
+     "tp": 5,
+     "sec": 0.1391434669494629
+    },
+    {
+     "id": "test/p2/scene_0035/cam_000/rgb.jpg#1",
+     "category": "striped red-yellow apple",
+     "gt": 7,
+     "pred": 12,
+     "tp": 7,
+     "sec": 0.14043831825256348
+    },
+    {
+     "id": "test/p2/scene_0036/cam_000/rgb.jpg#0",
+     "category": "lavender ceramic teapot",
+     "gt": 18,
+     "pred": 77,
+     "tp": 17,
+     "sec": 0.17828154563903809
+    },
+    {
+     "id": "test/p2/scene_0036/cam_000/rgb.jpg#1",
+     "category": "white rabbit teapot",
+     "gt": 20,
+     "pred": 44,
+     "tp": 20,
+     "sec": 0.1406383514404297
+    },
+    {
+     "id": "test/p2/scene_0036/cam_000/rgb.jpg#2",
+     "category": "dark ceramic teapot",
+     "gt": 19,
+     "pred": 46,
+     "tp": 17,
+     "sec": 0.13526678085327148
+    },
+    {
+     "id": "test/p2/scene_0036/cam_000/rgb.jpg#3",
+     "category": "deep rose patterned teapot",
+     "gt": 27,
+     "pred": 48,
+     "tp": 23,
+     "sec": 0.13796114921569824
+    },
+    {
+     "id": "test/p2/scene_0037/cam_000/rgb.jpg#0",
+     "category": "black speaker with grille",
+     "gt": 32,
+     "pred": 58,
+     "tp": 29,
+     "sec": 0.16665196418762207
+    },
+    {
+     "id": "test/p2/scene_0037/cam_000/rgb.jpg#1",
+     "category": "dOSS square orange speaker",
+     "gt": 29,
+     "pred": 65,
+     "tp": 27,
+     "sec": 0.15115666389465332
+    },
+    {
+     "id": "test/p2/scene_0038/cam_000/rgb.jpg#0",
+     "category": "mcIntosh apple",
+     "gt": 20,
+     "pred": 62,
+     "tp": 20,
+     "sec": 0.13826823234558105
+    },
+    {
+     "id": "test/p2/scene_0038/cam_000/rgb.jpg#1",
+     "category": "cashew apple",
+     "gt": 20,
+     "pred": 47,
+     "tp": 19,
+     "sec": 0.1335899829864502
+    },
+    {
+     "id": "test/p2/scene_0038/cam_000/rgb.jpg#2",
+     "category": "artificial dark red apple",
+     "gt": 11,
+     "pred": 62,
+     "tp": 10,
+     "sec": 0.1353614330291748
+    },
+    {
+     "id": "test/p2/scene_0038/cam_000/rgb.jpg#3",
+     "category": "green sweet crisp apple",
+     "gt": 17,
+     "pred": 64,
+     "tp": 16,
+     "sec": 0.1466658115386963
+    },
+    {
+     "id": "test/p2/scene_0039/cam_000/rgb.jpg#0",
+     "category": "dark orange marker",
+     "gt": 62,
+     "pred": 52,
+     "tp": 21,
+     "sec": 0.1574699878692627
+    },
+    {
+     "id": "test/p2/scene_0039/cam_000/rgb.jpg#1",
+     "category": "light blue marker with clip",
+     "gt": 74,
+     "pred": 60,
+     "tp": 41,
+     "sec": 0.13920903205871582
+    },
+    {
+     "id": "test/p2/scene_0040/cam_000/rgb.jpg#0",
+     "category": "yellow Craz-Art marker",
+     "gt": 29,
+     "pred": 27,
+     "tp": 22,
+     "sec": 0.4940526485443115
+    },
+    {
+     "id": "test/p2/scene_0040/cam_000/rgb.jpg#1",
+     "category": "black marker with orange tips",
+     "gt": 19,
+     "pred": 39,
+     "tp": 8,
+     "sec": 1.1031904220581055
+    },
+    {
+     "id": "test/p2/scene_0040/cam_000/rgb.jpg#2",
+     "category": "dark orange marker",
+     "gt": 17,
+     "pred": 73,
+     "tp": 8,
+     "sec": 1.97202730178833
+    },
+    {
+     "id": "test/p2/scene_0041/cam_000/rgb.jpg#0",
+     "category": "bunny in cracked egg",
+     "gt": 37,
+     "pred": 31,
+     "tp": 31,
+     "sec": 0.13724946975708008
+    },
+    {
+     "id": "test/p2/scene_0041/cam_000/rgb.jpg#1",
+     "category": "black bear figurine",
+     "gt": 32,
+     "pred": 32,
+     "tp": 32,
+     "sec": 0.13858842849731445
+    },
+    {
+     "id": "test/p2/scene_0042/cam_000/rgb.jpg#0",
+     "category": "fake green apple",
+     "gt": 13,
+     "pred": 26,
+     "tp": 13,
+     "sec": 0.15033912658691406
+    },
+    {
+     "id": "test/p2/scene_0042/cam_000/rgb.jpg#1",
+     "category": "red apple with stem",
+     "gt": 13,
+     "pred": 25,
+     "tp": 13,
+     "sec": 0.14548158645629883
+    },
+    {
+     "id": "test/p2/scene_0042/cam_000/rgb.jpg#2",
+     "category": "clorox disinfecting wipes container",
+     "gt": 21,
+     "pred": 22,
+     "tp": 17,
+     "sec": 0.133805513381958
+    },
+    {
+     "id": "test/p2/scene_0042/cam_000/rgb.jpg#3",
+     "category": "neosporin ointment box",
+     "gt": 11,
+     "pred": 1,
+     "tp": 1,
+     "sec": 0.1464402675628662
+    },
+    {
+     "id": "test/p2/scene_0043/cam_000/rgb.jpg#0",
+     "category": "Smaller blue-capped shampoo bottle",
+     "gt": 12,
+     "pred": 35,
+     "tp": 12,
+     "sec": 0.5042524337768555
+    },
+    {
+     "id": "test/p2/scene_0043/cam_000/rgb.jpg#1",
+     "category": "Larger blue-capped shampoo bottle",
+     "gt": 17,
+     "pred": 21,
+     "tp": 14,
+     "sec": 0.13141560554504395
+    },
+    {
+     "id": "test/p2/scene_0044/cam_000/rgb.jpg#0",
+     "category": "yellow Craz-Art marker",
+     "gt": 40,
+     "pred": 122,
+     "tp": 31,
+     "sec": 0.5507631301879883
+    },
+    {
+     "id": "test/p2/scene_0044/cam_000/rgb.jpg#1",
+     "category": "orange and white marker",
+     "gt": 30,
+     "pred": 62,
+     "tp": 18,
+     "sec": 0.15813279151916504
+    },
+    {
+     "id": "test/p2/scene_0044/cam_000/rgb.jpg#2",
+     "category": "white-capped black marker",
+     "gt": 38,
+     "pred": 74,
+     "tp": 14,
+     "sec": 0.5074319839477539
+    },
+    {
+     "id": "test/p2/scene_0045/cam_000/rgb.jpg#0",
+     "category": "Middle-sized rectangular wooden block",
+     "gt": 11,
+     "pred": 15,
+     "tp": 10,
+     "sec": 0.14625000953674316
+    },
+    {
+     "id": "test/p2/scene_0045/cam_000/rgb.jpg#1",
+     "category": "Larger rectangular wooden block",
+     "gt": 9,
+     "pred": 13,
+     "tp": 8,
+     "sec": 0.1403825283050537
+    },
+    {
+     "id": "test/p2/scene_0045/cam_000/rgb.jpg#2",
+     "category": "Smaller rectangular wooden block",
+     "gt": 4,
+     "pred": 8,
+     "tp": 3,
+     "sec": 0.13014674186706543
+    },
+    {
+     "id": "test/p2/scene_0046/cam_000/rgb.jpg#0",
+     "category": "wooden half-cylinder",
+     "gt": 23,
+     "pred": 48,
+     "tp": 22,
+     "sec": 0.1517946720123291
+    },
+    {
+     "id": "test/p2/scene_0046/cam_000/rgb.jpg#1",
+     "category": "wooden octagon block",
+     "gt": 19,
+     "pred": 41,
+     "tp": 19,
+     "sec": 0.1431269645690918
+    },
+    {
+     "id": "test/p2/scene_0047/cam_000/rgb.jpg#0",
+     "category": "light brown semicylindrical wood block",
+     "gt": 4,
+     "pred": 30,
+     "tp": 3,
+     "sec": 0.14967060089111328
+    },
+    {
+     "id": "test/p2/scene_0047/cam_000/rgb.jpg#1",
+     "category": "dark blue cube",
+     "gt": 8,
+     "pred": 20,
+     "tp": 7,
+     "sec": 0.1370081901550293
+    },
+    {
+     "id": "test/p2/scene_0047/cam_000/rgb.jpg#2",
+     "category": "wooden half-cylinder",
+     "gt": 10,
+     "pred": 22,
+     "tp": 10,
+     "sec": 0.14679765701293945
+    },
+    {
+     "id": "test/p2/scene_0047/cam_000/rgb.jpg#3",
+     "category": "light brown triangular block",
+     "gt": 3,
+     "pred": 23,
+     "tp": 3,
+     "sec": 0.1423022747039795
+    },
+    {
+     "id": "test/p2/scene_0048/cam_000/rgb.jpg#0",
+     "category": "fake green apple",
+     "gt": 5,
+     "pred": 7,
+     "tp": 5,
+     "sec": 0.1384587287902832
+    },
+    {
+     "id": "test/p2/scene_0048/cam_000/rgb.jpg#1",
+     "category": "red apple, dark stem",
+     "gt": 5,
+     "pred": 6,
+     "tp": 5,
+     "sec": 0.1488358974456787
+    },
+    {
+     "id": "test/p2/scene_0048/cam_000/rgb.jpg#2",
+     "category": "creamy ranch dressing bottle",
+     "gt": 5,
+     "pred": 17,
+     "tp": 5,
+     "sec": 0.14393186569213867
+    },
+    {
+     "id": "test/p2/scene_0049/cam_000/rgb.jpg#0",
+     "category": "rectangular red cutting board",
+     "gt": 16,
+     "pred": 16,
+     "tp": 15,
+     "sec": 0.13915681838989258
+    },
+    {
+     "id": "test/p2/scene_0049/cam_000/rgb.jpg#1",
+     "category": "pig-shaped wooden cutting board",
+     "gt": 14,
+     "pred": 7,
+     "tp": 6,
+     "sec": 0.1580212116241455
+    },
+    {
+     "id": "test/p2/scene_0050/cam_000/rgb.jpg#0",
+     "category": "honeycrisp apple with stem",
+     "gt": 12,
+     "pred": 18,
+     "tp": 9,
+     "sec": 0.1484217643737793
+    },
+    {
+     "id": "test/p2/scene_0050/cam_000/rgb.jpg#1",
+     "category": "red apple, dark stem",
+     "gt": 13,
+     "pred": 22,
+     "tp": 12,
+     "sec": 0.1306438446044922
+    },
+    {
+     "id": "test/p2/scene_0051/cam_000/rgb.jpg#0",
+     "category": "blue Cra-Z-Art marker",
+     "gt": 29,
+     "pred": 35,
+     "tp": 9,
+     "sec": 0.4989278316497803
+    },
+    {
+     "id": "test/p2/scene_0051/cam_000/rgb.jpg#1",
+     "category": "black Sharpie marker",
+     "gt": 38,
+     "pred": 39,
+     "tp": 26,
+     "sec": 0.14702677726745605
+    },
+    {
+     "id": "test/p2/scene_0051/cam_000/rgb.jpg#2",
+     "category": "light brown marker",
+     "gt": 30,
+     "pred": 48,
+     "tp": 10,
+     "sec": 1.1077120304107666
+    },
+    {
+     "id": "test/p2/scene_0052/cam_000/rgb.jpg#0",
+     "category": "artificial pineapple decoration",
+     "gt": 33,
+     "pred": 67,
+     "tp": 23,
+     "sec": 0.1455368995666504
+    },
+    {
+     "id": "test/p2/scene_0052/cam_000/rgb.jpg#1",
+     "category": "granny Smith apple with stem",
+     "gt": 26,
+     "pred": 68,
+     "tp": 24,
+     "sec": 0.1545095443725586
+    },
+    {
+     "id": "test/p2/scene_0052/cam_000/rgb.jpg#2",
+     "category": "red artificial strawberry",
+     "gt": 22,
+     "pred": 22,
+     "tp": 21,
+     "sec": 0.13098359107971191
+    },
+    {
+     "id": "test/p2/scene_0053/cam_000/rgb.jpg#0",
+     "category": "kerasilk volumizing shampoo",
+     "gt": 20,
+     "pred": 23,
+     "tp": 17,
+     "sec": 0.13221120834350586
+    },
+    {
+     "id": "test/p2/scene_0053/cam_000/rgb.jpg#1",
+     "category": "gray shampoo bottle with white cap",
+     "gt": 11,
+     "pred": 14,
+     "tp": 6,
+     "sec": 0.13773036003112793
+    },
+    {
+     "id": "test/p2/scene_0054/cam_000/rgb.jpg#0",
+     "category": "Larger kerasilk volumizing shampoo",
+     "gt": 22,
+     "pred": 25,
+     "tp": 19,
+     "sec": 0.5083608627319336
+    },
+    {
+     "id": "test/p2/scene_0054/cam_000/rgb.jpg#1",
+     "category": "Smaller kerasilk volumizing shampoo",
+     "gt": 18,
+     "pred": 17,
+     "tp": 15,
+     "sec": 0.4871189594268799
+    },
+    {
+     "id": "test/p2/scene_0055/cam_000/rgb.jpg#0",
+     "category": "mcIntosh apple",
+     "gt": 7,
+     "pred": 16,
+     "tp": 7,
+     "sec": 0.1480426788330078
+    },
+    {
+     "id": "test/p2/scene_0055/cam_000/rgb.jpg#1",
+     "category": "red apple with stem",
+     "gt": 5,
+     "pred": 16,
+     "tp": 5,
+     "sec": 0.15211081504821777
+    },
+    {
+     "id": "test/p2/scene_0055/cam_000/rgb.jpg#2",
+     "category": "honeycrisp apple with stem",
+     "gt": 4,
+     "pred": 16,
+     "tp": 4,
+     "sec": 0.1420128345489502
+    },
+    {
+     "id": "test/p2/scene_0055/cam_000/rgb.jpg#3",
+     "category": "artificial pineapple decoration",
+     "gt": 1,
+     "pred": 1,
+     "tp": 1,
+     "sec": 0.13892698287963867
+    },
+    {
+     "id": "test/p2/scene_0056/cam_000/rgb.jpg#0",
+     "category": "striped red-yellow apple",
+     "gt": 53,
+     "pred": 96,
+     "tp": 53,
+     "sec": 0.1464388370513916
+    },
+    {
+     "id": "test/p2/scene_0056/cam_000/rgb.jpg#1",
+     "category": "golden yellow apple",
+     "gt": 41,
+     "pred": 84,
+     "tp": 41,
+     "sec": 0.14458584785461426
+    },
+    {
+     "id": "test/p2/scene_0057/cam_000/rgb.jpg#0",
+     "category": "striped red-yellow apple",
+     "gt": 9,
+     "pred": 35,
+     "tp": 9,
+     "sec": 0.15182113647460938
+    },
+    {
+     "id": "test/p2/scene_0057/cam_000/rgb.jpg#1",
+     "category": "honeycrisp apple with stem",
+     "gt": 10,
+     "pred": 36,
+     "tp": 10,
+     "sec": 0.14333868026733398
+    },
+    {
+     "id": "test/p2/scene_0057/cam_000/rgb.jpg#2",
+     "category": "fake green apple",
+     "gt": 7,
+     "pred": 37,
+     "tp": 7,
+     "sec": 0.14176225662231445
+    },
+    {
+     "id": "test/p2/scene_0057/cam_000/rgb.jpg#3",
+     "category": "red Gala apple",
+     "gt": 10,
+     "pred": 36,
+     "tp": 10,
+     "sec": 0.15552306175231934
+    },
+    {
+     "id": "test/p2/scene_0058/cam_000/rgb.jpg#0",
+     "category": "yellow polka-dotted dinosaur toy",
+     "gt": 68,
+     "pred": 63,
+     "tp": 58,
+     "sec": 0.5019693374633789
+    },
+    {
+     "id": "test/p2/scene_0058/cam_000/rgb.jpg#1",
+     "category": "orange striped T-Rex toy",
+     "gt": 50,
+     "pred": 77,
+     "tp": 39,
+     "sec": 0.49959278106689453
+    },
+    {
+     "id": "test/p2/scene_0059/cam_000/rgb.jpg#0",
+     "category": "green calculator",
+     "gt": 59,
+     "pred": 96,
+     "tp": 58,
+     "sec": 0.5230238437652588
+    },
+    {
+     "id": "test/p2/scene_0059/cam_000/rgb.jpg#1",
+     "category": "gray scientific calculator",
+     "gt": 31,
+     "pred": 71,
+     "tp": 29,
+     "sec": 0.16586613655090332
+    },
+    {
+     "id": "test/p2/scene_0060/cam_000/rgb.jpg#0",
+     "category": "wooden octagon block",
+     "gt": 5,
+     "pred": 18,
+     "tp": 4,
+     "sec": 0.147230863571167
+    },
+    {
+     "id": "test/p2/scene_0060/cam_000/rgb.jpg#1",
+     "category": "wooden cylinder",
+     "gt": 8,
+     "pred": 8,
+     "tp": 5,
+     "sec": 0.1460270881652832
+    },
+    {
+     "id": "test/p2/scene_0060/cam_000/rgb.jpg#2",
+     "category": "wooden half-cylinder",
+     "gt": 8,
+     "pred": 2,
+     "tp": 1,
+     "sec": 0.5043690204620361
+    },
+    {
+     "id": "test/p2/scene_0060/cam_000/rgb.jpg#3",
+     "category": "purple block with four",
+     "gt": 7,
+     "pred": 18,
+     "tp": 3,
+     "sec": 0.13815641403198242
+    },
+    {
+     "id": "test/p2/scene_0061/cam_000/rgb.jpg#0",
+     "category": "green sweet crisp apple",
+     "gt": 41,
+     "pred": 59,
+     "tp": 32,
+     "sec": 0.14443278312683105
+    },
+    {
+     "id": "test/p2/scene_0061/cam_000/rgb.jpg#1",
+     "category": "artificial pineapple decoration",
+     "gt": 37,
+     "pred": 28,
+     "tp": 25,
+     "sec": 0.1517188549041748
+    },
+    {
+     "id": "test/p2/scene_0062/cam_000/rgb.jpg#0",
+     "category": "artificial dark red apple",
+     "gt": 17,
+     "pred": 37,
+     "tp": 15,
+     "sec": 0.14879631996154785
+    },
+    {
+     "id": "test/p2/scene_0062/cam_000/rgb.jpg#1",
+     "category": "striped red-yellow apple",
+     "gt": 10,
+     "pred": 33,
+     "tp": 9,
+     "sec": 0.14305973052978516
+    },
+    {
+     "id": "test/p2/scene_0062/cam_000/rgb.jpg#2",
+     "category": "striped red apple",
+     "gt": 14,
+     "pred": 39,
+     "tp": 14,
+     "sec": 0.13747954368591309
+    },
+    {
+     "id": "test/p2/scene_0063/cam_000/rgb.jpg#0",
+     "category": "red apple, dark stem",
+     "gt": 20,
+     "pred": 66,
+     "tp": 20,
+     "sec": 0.14258790016174316
+    },
+    {
+     "id": "test/p2/scene_0063/cam_000/rgb.jpg#1",
+     "category": "red Gala apple",
+     "gt": 21,
+     "pred": 69,
+     "tp": 21,
+     "sec": 0.15219521522521973
+    },
+    {
+     "id": "test/p2/scene_0063/cam_000/rgb.jpg#2",
+     "category": "red apple with stem",
+     "gt": 18,
+     "pred": 70,
+     "tp": 18,
+     "sec": 0.14710783958435059
+    },
+    {
+     "id": "test/p2/scene_0063/cam_000/rgb.jpg#3",
+     "category": "yellow Galia melon with stem",
+     "gt": 23,
+     "pred": 57,
+     "tp": 20,
+     "sec": 0.15811824798583984
+    },
+    {
+     "id": "test/p2/scene_0064/cam_000/rgb.jpg#0",
+     "category": "Slightly larger sky blue Sharpie marker",
+     "gt": 5,
+     "pred": 12,
+     "tp": 5,
+     "sec": 0.13819098472595215
+    },
+    {
+     "id": "test/p2/scene_0064/cam_000/rgb.jpg#1",
+     "category": "Slightly smaller sky blue Sharpie marker",
+     "gt": 6,
+     "pred": 9,
+     "tp": 5,
+     "sec": 0.5029170513153076
+    },
+    {
+     "id": "test/p2/scene_0064/cam_000/rgb.jpg#2",
+     "category": "Smallest sky blue Sharpie marker",
+     "gt": 2,
+     "pred": 3,
+     "tp": 2,
+     "sec": 0.4930381774902344
+    },
+    {
+     "id": "test/p2/scene_0064/cam_000/rgb.jpg#3",
+     "category": "Largest sky blue Sharpie marker",
+     "gt": 4,
+     "pred": 6,
+     "tp": 3,
+     "sec": 0.14562678337097168
+    },
+    {
+     "id": "test/p2/scene_0065/cam_000/rgb.jpg#0",
+     "category": "fancy tomato ketchup toy",
+     "gt": 27,
+     "pred": 31,
+     "tp": 18,
+     "sec": 0.49889540672302246
+    },
+    {
+     "id": "test/p2/scene_0065/cam_000/rgb.jpg#1",
+     "category": "creamy ranch dressing bottle",
+     "gt": 34,
+     "pred": 46,
+     "tp": 30,
+     "sec": 0.14768695831298828
+    },
+    {
+     "id": "test/p2/scene_0065/cam_000/rgb.jpg#2",
+     "category": "red apple with stem",
+     "gt": 37,
+     "pred": 37,
+     "tp": 37,
+     "sec": 0.1558685302734375
+    },
+    {
+     "id": "test/p2/scene_0066/cam_000/rgb.jpg#0",
+     "category": "lavender ceramic teapot",
+     "gt": 33,
+     "pred": 104,
+     "tp": 33,
+     "sec": 0.14738011360168457
+    },
+    {
+     "id": "test/p2/scene_0066/cam_000/rgb.jpg#1",
+     "category": "white rabbit teapot",
+     "gt": 26,
+     "pred": 44,
+     "tp": 21,
+     "sec": 0.49303174018859863
+    },
+    {
+     "id": "test/p2/scene_0066/cam_000/rgb.jpg#2",
+     "category": "light blue glossy teapot",
+     "gt": 37,
+     "pred": 41,
+     "tp": 26,
+     "sec": 0.5312623977661133
+    },
+    {
+     "id": "test/p2/scene_0066/cam_000/rgb.jpg#3",
+     "category": "deep rose patterned teapot",
+     "gt": 30,
+     "pred": 95,
+     "tp": 29,
+     "sec": 0.4933037757873535
+    },
+    {
+     "id": "test/p2/scene_0067/cam_000/rgb.jpg#0",
+     "category": "brown wooden cube",
+     "gt": 16,
+     "pred": 50,
+     "tp": 16,
+     "sec": 0.15385794639587402
+    },
+    {
+     "id": "test/p2/scene_0067/cam_000/rgb.jpg#1",
+     "category": "wooden octagon block",
+     "gt": 21,
+     "pred": 40,
+     "tp": 21,
+     "sec": 0.14839410781860352
+    },
+    {
+     "id": "test/p2/scene_0067/cam_000/rgb.jpg#2",
+     "category": "rectangular wooden block",
+     "gt": 26,
+     "pred": 57,
+     "tp": 26,
+     "sec": 0.1420135498046875
+    },
+    {
+     "id": "test/p2/scene_0068/cam_000/rgb.jpg#0",
+     "category": "wooden cylinder",
+     "gt": 17,
+     "pred": 17,
+     "tp": 17,
+     "sec": 0.14710617065429688
+    },
+    {
+     "id": "test/p2/scene_0068/cam_000/rgb.jpg#1",
+     "category": "wooden half-cylinder",
+     "gt": 16,
+     "pred": 31,
+     "tp": 16,
+     "sec": 0.14177918434143066
+    },
+    {
+     "id": "test/p2/scene_0069/cam_000/rgb.jpg#0",
+     "category": "cashew apple",
+     "gt": 11,
+     "pred": 58,
+     "tp": 11,
+     "sec": 0.14173674583435059
+    },
+    {
+     "id": "test/p2/scene_0069/cam_000/rgb.jpg#1",
+     "category": "red apple with stem",
+     "gt": 14,
+     "pred": 56,
+     "tp": 14,
+     "sec": 0.13255786895751953
+    },
+    {
+     "id": "test/p2/scene_0069/cam_000/rgb.jpg#2",
+     "category": "red apple, dark stem",
+     "gt": 18,
+     "pred": 56,
+     "tp": 18,
+     "sec": 0.13230085372924805
+    },
+    {
+     "id": "test/p2/scene_0069/cam_000/rgb.jpg#3",
+     "category": "mcIntosh apple",
+     "gt": 13,
+     "pred": 56,
+     "tp": 13,
+     "sec": 0.14298224449157715
+    },
+    {
+     "id": "test/p2/scene_0070/cam_000/rgb.jpg#0",
+     "category": "british Shorthair cat figurine",
+     "gt": 28,
+     "pred": 41,
+     "tp": 24,
+     "sec": 0.15558958053588867
+    },
+    {
+     "id": "test/p2/scene_0070/cam_000/rgb.jpg#1",
+     "category": "black bear figurine",
+     "gt": 24,
+     "pred": 51,
+     "tp": 23,
+     "sec": 0.1521437168121338
+    },
+    {
+     "id": "test/p2/scene_0070/cam_000/rgb.jpg#2",
+     "category": "orange cat figurine",
+     "gt": 18,
+     "pred": 40,
+     "tp": 17,
+     "sec": 0.14369416236877441
+    },
+    {
+     "id": "test/p2/scene_0071/cam_000/rgb.jpg#0",
+     "category": "lavender hexagonal dumbbell",
+     "gt": 59,
+     "pred": 58,
+     "tp": 53,
+     "sec": 0.14242053031921387
+    },
+    {
+     "id": "test/p2/scene_0071/cam_000/rgb.jpg#1",
+     "category": "smiling dragon figurine",
+     "gt": 49,
+     "pred": 34,
+     "tp": 28,
+     "sec": 0.1504838466644287
+    },
+    {
+     "id": "test/p2/scene_0072/cam_000/rgb.jpg#0",
+     "category": "brown Apatosaurus toy",
+     "gt": 25,
+     "pred": 29,
+     "tp": 18,
+     "sec": 0.14714574813842773
+    },
+    {
+     "id": "test/p2/scene_0072/cam_000/rgb.jpg#1",
+     "category": "green Stegosaurus toy",
+     "gt": 31,
+     "pred": 71,
+     "tp": 27,
+     "sec": 0.14325499534606934
+    },
+    {
+     "id": "test/p2/scene_0072/cam_000/rgb.jpg#2",
+     "category": "yellow polka-dotted dinosaur toy",
+     "gt": 49,
+     "pred": 63,
+     "tp": 43,
+     "sec": 0.14141535758972168
+    },
+    {
+     "id": "test/p2/scene_0073/cam_000/rgb.jpg#0",
+     "category": "black rectangular speaker",
+     "gt": 22,
+     "pred": 39,
+     "tp": 20,
+     "sec": 0.1430807113647461
+    },
+    {
+     "id": "test/p2/scene_0073/cam_000/rgb.jpg#1",
+     "category": "white cube speaker",
+     "gt": 21,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.14399027824401855
+    },
+    {
+     "id": "test/p2/scene_0074/cam_000/rgb.jpg#0",
+     "category": "artificial green apple",
+     "gt": 52,
+     "pred": 98,
+     "tp": 51,
+     "sec": 0.14818429946899414
+    },
+    {
+     "id": "test/p2/scene_0074/cam_000/rgb.jpg#1",
+     "category": "golden yellow apple",
+     "gt": 51,
+     "pred": 104,
+     "tp": 51,
+     "sec": 0.35427355766296387
+    },
+    {
+     "id": "test/p2/scene_0075/cam_000/rgb.jpg#0",
+     "category": "red apple with stem",
+     "gt": 30,
+     "pred": 51,
+     "tp": 29,
+     "sec": 0.15198087692260742
+    },
+    {
+     "id": "test/p2/scene_0075/cam_000/rgb.jpg#1",
+     "category": "artificial green apple",
+     "gt": 22,
+     "pred": 51,
+     "tp": 22,
+     "sec": 0.1378791332244873
+    },
+    {
+     "id": "test/p2/scene_0076/cam_000/rgb.jpg#0",
+     "category": "red artificial strawberry",
+     "gt": 9,
+     "pred": 31,
+     "tp": 7,
+     "sec": 0.13893437385559082
+    },
+    {
+     "id": "test/p2/scene_0076/cam_000/rgb.jpg#1",
+     "category": "red Gala apple",
+     "gt": 7,
+     "pred": 28,
+     "tp": 7,
+     "sec": 0.13898539543151855
+    },
+    {
+     "id": "test/p2/scene_0076/cam_000/rgb.jpg#2",
+     "category": "red apple with stem",
+     "gt": 9,
+     "pred": 25,
+     "tp": 8,
+     "sec": 0.1536858081817627
+    },
+    {
+     "id": "test/p2/scene_0076/cam_000/rgb.jpg#3",
+     "category": "pink Lady apple",
+     "gt": 9,
+     "pred": 2,
+     "tp": 1,
+     "sec": 0.5009565353393555
+    },
+    {
+     "id": "test/p2/scene_0077/cam_000/rgb.jpg#0",
+     "category": "yellow car computer mouse",
+     "gt": 25,
+     "pred": 61,
+     "tp": 25,
+     "sec": 0.15883779525756836
+    },
+    {
+     "id": "test/p2/scene_0077/cam_000/rgb.jpg#1",
+     "category": "beige computer mouse",
+     "gt": 18,
+     "pred": 15,
+     "tp": 14,
+     "sec": 0.13705182075500488
+    },
+    {
+     "id": "test/p2/scene_0078/cam_000/rgb.jpg#0",
+     "category": "pig-shaped wooden cutting board",
+     "gt": 31,
+     "pred": 1,
+     "tp": 1,
+     "sec": 0.1314680576324463
+    },
+    {
+     "id": "test/p2/scene_0078/cam_000/rgb.jpg#1",
+     "category": "rectangular red cutting board",
+     "gt": 32,
+     "pred": 32,
+     "tp": 30,
+     "sec": 0.14822602272033691
+    },
+    {
+     "id": "test/p2/scene_0079/cam_000/rgb.jpg#0",
+     "category": "green Stegosaurus toy",
+     "gt": 22,
+     "pred": 100,
+     "tp": 22,
+     "sec": 0.1637725830078125
+    },
+    {
+     "id": "test/p2/scene_0079/cam_000/rgb.jpg#1",
+     "category": "green dinosaur toy",
+     "gt": 36,
+     "pred": 75,
+     "tp": 34,
+     "sec": 0.14163422584533691
+    },
+    {
+     "id": "test/p2/scene_0079/cam_000/rgb.jpg#2",
+     "category": "reddish-brown Triceratops toy",
+     "gt": 25,
+     "pred": 60,
+     "tp": 21,
+     "sec": 0.1455519199371338
+    },
+    {
+     "id": "test/p2/scene_0080/cam_000/rgb.jpg#0",
+     "category": "orange striped T-Rex toy",
+     "gt": 22,
+     "pred": 46,
+     "tp": 15,
+     "sec": 0.16819262504577637
+    },
+    {
+     "id": "test/p2/scene_0080/cam_000/rgb.jpg#1",
+     "category": "green yellow Parasaurolophus figurine",
+     "gt": 23,
+     "pred": 62,
+     "tp": 19,
+     "sec": 0.1450817584991455
+    },
+    {
+     "id": "test/p2/scene_0080/cam_000/rgb.jpg#2",
+     "category": "reddish-brown Triceratops toy",
+     "gt": 12,
+     "pred": 45,
+     "tp": 9,
+     "sec": 0.13861823081970215
+    },
+    {
+     "id": "test/p2/scene_0080/cam_000/rgb.jpg#3",
+     "category": "orange Spinosaurus toy",
+     "gt": 23,
+     "pred": 64,
+     "tp": 16,
+     "sec": 0.1372995376586914
+    },
+    {
+     "id": "test/p2/scene_0081/cam_000/rgb.jpg#0",
+     "category": "peach double-ended marker",
+     "gt": 12,
+     "pred": 47,
+     "tp": 2,
+     "sec": 1.9902758598327637
+    },
+    {
+     "id": "test/p2/scene_0081/cam_000/rgb.jpg#1",
+     "category": "black Sharpie marker",
+     "gt": 28,
+     "pred": 24,
+     "tp": 11,
+     "sec": 1.1048972606658936
+    },
+    {
+     "id": "test/p2/scene_0081/cam_000/rgb.jpg#2",
+     "category": "caramel brown cosmetic pencil",
+     "gt": 6,
+     "pred": 13,
+     "tp": 2,
+     "sec": 0.577894926071167
+    },
+    {
+     "id": "test/p2/scene_0082/cam_000/rgb.jpg#0",
+     "category": "purple and gray kettlebell",
+     "gt": 13,
+     "pred": 26,
+     "tp": 10,
+     "sec": 0.1564342975616455
+    },
+    {
+     "id": "test/p2/scene_0082/cam_000/rgb.jpg#1",
+     "category": "lavender hexagonal dumbbell",
+     "gt": 18,
+     "pred": 30,
+     "tp": 17,
+     "sec": 0.15647578239440918
+    },
+    {
+     "id": "test/p2/scene_0082/cam_000/rgb.jpg#2",
+     "category": "tangerine hexagonal dumbbell",
+     "gt": 10,
+     "pred": 33,
+     "tp": 9,
+     "sec": 0.16653704643249512
+    },
+    {
+     "id": "test/p2/scene_0083/cam_000/rgb.jpg#0",
+     "category": "artificial dark red apple",
+     "gt": 8,
+     "pred": 30,
+     "tp": 7,
+     "sec": 0.14332079887390137
+    },
+    {
+     "id": "test/p2/scene_0083/cam_000/rgb.jpg#1",
+     "category": "honeycrisp apple with stem",
+     "gt": 7,
+     "pred": 31,
+     "tp": 7,
+     "sec": 0.14642572402954102
+    },
+    {
+     "id": "test/p2/scene_0083/cam_000/rgb.jpg#2",
+     "category": "red apple with stem",
+     "gt": 8,
+     "pred": 31,
+     "tp": 8,
+     "sec": 0.1612541675567627
+    },
+    {
+     "id": "test/p2/scene_0083/cam_000/rgb.jpg#3",
+     "category": "red apple, dark stem",
+     "gt": 8,
+     "pred": 31,
+     "tp": 8,
+     "sec": 0.14554929733276367
+    },
+    {
+     "id": "test/p2/scene_0084/cam_000/rgb.jpg#0",
+     "category": "neosporin ointment box",
+     "gt": 4,
+     "pred": 4,
+     "tp": 4,
+     "sec": 0.1521902084350586
+    },
+    {
+     "id": "test/p2/scene_0084/cam_000/rgb.jpg#1",
+     "category": "granny Smith apple with stem",
+     "gt": 3,
+     "pred": 16,
+     "tp": 3,
+     "sec": 0.13985180854797363
+    },
+    {
+     "id": "test/p2/scene_0084/cam_000/rgb.jpg#2",
+     "category": "red apple, dark stem",
+     "gt": 8,
+     "pred": 14,
+     "tp": 8,
+     "sec": 0.14871501922607422
+    },
+    {
+     "id": "test/p2/scene_0084/cam_000/rgb.jpg#3",
+     "category": "red apple with stem",
+     "gt": 5,
+     "pred": 14,
+     "tp": 5,
+     "sec": 0.13998985290527344
+    },
+    {
+     "id": "test/p2/scene_0085/cam_000/rgb.jpg#0",
+     "category": "striped red apple",
+     "gt": 59,
+     "pred": 146,
+     "tp": 59,
+     "sec": 0.5237329006195068
+    },
+    {
+     "id": "test/p2/scene_0085/cam_000/rgb.jpg#1",
+     "category": "mcIntosh apple",
+     "gt": 46,
+     "pred": 143,
+     "tp": 45,
+     "sec": 0.5098168849945068
+    },
+    {
+     "id": "test/p2/scene_0085/cam_000/rgb.jpg#2",
+     "category": "fake green apple",
+     "gt": 42,
+     "pred": 142,
+     "tp": 42,
+     "sec": 0.5292441844940186
+    },
+    {
+     "id": "test/p2/scene_0086/cam_000/rgb.jpg#0",
+     "category": "purple Sharpie marker",
+     "gt": 33,
+     "pred": 36,
+     "tp": 21,
+     "sec": 0.15953660011291504
+    },
+    {
+     "id": "test/p2/scene_0086/cam_000/rgb.jpg#1",
+     "category": "dark brown cylindrical marker",
+     "gt": 23,
+     "pred": 16,
+     "tp": 14,
+     "sec": 0.14689040184020996
+    },
+    {
+     "id": "test/p2/scene_0086/cam_000/rgb.jpg#2",
+     "category": "orange and white marker",
+     "gt": 27,
+     "pred": 49,
+     "tp": 25,
+     "sec": 0.14796900749206543
+    },
+    {
+     "id": "test/p2/scene_0087/cam_000/rgb.jpg#0",
+     "category": "Slightly smaller white floral patterned teapot",
+     "gt": 14,
+     "pred": 37,
+     "tp": 13,
+     "sec": 0.14729666709899902
+    },
+    {
+     "id": "test/p2/scene_0087/cam_000/rgb.jpg#1",
+     "category": "Smallest white floral patterned teapot",
+     "gt": 9,
+     "pred": 22,
+     "tp": 8,
+     "sec": 0.14899826049804688
+    },
+    {
+     "id": "test/p2/scene_0087/cam_000/rgb.jpg#2",
+     "category": "Largest white floral patterned teapot",
+     "gt": 8,
+     "pred": 20,
+     "tp": 8,
+     "sec": 0.15002155303955078
+    },
+    {
+     "id": "test/p2/scene_0087/cam_000/rgb.jpg#3",
+     "category": "Slightly larger white floral patterned teapot",
+     "gt": 7,
+     "pred": 21,
+     "tp": 7,
+     "sec": 0.13960051536560059
+    },
+    {
+     "id": "test/p2/scene_0088/cam_000/rgb.jpg#0",
+     "category": "Larger dark brown cylindrical marker",
+     "gt": 14,
+     "pred": 15,
+     "tp": 9,
+     "sec": 0.13614416122436523
+    },
+    {
+     "id": "test/p2/scene_0088/cam_000/rgb.jpg#1",
+     "category": "Middle-sized dark brown cylindrical marker",
+     "gt": 7,
+     "pred": 16,
+     "tp": 6,
+     "sec": 0.13669919967651367
+    },
+    {
+     "id": "test/p2/scene_0088/cam_000/rgb.jpg#2",
+     "category": "Smaller dark brown cylindrical marker",
+     "gt": 7,
+     "pred": 30,
+     "tp": 5,
+     "sec": 0.5042464733123779
+    },
+    {
+     "id": "test/p2/scene_0089/cam_000/rgb.jpg#0",
+     "category": "red Gala apple",
+     "gt": 45,
+     "pred": 76,
+     "tp": 43,
+     "sec": 0.1448955535888672
+    },
+    {
+     "id": "test/p2/scene_0089/cam_000/rgb.jpg#1",
+     "category": "red artificial strawberry",
+     "gt": 46,
+     "pred": 59,
+     "tp": 40,
+     "sec": 0.15454936027526855
+    },
+    {
+     "id": "test/p2/scene_0090/cam_000/rgb.jpg#0",
+     "category": "yellow Galia melon with stem",
+     "gt": 16,
+     "pred": 53,
+     "tp": 16,
+     "sec": 0.14846301078796387
+    },
+    {
+     "id": "test/p2/scene_0090/cam_000/rgb.jpg#1",
+     "category": "green sweet crisp apple",
+     "gt": 16,
+     "pred": 52,
+     "tp": 16,
+     "sec": 0.13838744163513184
+    },
+    {
+     "id": "test/p2/scene_0090/cam_000/rgb.jpg#2",
+     "category": "pink Lady apple",
+     "gt": 14,
+     "pred": 58,
+     "tp": 14,
+     "sec": 0.14188861846923828
+    },
+    {
+     "id": "test/p2/scene_0090/cam_000/rgb.jpg#3",
+     "category": "red apple with stem",
+     "gt": 12,
+     "pred": 56,
+     "tp": 12,
+     "sec": 0.14063715934753418
+    },
+    {
+     "id": "test/p2/scene_0091/cam_000/rgb.jpg#0",
+     "category": "rectangular red cutting board",
+     "gt": 15,
+     "pred": 4,
+     "tp": 4,
+     "sec": 0.14143657684326172
+    },
+    {
+     "id": "test/p2/scene_0091/cam_000/rgb.jpg#1",
+     "category": "pig-shaped wooden cutting board",
+     "gt": 7,
+     "pred": 2,
+     "tp": 1,
+     "sec": 0.1381075382232666
+    },
+    {
+     "id": "test/p2/scene_0092/cam_000/rgb.jpg#0",
+     "category": "yellow-brown Pachycephalosaurus toy",
+     "gt": 14,
+     "pred": 8,
+     "tp": 7,
+     "sec": 0.12937116622924805
+    },
+    {
+     "id": "test/p2/scene_0092/cam_000/rgb.jpg#1",
+     "category": "dOSS square orange speaker",
+     "gt": 25,
+     "pred": 32,
+     "tp": 24,
+     "sec": 0.14132213592529297
+    },
+    {
+     "id": "test/p2/scene_0092/cam_000/rgb.jpg#2",
+     "category": "black speaker with grille",
+     "gt": 20,
+     "pred": 61,
+     "tp": 20,
+     "sec": 0.1363508701324463
+    },
+    {
+     "id": "test/p2/scene_0092/cam_000/rgb.jpg#3",
+     "category": "white cube speaker",
+     "gt": 24,
+     "pred": 46,
+     "tp": 22,
+     "sec": 0.1385667324066162
+    },
+    {
+     "id": "test/p2/scene_0093/cam_000/rgb.jpg#0",
+     "category": "red apple with stem",
+     "gt": 16,
+     "pred": 36,
+     "tp": 16,
+     "sec": 0.1605675220489502
+    },
+    {
+     "id": "test/p2/scene_0093/cam_000/rgb.jpg#1",
+     "category": "granny Smith apple with stem",
+     "gt": 9,
+     "pred": 42,
+     "tp": 9,
+     "sec": 0.14368414878845215
+    },
+    {
+     "id": "test/p2/scene_0093/cam_000/rgb.jpg#2",
+     "category": "fake green apple",
+     "gt": 10,
+     "pred": 34,
+     "tp": 10,
+     "sec": 0.1478135585784912
+    },
+    {
+     "id": "test/p2/scene_0094/cam_000/rgb.jpg#0",
+     "category": "artificial pineapple decoration",
+     "gt": 28,
+     "pred": 12,
+     "tp": 11,
+     "sec": 0.14076566696166992
+    },
+    {
+     "id": "test/p2/scene_0094/cam_000/rgb.jpg#1",
+     "category": "fancy tomato ketchup toy",
+     "gt": 18,
+     "pred": 14,
+     "tp": 14,
+     "sec": 0.15117835998535156
+    },
+    {
+     "id": "test/p2/scene_0094/cam_000/rgb.jpg#2",
+     "category": "mcIntosh apple",
+     "gt": 15,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.13882660865783691
+    },
+    {
+     "id": "test/p2/scene_0094/cam_000/rgb.jpg#3",
+     "category": "yellow Galia melon with stem",
+     "gt": 11,
+     "pred": 32,
+     "tp": 5,
+     "sec": 0.14146828651428223
+    },
+    {
+     "id": "test/p2/scene_0095/cam_000/rgb.jpg#0",
+     "category": "rose-painted birdhouse",
+     "gt": 14,
+     "pred": 42,
+     "tp": 14,
+     "sec": 0.13185572624206543
+    },
+    {
+     "id": "test/p2/scene_0095/cam_000/rgb.jpg#1",
+     "category": "green roof birdhouse",
+     "gt": 18,
+     "pred": 52,
+     "tp": 16,
+     "sec": 0.1436631679534912
+    },
+    {
+     "id": "test/p2/scene_0095/cam_000/rgb.jpg#2",
+     "category": "yellow birdhouse with wood roof",
+     "gt": 8,
+     "pred": 42,
+     "tp": 8,
+     "sec": 0.1304302215576172
+    },
+    {
+     "id": "test/p2/scene_0096/cam_000/rgb.jpg#0",
+     "category": "Larger artificial pineapple decoration",
+     "gt": 35,
+     "pred": 68,
+     "tp": 35,
+     "sec": 0.5037627220153809
+    },
+    {
+     "id": "test/p2/scene_0096/cam_000/rgb.jpg#1",
+     "category": "Smaller artificial pineapple decoration",
+     "gt": 19,
+     "pred": 48,
+     "tp": 17,
+     "sec": 0.4944801330566406
+    },
+    {
+     "id": "test/p2/scene_0097/cam_000/rgb.jpg#0",
+     "category": "light brown marker",
+     "gt": 5,
+     "pred": 33,
+     "tp": 2,
+     "sec": 0.13423967361450195
+    },
+    {
+     "id": "test/p2/scene_0097/cam_000/rgb.jpg#1",
+     "category": "green and white marker",
+     "gt": 19,
+     "pred": 14,
+     "tp": 11,
+     "sec": 0.1411738395690918
+    },
+    {
+     "id": "test/p2/scene_0097/cam_000/rgb.jpg#2",
+     "category": "reddish-pink marker",
+     "gt": 13,
+     "pred": 7,
+     "tp": 3,
+     "sec": 0.15951061248779297
+    },
+    {
+     "id": "test/p2/scene_0098/cam_000/rgb.jpg#0",
+     "category": "hedgehog and mushroom figurine",
+     "gt": 20,
+     "pred": 68,
+     "tp": 18,
+     "sec": 0.13228893280029297
+    },
+    {
+     "id": "test/p2/scene_0098/cam_000/rgb.jpg#1",
+     "category": "smiling dragon figurine",
+     "gt": 26,
+     "pred": 44,
+     "tp": 25,
+     "sec": 0.13735604286193848
+    },
+    {
+     "id": "test/p2/scene_0098/cam_000/rgb.jpg#2",
+     "category": "bunny in cracked egg",
+     "gt": 30,
+     "pred": 32,
+     "tp": 20,
+     "sec": 0.13036298751831055
+    },
+    {
+     "id": "test/p2/scene_0098/cam_000/rgb.jpg#3",
+     "category": "orange cat figurine",
+     "gt": 23,
+     "pred": 32,
+     "tp": 19,
+     "sec": 0.13988661766052246
+    },
+    {
+     "id": "test/p2/scene_0099/cam_000/rgb.jpg#0",
+     "category": "rectangular red cutting board",
+     "gt": 26,
+     "pred": 45,
+     "tp": 24,
+     "sec": 0.5203619003295898
+    },
+    {
+     "id": "test/p2/scene_0099/cam_000/rgb.jpg#1",
+     "category": "pig-shaped wooden cutting board",
+     "gt": 15,
+     "pred": 13,
+     "tp": 12,
+     "sec": 0.4907875061035156
+    },
+    {
+     "id": "test/p2/scene_0100/cam_000/rgb.jpg#0",
+     "category": "Larger pink Lady apple",
+     "gt": 25,
+     "pred": 25,
+     "tp": 25,
+     "sec": 0.143110990524292
+    },
+    {
+     "id": "test/p2/scene_0100/cam_000/rgb.jpg#1",
+     "category": "Smaller pink Lady apple",
+     "gt": 6,
+     "pred": 9,
+     "tp": 6,
+     "sec": 0.4992949962615967
+    },
+    {
+     "id": "test/p2/scene_0101/cam_000/rgb.jpg#0",
+     "category": "red Sharpie marker",
+     "gt": 28,
+     "pred": 25,
+     "tp": 21,
+     "sec": 0.14122915267944336
+    },
+    {
+     "id": "test/p2/scene_0101/cam_000/rgb.jpg#1",
+     "category": "black Sharpie marker",
+     "gt": 14,
+     "pred": 25,
+     "tp": 9,
+     "sec": 0.16307616233825684
+    },
+    {
+     "id": "test/p2/scene_0102/cam_000/rgb.jpg#0",
+     "category": "Larger granny Smith apple with stem",
+     "gt": 16,
+     "pred": 27,
+     "tp": 16,
+     "sec": 0.1444406509399414
+    },
+    {
+     "id": "test/p2/scene_0102/cam_000/rgb.jpg#1",
+     "category": "Smaller granny Smith apple with stem",
+     "gt": 11,
+     "pred": 24,
+     "tp": 10,
+     "sec": 0.1569809913635254
+    },
+    {
+     "id": "test/p2/scene_0102/cam_000/rgb.jpg#2",
+     "category": "Middle-sized granny Smith apple with stem",
+     "gt": 13,
+     "pred": 38,
+     "tp": 13,
+     "sec": 0.15512490272521973
+    },
+    {
+     "id": "test/p2/scene_0103/cam_000/rgb.jpg#0",
+     "category": "red apple with stem",
+     "gt": 42,
+     "pred": 100,
+     "tp": 38,
+     "sec": 0.16516971588134766
+    },
+    {
+     "id": "test/p2/scene_0103/cam_000/rgb.jpg#1",
+     "category": "red Gala apple",
+     "gt": 31,
+     "pred": 83,
+     "tp": 31,
+     "sec": 0.14821672439575195
+    },
+    {
+     "id": "test/p2/scene_0103/cam_000/rgb.jpg#2",
+     "category": "striped red-yellow apple",
+     "gt": 38,
+     "pred": 108,
+     "tp": 38,
+     "sec": 0.14633440971374512
+    },
+    {
+     "id": "test/p2/scene_0104/cam_000/rgb.jpg#0",
+     "category": "purple block with four",
+     "gt": 55,
+     "pred": 118,
+     "tp": 55,
+     "sec": 0.17101073265075684
+    },
+    {
+     "id": "test/p2/scene_0104/cam_000/rgb.jpg#1",
+     "category": "wooden half-cylinder",
+     "gt": 55,
+     "pred": 70,
+     "tp": 54,
+     "sec": 0.14815688133239746
+    },
+    {
+     "id": "test/p2/scene_0105/cam_000/rgb.jpg#0",
+     "category": "red artificial strawberry",
+     "gt": 21,
+     "pred": 45,
+     "tp": 20,
+     "sec": 0.13404321670532227
+    },
+    {
+     "id": "test/p2/scene_0105/cam_000/rgb.jpg#1",
+     "category": "fancy tomato ketchup toy",
+     "gt": 31,
+     "pred": 29,
+     "tp": 20,
+     "sec": 0.13458037376403809
+    },
+    {
+     "id": "test/p2/scene_0105/cam_000/rgb.jpg#2",
+     "category": "creamy ranch dressing bottle",
+     "gt": 17,
+     "pred": 30,
+     "tp": 9,
+     "sec": 0.13054871559143066
+    },
+    {
+     "id": "test/p2/scene_0105/cam_000/rgb.jpg#3",
+     "category": "pink Lady apple",
+     "gt": 35,
+     "pred": 38,
+     "tp": 32,
+     "sec": 0.14263677597045898
+    },
+    {
+     "id": "test/p2/scene_0106/cam_000/rgb.jpg#0",
+     "category": "rectangular red cutting board",
+     "gt": 1,
+     "pred": 1,
+     "tp": 1,
+     "sec": 0.15304994583129883
+    },
+    {
+     "id": "test/p2/scene_0106/cam_000/rgb.jpg#1",
+     "category": "pig-shaped wooden cutting board",
+     "gt": 1,
+     "pred": 1,
+     "tp": 1,
+     "sec": 0.4997994899749756
+    }
+   ]
+  }
+ }
+}

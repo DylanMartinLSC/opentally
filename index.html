@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>OpenTally</title>
+  <meta name="description" content="Free, open-source, offline object counter for photos. Pipes, logs, rebar, pills, cells — draw a box around one, count them all.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23e8590c'/%3E%3Ccircle cx='11' cy='11' r='4' fill='white'/%3E%3Ccircle cx='21' cy='11' r='4' fill='white'/%3E%3Ccircle cx='11' cy='21' r='4' fill='white'/%3E%3Ccircle cx='21' cy='21' r='4' fill='white' fill-opacity='.45'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-name">OpenTally</span>
+      <span class="brand-tag">free · offline · open source</span>
+    </div>
+    <div class="top-actions">
+      <label class="btn primary" title="Open a photo (or drop / paste one)">
+        <svg viewBox="0 0 24 24"><path d="M4 7h3l2-2h6l2 2h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+        <span>Open photo</span>
+        <input id="file-input" type="file" accept="image/*" hidden>
+      </label>
+      <button class="btn icon" id="undo-btn" title="Undo (Ctrl+Z)" aria-label="Undo" disabled>
+        <svg viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg>
+      </button>
+      <button class="btn icon" id="redo-btn" title="Redo (Ctrl+Y)" aria-label="Redo" disabled>
+        <svg viewBox="0 0 24 24"><path d="m15 14 5-5-5-5"/><path d="M20 9H10a6 6 0 0 0 0 12h3"/></svg>
+      </button>
+      <details class="menu" id="export-menu">
+        <summary class="btn">
+          <svg viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          <span>Export</span>
+        </summary>
+        <div class="menu-list">
+          <button data-export="png">Annotated image (.png)</button>
+          <button data-export="summary">Summary (.csv)</button>
+          <button data-export="markers">All marks with positions (.csv)</button>
+          <hr>
+          <button data-export="project">Save project (.json)</button>
+          <label class="menu-item">Open project…<input id="project-input" type="file" accept=".json,application/json" hidden></label>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main class="layout">
+    <nav class="tools" aria-label="Tools">
+      <button class="tool active" data-tool="sample" title="Sample: draw a box around ONE item (S)">
+        <svg viewBox="0 0 24 24"><path d="M4 8V4h4M16 4h4v4M20 16v4h-4M8 20H4v-4"/><circle cx="12" cy="12" r="3.5"/></svg>
+        <span>Sample</span>
+      </button>
+      <button class="tool" data-tool="add" title="Add a mark (A)">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg>
+        <span>Add</span>
+      </button>
+      <button class="tool" data-tool="remove" title="Remove a mark (R) — or right-click">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M8 12h8"/></svg>
+        <span>Remove</span>
+      </button>
+      <button class="tool" data-tool="region" title="Region: click points around the area to count (G)">
+        <svg viewBox="0 0 24 24"><path d="M5 6l9-2 6 7-4 9-10-3z" stroke-dasharray="3 2"/></svg>
+        <span>Region</span>
+      </button>
+      <button class="tool" data-tool="pan" title="Pan (hold Space)">
+        <svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M12 3l-3 3M12 3l3 3M12 21l-3-3M12 21l3-3M3 12l3-3M3 12l3 3M21 12l-3-3M21 12l-3 3"/></svg>
+        <span>Pan</span>
+      </button>
+      <span class="tool-sep"></span>
+      <button class="tool" id="fit-btn" title="Fit to screen (0)">
+        <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/></svg>
+        <span>Fit</span>
+      </button>
+    </nav>
+
+    <section class="stage" id="stage">
+      <canvas id="view"></canvas>
+      <div class="empty" id="empty">
+        <div class="empty-card">
+          <div class="empty-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <h1>Count anything in a photo</h1>
+          <ol class="steps">
+            <li><b>Open</b> a photo — or drop or paste one here.</li>
+            <li><b>Draw a box</b> around one item: a pipe, a log, a pill.</li>
+            <li>Every similar item gets counted. <b>Tap</b> to fix any misses.</li>
+          </ol>
+          <div class="empty-actions">
+            <label class="btn primary big">Choose a photo<input id="file-input-2" type="file" accept="image/*" hidden></label>
+            <label class="btn big mobile-only">Take a photo<input id="camera-input" type="file" accept="image/*" capture="environment" hidden></label>
+          </div>
+          <div class="examples">
+            <span class="examples-label">Or try an example:</span>
+            <button class="chip-btn" id="demo-btn">Pipe stack</button>
+            <span id="example-list"></span>
+          </div>
+          <p class="privacy">Your photos never leave this device. No account, no upload, no subscription.</p>
+        </div>
+      </div>
+      <div class="hint" id="hint" hidden></div>
+      <div class="busy" id="busy" hidden><span class="spinner"></span><span id="busy-text">Counting…</span></div>
+      <div class="drop-overlay" id="drop-overlay" hidden>Drop photo to open</div>
+    </section>
+
+    <aside class="panel">
+      <section class="total-card">
+        <div class="total-label">Total</div>
+        <div class="total" id="total">0</div>
+        <div class="status" id="status">Open a photo to start.</div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Categories</h2>
+          <button class="link" id="add-cat">+ Add</button>
+        </div>
+        <ul class="cats" id="cats"></ul>
+      </section>
+
+      <section class="card">
+        <div class="card-head"><h2>Counting</h2></div>
+
+        <div class="field">
+          <span class="field-label">Engine</span>
+          <div class="seg" role="radiogroup" aria-label="Engine">
+            <button role="radio" data-engine="builtin" aria-checked="true">Built-in</button>
+            <button role="radio" data-engine="sam" aria-checked="false">Local AI</button>
+          </div>
+          <small class="help" id="engine-help">Fast and works anywhere. Best for round or blocky items on a contrasting background.</small>
+        </div>
+
+        <div class="sam-only" hidden>
+          <label class="field">
+            <span class="field-label">Describe the item <small>(optional with a sample box)</small></span>
+            <input id="sam-text" type="text" placeholder="e.g. pipe, log, white pill">
+          </label>
+          <label class="field">
+            <span class="field-label">Backend address</span>
+            <input id="sam-url" type="url" spellcheck="false">
+          </label>
+          <label class="field">
+            <span class="field-label">Confidence <output id="sam-threshold-out"></output></span>
+            <input id="sam-threshold" type="range" min="0.1" max="0.9" step="0.05">
+          </label>
+        </div>
+
+        <div class="builtin-only">
+          <label class="field">
+            <span class="field-label">Preset</span>
+            <select id="preset">
+              <option value="generic">Generic objects</option>
+              <option value="pipes">Pipes &amp; tubes</option>
+              <option value="logs">Log ends</option>
+              <option value="rebar">Rebar &amp; bar ends</option>
+              <option value="pills">Pills &amp; tablets</option>
+              <option value="cells">Cells &amp; colonies</option>
+              <option value="boards">Board &amp; lumber ends</option>
+              <option value="custom" hidden>Custom</option>
+            </select>
+          </label>
+          <label class="field">
+            <span class="field-label">Items are</span>
+            <div class="row">
+              <select id="mode">
+                <option value="auto">Auto-detect</option>
+                <option value="dark">Darker than background</option>
+                <option value="light">Lighter than background</option>
+                <option value="color">A specific colour</option>
+              </select>
+              <input id="color" type="color" title="Item colour (or use a sample box)" hidden>
+            </div>
+          </label>
+          <label class="field" id="tol-field" hidden>
+            <span class="field-label">Colour tolerance <output id="tol-out"></output></span>
+            <input id="tolerance" type="range" min="10" max="150" step="5">
+          </label>
+          <label class="field">
+            <span class="field-label">Sensitivity <output id="sens-out"></output></span>
+            <input id="sensitivity" type="range" min="-60" max="60" step="2">
+          </label>
+          <label class="field">
+            <span class="field-label">Ignore items smaller than <output id="min-out"></output></span>
+            <input id="min-size" type="range" min="0" max="200" step="2">
+          </label>
+          <label class="check"><input id="split" type="checkbox"> Separate touching items</label>
+        </div>
+
+        <div class="chips" id="chips"></div>
+
+        <div class="actions">
+          <button class="btn primary wide" id="count-btn" disabled>Count</button>
+          <button class="btn" id="clear-auto" title="Remove automatic marks in this category">Clear</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-head"><h2>Display</h2></div>
+        <label class="field">
+          <span class="field-label">Mark size</span>
+          <input id="mark-size" type="range" min="3" max="24" step="1">
+        </label>
+        <label class="check"><input id="show-numbers" type="checkbox"> Show numbers</label>
+      </section>
+
+      <p class="foot">OpenTally is MIT-licensed. Everything runs in your browser.<br>Keys: S sample · A add · R remove · G region · Space pan · Enter count · Ctrl+Z undo</p>
+    </aside>
+  </main>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

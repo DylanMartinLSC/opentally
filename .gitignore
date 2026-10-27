@@ -1,0 +1,18 @@
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# Evaluation datasets (several GB, not redistributable as a whole; see eval/README.md)
+datasets/
+
+# Evaluation by-products
+eval/results/*.stderr.log
+eval/results/report/
+
+# Local editor and tool settings
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+{
+  "name": "opentally",
+  "version": "0.1.0",
+  "description": "Free, open-source, fully local app for counting objects in photos — pipes, logs, rebar, pills, cells and more.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

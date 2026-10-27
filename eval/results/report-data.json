@@ -1,0 +1,425 @@
+{
+ "gpu": "NVIDIA GeForce RTX 3090",
+ "fsc": {
+  "Built-in": {
+   "overall": {
+    "n": 578,
+    "MAE": 40.76,
+    "bias": -11.15,
+    "median_rel_err": 0.344,
+    "within_10pct": 0.194,
+    "exact": 0.038,
+    "precision": 0.578,
+    "recall": 0.512,
+    "F1": 0.543
+   },
+   "density": [
+    {
+     "bucket": "<20",
+     "n": 124,
+     "within10": 0.153,
+     "recall": 0.688
+    },
+    {
+     "bucket": "20\u201349",
+     "n": 186,
+     "within10": 0.247,
+     "recall": 0.595
+    },
+    {
+     "bucket": "50\u201399",
+     "n": 124,
+     "within10": 0.153,
+     "recall": 0.546
+    },
+    {
+     "bucket": "100\u2013199",
+     "n": 86,
+     "within10": 0.233,
+     "recall": 0.536
+    },
+    {
+     "bucket": "200+",
+     "n": 58,
+     "within10": 0.138,
+     "recall": 0.463
+    }
+   ],
+   "categories": {
+    "bottle caps": {
+     "n": 122,
+     "within10": 0.107,
+     "MAE": 47.25
+    },
+    "bricks": {
+     "n": 58,
+     "within10": 0.259,
+     "MAE": 103.48
+    },
+    "cans": {
+     "n": 48,
+     "within10": 0.125,
+     "MAE": 54.77
+    },
+    "cement bags": {
+     "n": 27,
+     "within10": 0.111,
+     "MAE": 44.74
+    },
+    "coins": {
+     "n": 58,
+     "within10": 0.138,
+     "MAE": 31.41
+    },
+    "eggs": {
+     "n": 63,
+     "within10": 0.302,
+     "MAE": 11.38
+    },
+    "nuts": {
+     "n": 53,
+     "within10": 0.283,
+     "MAE": 17.36
+    },
+    "pills": {
+     "n": 55,
+     "within10": 0.218,
+     "MAE": 18.47
+    },
+    "roof tiles": {
+     "n": 39,
+     "within10": 0.205,
+     "MAE": 54.28
+    },
+    "toilet paper rolls": {
+     "n": 23,
+     "within10": 0.087,
+     "MAE": 35.7
+    },
+    "tree logs": {
+     "n": 32,
+     "within10": 0.344,
+     "MAE": 17.0
+    }
+   }
+  },
+  "OWLv2": {
+   "overall": {
+    "n": 578,
+    "MAE": 23.29,
+    "bias": -16.33,
+    "median_rel_err": 0.138,
+    "within_10pct": 0.427,
+    "exact": 0.154,
+    "precision": 0.838,
+    "recall": 0.699,
+    "F1": 0.762
+   },
+   "density": [
+    {
+     "bucket": "<20",
+     "n": 124,
+     "within10": 0.532,
+     "recall": 0.941
+    },
+    {
+     "bucket": "20\u201349",
+     "n": 186,
+     "within10": 0.441,
+     "recall": 0.816
+    },
+    {
+     "bucket": "50\u201399",
+     "n": 124,
+     "within10": 0.379,
+     "recall": 0.762
+    },
+    {
+     "bucket": "100\u2013199",
+     "n": 86,
+     "within10": 0.256,
+     "recall": 0.679
+    },
+    {
+     "bucket": "200+",
+     "n": 58,
+     "within10": 0.517,
+     "recall": 0.647
+    }
+   ],
+   "categories": {
+    "bottle caps": {
+     "n": 122,
+     "within10": 0.459,
+     "MAE": 24.02
+    },
+    "bricks": {
+     "n": 58,
+     "within10": 0.328,
+     "MAE": 60.6
+    },
+    "cans": {
+     "n": 48,
+     "within10": 0.312,
+     "MAE": 34.42
+    },
+    "cement bags": {
+     "n": 27,
+     "within10": 0.407,
+     "MAE": 10.63
+    },
+    "coins": {
+     "n": 58,
+     "within10": 0.466,
+     "MAE": 17.07
+    },
+    "eggs": {
+     "n": 63,
+     "within10": 0.635,
+     "MAE": 5.59
+    },
+    "nuts": {
+     "n": 53,
+     "within10": 0.34,
+     "MAE": 11.15
+    },
+    "pills": {
+     "n": 55,
+     "within10": 0.418,
+     "MAE": 13.56
+    },
+    "roof tiles": {
+     "n": 39,
+     "within10": 0.41,
+     "MAE": 32.05
+    },
+    "toilet paper rolls": {
+     "n": 23,
+     "within10": 0.609,
+     "MAE": 25.26
+    },
+    "tree logs": {
+     "n": 32,
+     "within10": 0.25,
+     "MAE": 17.62
+    }
+   }
+  },
+  "SAM 3": {
+   "overall": {
+    "n": 578,
+    "MAE": 59.18,
+    "bias": -58.71,
+    "median_rel_err": 0.079,
+    "within_10pct": 0.545,
+    "exact": 0.308,
+    "precision": 0.972,
+    "recall": 0.391,
+    "F1": 0.558
+   },
+   "density": [
+    {
+     "bucket": "<20",
+     "n": 124,
+     "within10": 0.823,
+     "recall": 0.949
+    },
+    {
+     "bucket": "20\u201349",
+     "n": 186,
+     "within10": 0.661,
+     "recall": 0.86
+    },
+    {
+     "bucket": "50\u201399",
+     "n": 124,
+     "within10": 0.613,
+     "recall": 0.794
+    },
+    {
+     "bucket": "100\u2013199",
+     "n": 86,
+     "within10": 0.163,
+     "recall": 0.538
+    },
+    {
+     "bucket": "200+",
+     "n": 58,
+     "within10": 0.0,
+     "recall": 0.066
+    }
+   ],
+   "categories": {
+    "bottle caps": {
+     "n": 122,
+     "within10": 0.467,
+     "MAE": 71.2
+    },
+    "bricks": {
+     "n": 58,
+     "within10": 0.224,
+     "MAE": 228.45
+    },
+    "cans": {
+     "n": 48,
+     "within10": 0.708,
+     "MAE": 44.83
+    },
+    "cement bags": {
+     "n": 27,
+     "within10": 0.481,
+     "MAE": 17.89
+    },
+    "coins": {
+     "n": 58,
+     "within10": 0.603,
+     "MAE": 24.55
+    },
+    "eggs": {
+     "n": 63,
+     "within10": 0.746,
+     "MAE": 7.67
+    },
+    "nuts": {
+     "n": 53,
+     "within10": 0.679,
+     "MAE": 7.17
+    },
+    "pills": {
+     "n": 55,
+     "within10": 0.636,
+     "MAE": 15.49
+    },
+    "roof tiles": {
+     "n": 39,
+     "within10": 0.282,
+     "MAE": 107.85
+    },
+    "toilet paper rolls": {
+     "n": 23,
+     "within10": 0.913,
+     "MAE": 41.13
+    },
+    "tree logs": {
+     "n": 32,
+     "within10": 0.406,
+     "MAE": 41.97
+    }
+   }
+  }
+ },
+ "mix": {
+  "Built-in": {
+   "n": 1462,
+   "MAE": 81.31,
+   "bias": 80.49,
+   "median_rel_err": 2.565,
+   "within_10pct": 0.027,
+   "exact": 0.008,
+   "precision": 0.131,
+   "recall": 0.599,
+   "F1": 0.215
+  },
+  "OWLv2": {
+   "n": 1462,
+   "MAE": 21.71,
+   "bias": 18.83,
+   "median_rel_err": 0.9,
+   "within_10pct": 0.112,
+   "exact": 0.04,
+   "precision": 0.445,
+   "recall": 0.818,
+   "F1": 0.576
+  },
+  "SAM 3": {
+   "n": 1462,
+   "MAE": 22.67,
+   "bias": 19.81,
+   "median_rel_err": 1.0,
+   "within_10pct": 0.131,
+   "exact": 0.073,
+   "precision": 0.46,
+   "recall": 0.864,
+   "F1": 0.6
+  }
+ },
+ "latency": {
+  "Built-in": {
+   "load_s": 0.0,
+   "sets": {
+    "FSC-147 (384 px)": {
+     "n": 60,
+     "median_s": 0.0283,
+     "p90_s": 0.0463,
+     "mean_s": 0.0493
+    },
+    "MixCount (1024 px)": {
+     "n": 40,
+     "median_s": 0.2071,
+     "p90_s": 0.4123,
+     "mean_s": 0.3005
+    }
+   }
+  },
+  "OWLv2": {
+   "load_s": 5.4,
+   "sets": {
+    "FSC-147 (384 px)": {
+     "n": 60,
+     "median_s": 0.1243,
+     "p90_s": 0.4767,
+     "mean_s": 0.2117
+    },
+    "MixCount (1024 px)": {
+     "n": 40,
+     "median_s": 0.1335,
+     "p90_s": 0.1484,
+     "mean_s": 0.2058
+    }
+   }
+  },
+  "SAM 3": {
+   "load_s": 4.1,
+   "sets": {
+    "FSC-147 (384 px)": {
+     "n": 60,
+     "median_s": 0.5176,
+     "p90_s": 0.5294,
+     "mean_s": 0.5195
+    },
+    "MixCount (1024 px)": {
+     "n": 40,
+     "median_s": 0.5242,
+     "p90_s": 0.5391,
+     "mean_s": 0.5277
+    }
+   }
+  }
+ },
+ "notes": {
+  "owlv2_tiling": {
+   "without": {
+    "MAE": 34.72,
+    "bias": -19.47,
+    "recall": 0.638,
+    "within_10pct": 0.377
+   },
+   "with": {
+    "MAE": 21.58,
+    "bias": 1.78,
+    "recall": 0.771,
+    "within_10pct": 0.37
+   },
+   "dense_recall": [
+    0.476,
+    0.734
+   ]
+  },
+  "sam3_at_0.4": {
+   "MAE": 47.57,
+   "median_rel_err": 0.057,
+   "within_10pct": 0.635,
+   "recall": 0.506
+  }
+ }
+}

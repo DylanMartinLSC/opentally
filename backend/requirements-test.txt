@@ -1,0 +1,6 @@
+# Enough to run backend/test_sam3_server.py: the tests use a stand-in model,
+# so torch and transformers aren't needed.
+fastapi>=0.110
+httpx>=0.27
+python-multipart>=0.0.9
+pillow>=10

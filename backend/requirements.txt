@@ -1,0 +1,10 @@
+# Local AI server (optional). Tested with Python 3.13, torch 2.6 (CUDA 11.8),
+# torchvision 0.21 and transformers 5.21 on an RTX 3090.
+# Install torch/torchvision for your GPU first: https://pytorch.org/get-started/locally/
+torch>=2.6
+torchvision>=0.21
+transformers>=5.21
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+pillow>=10

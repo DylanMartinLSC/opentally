@@ -1,0 +1,36 @@
+# Runs the tests on GitHub's servers on every push and pull request.
+# Results show as a tick or cross next to each commit on GitHub.
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  app:
+    name: App and counting engine (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm test
+
+  backend:
+    name: Local AI server (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -r backend/requirements-test.txt
+      - run: python -m unittest -v
+        working-directory: backend

@@ -1,0 +1,34 @@
+[
+ {
+  "file": "blocks.jpg",
+  "title": "Wooden blocks",
+  "source": "test/p2/scene_0444/cam_000/rgb.jpg",
+  "answers": {
+   "orange block with 'X'": 13,
+   "light brown triangular block": 12,
+   "wooden half-cylinder": 9,
+   "brown wooden cube": 16
+  }
+ },
+ {
+  "file": "apples.jpg",
+  "title": "Apples",
+  "source": "test/p2/scene_0162/cam_000/rgb.jpg",
+  "answers": {
+   "red apple, dark stem": 6,
+   "red apple with stem": 8,
+   "golden yellow apple": 5,
+   "artificial green apple": 6
+  }
+ },
+ {
+  "file": "boards.jpg",
+  "title": "Cutting boards",
+  "source": "test/p2/scene_0371/cam_000/rgb.jpg",
+  "answers": {
+   "Larger rectangular red cutting board": 8,
+   "Middle-sized rectangular red cutting board": 5,
+   "Smaller rectangular red cutting board": 1
+  }
+ }
+]

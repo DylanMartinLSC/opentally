@@ -1,0 +1,4780 @@
+{
+ "dataset": "fsc147",
+ "threshold": 0.6,
+ "engines": {
+  "owlv2": {
+   "overall": {
+    "n": 578,
+    "MAE": 23.29,
+    "bias": -16.33,
+    "median_rel_err": 0.138,
+    "within_10pct": 0.427,
+    "exact": 0.154,
+    "precision": 0.838,
+    "recall": 0.699,
+    "F1": 0.762,
+    "sec_per_image": 0.225
+   },
+   "by_category": {
+    "bottle caps": {
+     "n": 122,
+     "MAE": 24.02,
+     "bias": -20.35,
+     "median_rel_err": 0.136,
+     "within_10pct": 0.459,
+     "exact": 0.23,
+     "precision": 0.934,
+     "recall": 0.761,
+     "F1": 0.839,
+     "sec_per_image": 0.198
+    },
+    "bricks": {
+     "n": 58,
+     "MAE": 60.6,
+     "bias": -48.16,
+     "median_rel_err": 0.161,
+     "within_10pct": 0.328,
+     "exact": 0.017,
+     "precision": 0.762,
+     "recall": 0.626,
+     "F1": 0.688,
+     "sec_per_image": 0.453
+    },
+    "cans": {
+     "n": 48,
+     "MAE": 34.42,
+     "bias": -21.71,
+     "median_rel_err": 0.2,
+     "within_10pct": 0.312,
+     "exact": 0.104,
+     "precision": 0.773,
+     "recall": 0.577,
+     "F1": 0.661,
+     "sec_per_image": 0.218
+    },
+    "cement bags": {
+     "n": 27,
+     "MAE": 10.63,
+     "bias": -5.52,
+     "median_rel_err": 0.119,
+     "within_10pct": 0.407,
+     "exact": 0.074,
+     "precision": 0.71,
+     "recall": 0.638,
+     "F1": 0.672,
+     "sec_per_image": 0.222
+    },
+    "coins": {
+     "n": 58,
+     "MAE": 17.07,
+     "bias": -14.59,
+     "median_rel_err": 0.12,
+     "within_10pct": 0.466,
+     "exact": 0.155,
+     "precision": 0.886,
+     "recall": 0.699,
+     "F1": 0.781,
+     "sec_per_image": 0.215
+    },
+    "eggs": {
+     "n": 63,
+     "MAE": 5.59,
+     "bias": -3.46,
+     "median_rel_err": 0.061,
+     "within_10pct": 0.635,
+     "exact": 0.365,
+     "precision": 0.901,
+     "recall": 0.806,
+     "F1": 0.85,
+     "sec_per_image": 0.139
+    },
+    "nuts": {
+     "n": 53,
+     "MAE": 11.15,
+     "bias": -7.11,
+     "median_rel_err": 0.149,
+     "within_10pct": 0.34,
+     "exact": 0.075,
+     "precision": 0.901,
+     "recall": 0.777,
+     "F1": 0.834,
+     "sec_per_image": 0.167
+    },
+    "pills": {
+     "n": 55,
+     "MAE": 13.56,
+     "bias": -9.85,
+     "median_rel_err": 0.148,
+     "within_10pct": 0.418,
+     "exact": 0.2,
+     "precision": 0.923,
+     "recall": 0.75,
+     "F1": 0.828,
+     "sec_per_image": 0.195
+    },
+    "roof tiles": {
+     "n": 39,
+     "MAE": 32.05,
+     "bias": -10.05,
+     "median_rel_err": 0.151,
+     "within_10pct": 0.41,
+     "exact": 0.026,
+     "precision": 0.785,
+     "recall": 0.734,
+     "F1": 0.759,
+     "sec_per_image": 0.313
+    },
+    "toilet paper rolls": {
+     "n": 23,
+     "MAE": 25.26,
+     "bias": -20.39,
+     "median_rel_err": 0.083,
+     "within_10pct": 0.609,
+     "exact": 0.217,
+     "precision": 0.83,
+     "recall": 0.558,
+     "F1": 0.667,
+     "sec_per_image": 0.221
+    },
+    "tree logs": {
+     "n": 32,
+     "MAE": 17.62,
+     "bias": -4.06,
+     "median_rel_err": 0.22,
+     "within_10pct": 0.25,
+     "exact": 0.0,
+     "precision": 0.835,
+     "recall": 0.797,
+     "F1": 0.815,
+     "sec_per_image": 0.154
+    }
+   },
+   "samples": [
+    {
+     "id": "1246.jpg",
+     "category": "roof tiles",
+     "gt": 159,
+     "pred": 106,
+     "tp": 62,
+     "sec": 0.9717741012573242
+    },
+    {
+     "id": "1386.jpg",
+     "category": "pills",
+     "gt": 35,
+     "pred": 19,
+     "tp": 17,
+     "sec": 0.13944435119628906
+    },
+    {
+     "id": "1391.jpg",
+     "category": "pills",
+     "gt": 42,
+     "pred": 18,
+     "tp": 18,
+     "sec": 0.13911128044128418
+    },
+    {
+     "id": "1397.jpg",
+     "category": "pills",
+     "gt": 166,
+     "pred": 75,
+     "tp": 62,
+     "sec": 0.5539944171905518
+    },
+    {
+     "id": "1762.jpg",
+     "category": "coins",
+     "gt": 166,
+     "pred": 148,
+     "tp": 124,
+     "sec": 0.15743780136108398
+    },
+    {
+     "id": "1768.jpg",
+     "category": "coins",
+     "gt": 433,
+     "pred": 235,
+     "tp": 221,
+     "sec": 0.15308785438537598
+    },
+    {
+     "id": "1772.jpg",
+     "category": "coins",
+     "gt": 55,
+     "pred": 70,
+     "tp": 50,
+     "sec": 0.13578271865844727
+    },
+    {
+     "id": "1890.jpg",
+     "category": "bottle caps",
+     "gt": 76,
+     "pred": 58,
+     "tp": 58,
+     "sec": 0.13437867164611816
+    },
+    {
+     "id": "1891.jpg",
+     "category": "bottle caps",
+     "gt": 31,
+     "pred": 24,
+     "tp": 24,
+     "sec": 0.1377699375152588
+    },
+    {
+     "id": "1892.jpg",
+     "category": "bottle caps",
+     "gt": 180,
+     "pred": 194,
+     "tp": 172,
+     "sec": 0.16059184074401855
+    },
+    {
+     "id": "1894.jpg",
+     "category": "bottle caps",
+     "gt": 32,
+     "pred": 29,
+     "tp": 26,
+     "sec": 0.12998485565185547
+    },
+    {
+     "id": "1895.jpg",
+     "category": "bottle caps",
+     "gt": 30,
+     "pred": 29,
+     "tp": 27,
+     "sec": 0.13866043090820312
+    },
+    {
+     "id": "1896.jpg",
+     "category": "bottle caps",
+     "gt": 123,
+     "pred": 94,
+     "tp": 90,
+     "sec": 0.1358175277709961
+    },
+    {
+     "id": "1897.jpg",
+     "category": "bottle caps",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.1295638084411621
+    },
+    {
+     "id": "1898.jpg",
+     "category": "bottle caps",
+     "gt": 149,
+     "pred": 113,
+     "tp": 107,
+     "sec": 0.14504456520080566
+    },
+    {
+     "id": "1899.jpg",
+     "category": "bottle caps",
+     "gt": 8,
+     "pred": 7,
+     "tp": 7,
+     "sec": 0.13292527198791504
+    },
+    {
+     "id": "1900.jpg",
+     "category": "bottle caps",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.1280364990234375
+    },
+    {
+     "id": "1901.jpg",
+     "category": "bottle caps",
+     "gt": 17,
+     "pred": 19,
+     "tp": 17,
+     "sec": 0.13056421279907227
+    },
+    {
+     "id": "1902.jpg",
+     "category": "bottle caps",
+     "gt": 94,
+     "pred": 123,
+     "tp": 86,
+     "sec": 0.6100113391876221
+    },
+    {
+     "id": "1903.jpg",
+     "category": "bottle caps",
+     "gt": 139,
+     "pred": 119,
+     "tp": 103,
+     "sec": 0.14741945266723633
+    },
+    {
+     "id": "1906.jpg",
+     "category": "bottle caps",
+     "gt": 70,
+     "pred": 76,
+     "tp": 69,
+     "sec": 0.14383959770202637
+    },
+    {
+     "id": "1907.jpg",
+     "category": "bottle caps",
+     "gt": 28,
+     "pred": 27,
+     "tp": 27,
+     "sec": 0.12751102447509766
+    },
+    {
+     "id": "1910.jpg",
+     "category": "bottle caps",
+     "gt": 28,
+     "pred": 20,
+     "tp": 20,
+     "sec": 0.5132758617401123
+    },
+    {
+     "id": "1911.jpg",
+     "category": "bottle caps",
+     "gt": 119,
+     "pred": 41,
+     "tp": 33,
+     "sec": 0.517894983291626
+    },
+    {
+     "id": "1912.jpg",
+     "category": "bottle caps",
+     "gt": 46,
+     "pred": 35,
+     "tp": 34,
+     "sec": 0.13646316528320312
+    },
+    {
+     "id": "1913.jpg",
+     "category": "bottle caps",
+     "gt": 50,
+     "pred": 50,
+     "tp": 50,
+     "sec": 0.13011646270751953
+    },
+    {
+     "id": "1915.jpg",
+     "category": "bottle caps",
+     "gt": 684,
+     "pred": 321,
+     "tp": 318,
+     "sec": 0.5683469772338867
+    },
+    {
+     "id": "1916.jpg",
+     "category": "bottle caps",
+     "gt": 20,
+     "pred": 37,
+     "tp": 18,
+     "sec": 0.13791298866271973
+    },
+    {
+     "id": "1917.jpg",
+     "category": "bottle caps",
+     "gt": 17,
+     "pred": 20,
+     "tp": 13,
+     "sec": 0.13371992111206055
+    },
+    {
+     "id": "1918.jpg",
+     "category": "bottle caps",
+     "gt": 18,
+     "pred": 18,
+     "tp": 18,
+     "sec": 0.12777972221374512
+    },
+    {
+     "id": "1919.jpg",
+     "category": "bottle caps",
+     "gt": 436,
+     "pred": 172,
+     "tp": 166,
+     "sec": 0.14268088340759277
+    },
+    {
+     "id": "1920.jpg",
+     "category": "bottle caps",
+     "gt": 138,
+     "pred": 97,
+     "tp": 95,
+     "sec": 0.13299942016601562
+    },
+    {
+     "id": "1921.jpg",
+     "category": "bottle caps",
+     "gt": 49,
+     "pred": 46,
+     "tp": 34,
+     "sec": 0.1530613899230957
+    },
+    {
+     "id": "1922.jpg",
+     "category": "bottle caps",
+     "gt": 45,
+     "pred": 48,
+     "tp": 45,
+     "sec": 0.13341140747070312
+    },
+    {
+     "id": "1924.jpg",
+     "category": "bottle caps",
+     "gt": 48,
+     "pred": 48,
+     "tp": 48,
+     "sec": 0.13763642311096191
+    },
+    {
+     "id": "1925.jpg",
+     "category": "bottle caps",
+     "gt": 29,
+     "pred": 43,
+     "tp": 26,
+     "sec": 0.1321406364440918
+    },
+    {
+     "id": "1927.jpg",
+     "category": "bottle caps",
+     "gt": 68,
+     "pred": 40,
+     "tp": 38,
+     "sec": 0.13399672508239746
+    },
+    {
+     "id": "1928.jpg",
+     "category": "bottle caps",
+     "gt": 13,
+     "pred": 13,
+     "tp": 13,
+     "sec": 0.12919855117797852
+    },
+    {
+     "id": "1929.jpg",
+     "category": "bottle caps",
+     "gt": 86,
+     "pred": 56,
+     "tp": 55,
+     "sec": 0.13260817527770996
+    },
+    {
+     "id": "1930.jpg",
+     "category": "bottle caps",
+     "gt": 18,
+     "pred": 5,
+     "tp": 5,
+     "sec": 0.12654614448547363
+    },
+    {
+     "id": "1931.jpg",
+     "category": "bottle caps",
+     "gt": 54,
+     "pred": 58,
+     "tp": 54,
+     "sec": 0.14121031761169434
+    },
+    {
+     "id": "1933.jpg",
+     "category": "bottle caps",
+     "gt": 215,
+     "pred": 148,
+     "tp": 144,
+     "sec": 0.5166823863983154
+    },
+    {
+     "id": "1934.jpg",
+     "category": "bottle caps",
+     "gt": 171,
+     "pred": 140,
+     "tp": 120,
+     "sec": 0.1366581916809082
+    },
+    {
+     "id": "1935.jpg",
+     "category": "bottle caps",
+     "gt": 175,
+     "pred": 150,
+     "tp": 136,
+     "sec": 0.153672456741333
+    },
+    {
+     "id": "1936.jpg",
+     "category": "bottle caps",
+     "gt": 501,
+     "pred": 496,
+     "tp": 469,
+     "sec": 0.7067515850067139
+    },
+    {
+     "id": "1937.jpg",
+     "category": "bottle caps",
+     "gt": 117,
+     "pred": 89,
+     "tp": 87,
+     "sec": 0.13859105110168457
+    },
+    {
+     "id": "1938.jpg",
+     "category": "bottle caps",
+     "gt": 9,
+     "pred": 14,
+     "tp": 9,
+     "sec": 0.12901926040649414
+    },
+    {
+     "id": "1939.jpg",
+     "category": "bottle caps",
+     "gt": 69,
+     "pred": 29,
+     "tp": 28,
+     "sec": 0.13080596923828125
+    },
+    {
+     "id": "1942.jpg",
+     "category": "bottle caps",
+     "gt": 163,
+     "pred": 117,
+     "tp": 111,
+     "sec": 0.14102387428283691
+    },
+    {
+     "id": "1943.jpg",
+     "category": "bottle caps",
+     "gt": 221,
+     "pred": 188,
+     "tp": 185,
+     "sec": 0.5288214683532715
+    },
+    {
+     "id": "1944.jpg",
+     "category": "bottle caps",
+     "gt": 48,
+     "pred": 32,
+     "tp": 28,
+     "sec": 0.13257598876953125
+    },
+    {
+     "id": "1945.jpg",
+     "category": "bottle caps",
+     "gt": 44,
+     "pred": 40,
+     "tp": 40,
+     "sec": 0.13103389739990234
+    },
+    {
+     "id": "1946.jpg",
+     "category": "bottle caps",
+     "gt": 40,
+     "pred": 40,
+     "tp": 40,
+     "sec": 0.13507318496704102
+    },
+    {
+     "id": "1947.jpg",
+     "category": "bottle caps",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.13075590133666992
+    },
+    {
+     "id": "1948.jpg",
+     "category": "bottle caps",
+     "gt": 22,
+     "pred": 25,
+     "tp": 18,
+     "sec": 0.13085174560546875
+    },
+    {
+     "id": "1949.jpg",
+     "category": "bottle caps",
+     "gt": 150,
+     "pred": 148,
+     "tp": 148,
+     "sec": 0.14479303359985352
+    },
+    {
+     "id": "1950.jpg",
+     "category": "bottle caps",
+     "gt": 21,
+     "pred": 14,
+     "tp": 14,
+     "sec": 0.12771129608154297
+    },
+    {
+     "id": "1951.jpg",
+     "category": "bottle caps",
+     "gt": 19,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.1331489086151123
+    },
+    {
+     "id": "1952.jpg",
+     "category": "bottle caps",
+     "gt": 37,
+     "pred": 26,
+     "tp": 23,
+     "sec": 0.13090848922729492
+    },
+    {
+     "id": "1955.jpg",
+     "category": "bottle caps",
+     "gt": 13,
+     "pred": 13,
+     "tp": 13,
+     "sec": 0.13708233833312988
+    },
+    {
+     "id": "1956.jpg",
+     "category": "bottle caps",
+     "gt": 1229,
+     "pred": 755,
+     "tp": 701,
+     "sec": 0.715123176574707
+    },
+    {
+     "id": "1957.jpg",
+     "category": "bottle caps",
+     "gt": 39,
+     "pred": 40,
+     "tp": 26,
+     "sec": 0.14052391052246094
+    },
+    {
+     "id": "1958.jpg",
+     "category": "bottle caps",
+     "gt": 12,
+     "pred": 14,
+     "tp": 12,
+     "sec": 0.13539934158325195
+    },
+    {
+     "id": "1959.jpg",
+     "category": "bottle caps",
+     "gt": 68,
+     "pred": 66,
+     "tp": 64,
+     "sec": 0.14565110206604004
+    },
+    {
+     "id": "1960.jpg",
+     "category": "bottle caps",
+     "gt": 163,
+     "pred": 117,
+     "tp": 111,
+     "sec": 0.14201951026916504
+    },
+    {
+     "id": "1961.jpg",
+     "category": "bottle caps",
+     "gt": 111,
+     "pred": 95,
+     "tp": 91,
+     "sec": 0.13896417617797852
+    },
+    {
+     "id": "1962.jpg",
+     "category": "bottle caps",
+     "gt": 13,
+     "pred": 13,
+     "tp": 13,
+     "sec": 0.1280806064605713
+    },
+    {
+     "id": "1964.jpg",
+     "category": "bottle caps",
+     "gt": 8,
+     "pred": 8,
+     "tp": 8,
+     "sec": 0.12807607650756836
+    },
+    {
+     "id": "1965.jpg",
+     "category": "bottle caps",
+     "gt": 96,
+     "pred": 96,
+     "tp": 96,
+     "sec": 0.13340425491333008
+    },
+    {
+     "id": "1966.jpg",
+     "category": "bottle caps",
+     "gt": 19,
+     "pred": 25,
+     "tp": 18,
+     "sec": 0.13383865356445312
+    },
+    {
+     "id": "1967.jpg",
+     "category": "bottle caps",
+     "gt": 36,
+     "pred": 36,
+     "tp": 36,
+     "sec": 0.13772797584533691
+    },
+    {
+     "id": "1968.jpg",
+     "category": "bottle caps",
+     "gt": 13,
+     "pred": 13,
+     "tp": 13,
+     "sec": 0.13190984725952148
+    },
+    {
+     "id": "1969.jpg",
+     "category": "bottle caps",
+     "gt": 134,
+     "pred": 72,
+     "tp": 65,
+     "sec": 0.1348249912261963
+    },
+    {
+     "id": "1971.jpg",
+     "category": "bottle caps",
+     "gt": 19,
+     "pred": 19,
+     "tp": 19,
+     "sec": 0.1299431324005127
+    },
+    {
+     "id": "1972.jpg",
+     "category": "bottle caps",
+     "gt": 8,
+     "pred": 8,
+     "tp": 8,
+     "sec": 0.1288769245147705
+    },
+    {
+     "id": "1973.jpg",
+     "category": "bottle caps",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.1313164234161377
+    },
+    {
+     "id": "1976.jpg",
+     "category": "bottle caps",
+     "gt": 32,
+     "pred": 38,
+     "tp": 25,
+     "sec": 0.13894057273864746
+    },
+    {
+     "id": "1977.jpg",
+     "category": "bottle caps",
+     "gt": 132,
+     "pred": 67,
+     "tp": 65,
+     "sec": 0.13634920120239258
+    },
+    {
+     "id": "1978.jpg",
+     "category": "bottle caps",
+     "gt": 35,
+     "pred": 42,
+     "tp": 33,
+     "sec": 0.13780927658081055
+    },
+    {
+     "id": "1979.jpg",
+     "category": "bottle caps",
+     "gt": 40,
+     "pred": 42,
+     "tp": 40,
+     "sec": 0.13852620124816895
+    },
+    {
+     "id": "1981.jpg",
+     "category": "bottle caps",
+     "gt": 159,
+     "pred": 126,
+     "tp": 120,
+     "sec": 0.1414644718170166
+    },
+    {
+     "id": "1982.jpg",
+     "category": "bottle caps",
+     "gt": 8,
+     "pred": 9,
+     "tp": 8,
+     "sec": 0.13221526145935059
+    },
+    {
+     "id": "1983.jpg",
+     "category": "bottle caps",
+     "gt": 172,
+     "pred": 88,
+     "tp": 84,
+     "sec": 0.1334679126739502
+    },
+    {
+     "id": "1984.jpg",
+     "category": "bottle caps",
+     "gt": 35,
+     "pred": 75,
+     "tp": 29,
+     "sec": 0.1456282138824463
+    },
+    {
+     "id": "1986.jpg",
+     "category": "bottle caps",
+     "gt": 248,
+     "pred": 161,
+     "tp": 150,
+     "sec": 0.14546918869018555
+    },
+    {
+     "id": "1987.jpg",
+     "category": "bottle caps",
+     "gt": 95,
+     "pred": 57,
+     "tp": 55,
+     "sec": 0.13734960556030273
+    },
+    {
+     "id": "1988.jpg",
+     "category": "bottle caps",
+     "gt": 20,
+     "pred": 21,
+     "tp": 20,
+     "sec": 0.1306629180908203
+    },
+    {
+     "id": "1989.jpg",
+     "category": "bottle caps",
+     "gt": 148,
+     "pred": 94,
+     "tp": 90,
+     "sec": 0.14288663864135742
+    },
+    {
+     "id": "1990.jpg",
+     "category": "bottle caps",
+     "gt": 476,
+     "pred": 443,
+     "tp": 343,
+     "sec": 0.6135780811309814
+    },
+    {
+     "id": "1991.jpg",
+     "category": "bottle caps",
+     "gt": 119,
+     "pred": 52,
+     "tp": 50,
+     "sec": 0.13567399978637695
+    },
+    {
+     "id": "1992.jpg",
+     "category": "bottle caps",
+     "gt": 18,
+     "pred": 21,
+     "tp": 18,
+     "sec": 0.13260221481323242
+    },
+    {
+     "id": "1993.jpg",
+     "category": "bottle caps",
+     "gt": 48,
+     "pred": 25,
+     "tp": 25,
+     "sec": 0.1280369758605957
+    },
+    {
+     "id": "1994.jpg",
+     "category": "bottle caps",
+     "gt": 313,
+     "pred": 247,
+     "tp": 225,
+     "sec": 0.16231846809387207
+    },
+    {
+     "id": "1996.jpg",
+     "category": "bottle caps",
+     "gt": 24,
+     "pred": 18,
+     "tp": 16,
+     "sec": 0.1288285255432129
+    },
+    {
+     "id": "1997.jpg",
+     "category": "bottle caps",
+     "gt": 14,
+     "pred": 15,
+     "tp": 14,
+     "sec": 0.13176560401916504
+    },
+    {
+     "id": "1999.jpg",
+     "category": "bottle caps",
+     "gt": 83,
+     "pred": 89,
+     "tp": 78,
+     "sec": 0.5233473777770996
+    },
+    {
+     "id": "2000.jpg",
+     "category": "bottle caps",
+     "gt": 18,
+     "pred": 18,
+     "tp": 15,
+     "sec": 0.13457393646240234
+    },
+    {
+     "id": "2001.jpg",
+     "category": "bottle caps",
+     "gt": 100,
+     "pred": 100,
+     "tp": 100,
+     "sec": 0.14412474632263184
+    },
+    {
+     "id": "2003.jpg",
+     "category": "bottle caps",
+     "gt": 20,
+     "pred": 26,
+     "tp": 16,
+     "sec": 0.1343085765838623
+    },
+    {
+     "id": "2320.jpg",
+     "category": "bricks",
+     "gt": 99,
+     "pred": 97,
+     "tp": 72,
+     "sec": 0.14657187461853027
+    },
+    {
+     "id": "2321.jpg",
+     "category": "bricks",
+     "gt": 80,
+     "pred": 63,
+     "tp": 60,
+     "sec": 0.14405417442321777
+    },
+    {
+     "id": "2322.jpg",
+     "category": "bricks",
+     "gt": 103,
+     "pred": 35,
+     "tp": 34,
+     "sec": 0.13337945938110352
+    },
+    {
+     "id": "2323.jpg",
+     "category": "bricks",
+     "gt": 32,
+     "pred": 23,
+     "tp": 23,
+     "sec": 0.12842512130737305
+    },
+    {
+     "id": "2326.jpg",
+     "category": "bricks",
+     "gt": 240,
+     "pred": 202,
+     "tp": 160,
+     "sec": 0.15591025352478027
+    },
+    {
+     "id": "2327.jpg",
+     "category": "bricks",
+     "gt": 50,
+     "pred": 40,
+     "tp": 38,
+     "sec": 0.12879729270935059
+    },
+    {
+     "id": "2328.jpg",
+     "category": "bricks",
+     "gt": 262,
+     "pred": 320,
+     "tp": 214,
+     "sec": 0.6730186939239502
+    },
+    {
+     "id": "2330.jpg",
+     "category": "bricks",
+     "gt": 144,
+     "pred": 123,
+     "tp": 101,
+     "sec": 0.13839459419250488
+    },
+    {
+     "id": "2332.jpg",
+     "category": "bricks",
+     "gt": 69,
+     "pred": 63,
+     "tp": 63,
+     "sec": 0.1444556713104248
+    },
+    {
+     "id": "2333.jpg",
+     "category": "bricks",
+     "gt": 27,
+     "pred": 23,
+     "tp": 22,
+     "sec": 0.12870311737060547
+    },
+    {
+     "id": "2335.jpg",
+     "category": "bricks",
+     "gt": 21,
+     "pred": 18,
+     "tp": 18,
+     "sec": 0.13027215003967285
+    },
+    {
+     "id": "2342.jpg",
+     "category": "bricks",
+     "gt": 501,
+     "pred": 477,
+     "tp": 453,
+     "sec": 0.6281783580780029
+    },
+    {
+     "id": "2343.jpg",
+     "category": "bricks",
+     "gt": 27,
+     "pred": 26,
+     "tp": 20,
+     "sec": 0.13324475288391113
+    },
+    {
+     "id": "2344.jpg",
+     "category": "bricks",
+     "gt": 25,
+     "pred": 20,
+     "tp": 8,
+     "sec": 0.13834023475646973
+    },
+    {
+     "id": "2347.jpg",
+     "category": "bricks",
+     "gt": 1912,
+     "pred": 924,
+     "tp": 724,
+     "sec": 2.1270713806152344
+    },
+    {
+     "id": "2348.jpg",
+     "category": "bricks",
+     "gt": 834,
+     "pred": 761,
+     "tp": 568,
+     "sec": 2.5431623458862305
+    },
+    {
+     "id": "2353.jpg",
+     "category": "bricks",
+     "gt": 175,
+     "pred": 142,
+     "tp": 107,
+     "sec": 0.14844179153442383
+    },
+    {
+     "id": "2354.jpg",
+     "category": "bricks",
+     "gt": 271,
+     "pred": 172,
+     "tp": 152,
+     "sec": 0.15456247329711914
+    },
+    {
+     "id": "2355.jpg",
+     "category": "bricks",
+     "gt": 254,
+     "pred": 150,
+     "tp": 145,
+     "sec": 0.14260196685791016
+    },
+    {
+     "id": "2356.jpg",
+     "category": "bricks",
+     "gt": 119,
+     "pred": 96,
+     "tp": 56,
+     "sec": 0.13896679878234863
+    },
+    {
+     "id": "2357.jpg",
+     "category": "bricks",
+     "gt": 276,
+     "pred": 268,
+     "tp": 209,
+     "sec": 0.6312160491943359
+    },
+    {
+     "id": "2359.jpg",
+     "category": "bricks",
+     "gt": 262,
+     "pred": 258,
+     "tp": 203,
+     "sec": 0.551339864730835
+    },
+    {
+     "id": "2360.jpg",
+     "category": "bricks",
+     "gt": 1283,
+     "pred": 1018,
+     "tp": 729,
+     "sec": 1.9177098274230957
+    },
+    {
+     "id": "2361.jpg",
+     "category": "bricks",
+     "gt": 16,
+     "pred": 16,
+     "tp": 12,
+     "sec": 0.13174819946289062
+    },
+    {
+     "id": "2367.jpg",
+     "category": "bricks",
+     "gt": 149,
+     "pred": 155,
+     "tp": 107,
+     "sec": 0.15732789039611816
+    },
+    {
+     "id": "2369.jpg",
+     "category": "bricks",
+     "gt": 240,
+     "pred": 233,
+     "tp": 232,
+     "sec": 0.16055774688720703
+    },
+    {
+     "id": "2373.jpg",
+     "category": "bricks",
+     "gt": 130,
+     "pred": 139,
+     "tp": 97,
+     "sec": 0.14681077003479004
+    },
+    {
+     "id": "2378.jpg",
+     "category": "bricks",
+     "gt": 62,
+     "pred": 52,
+     "tp": 45,
+     "sec": 0.1363539695739746
+    },
+    {
+     "id": "2379.jpg",
+     "category": "bricks",
+     "gt": 119,
+     "pred": 112,
+     "tp": 97,
+     "sec": 0.5453884601593018
+    },
+    {
+     "id": "2387.jpg",
+     "category": "bricks",
+     "gt": 12,
+     "pred": 18,
+     "tp": 12,
+     "sec": 0.1376786231994629
+    },
+    {
+     "id": "2390.jpg",
+     "category": "bricks",
+     "gt": 672,
+     "pred": 514,
+     "tp": 505,
+     "sec": 0.6176290512084961
+    },
+    {
+     "id": "2391.jpg",
+     "category": "bricks",
+     "gt": 47,
+     "pred": 31,
+     "tp": 29,
+     "sec": 0.12792468070983887
+    },
+    {
+     "id": "2394.jpg",
+     "category": "bricks",
+     "gt": 237,
+     "pred": 234,
+     "tp": 185,
+     "sec": 0.612330436706543
+    },
+    {
+     "id": "2398.jpg",
+     "category": "bricks",
+     "gt": 72,
+     "pred": 64,
+     "tp": 56,
+     "sec": 0.14566826820373535
+    },
+    {
+     "id": "2399.jpg",
+     "category": "bricks",
+     "gt": 169,
+     "pred": 219,
+     "tp": 114,
+     "sec": 0.5878188610076904
+    },
+    {
+     "id": "2400.jpg",
+     "category": "bricks",
+     "gt": 218,
+     "pred": 206,
+     "tp": 200,
+     "sec": 0.5621945858001709
+    },
+    {
+     "id": "2401.jpg",
+     "category": "bricks",
+     "gt": 263,
+     "pred": 258,
+     "tp": 206,
+     "sec": 0.6109628677368164
+    },
+    {
+     "id": "2402.jpg",
+     "category": "bricks",
+     "gt": 40,
+     "pred": 31,
+     "tp": 27,
+     "sec": 0.13156604766845703
+    },
+    {
+     "id": "2403.jpg",
+     "category": "bricks",
+     "gt": 68,
+     "pred": 58,
+     "tp": 52,
+     "sec": 0.14168787002563477
+    },
+    {
+     "id": "2621.jpg",
+     "category": "cement bags",
+     "gt": 20,
+     "pred": 18,
+     "tp": 13,
+     "sec": 0.13011956214904785
+    },
+    {
+     "id": "2624.jpg",
+     "category": "cement bags",
+     "gt": 46,
+     "pred": 43,
+     "tp": 38,
+     "sec": 0.13461756706237793
+    },
+    {
+     "id": "2625.jpg",
+     "category": "cement bags",
+     "gt": 13,
+     "pred": 14,
+     "tp": 9,
+     "sec": 0.1302483081817627
+    },
+    {
+     "id": "2628.jpg",
+     "category": "cement bags",
+     "gt": 13,
+     "pred": 13,
+     "tp": 12,
+     "sec": 0.1314554214477539
+    },
+    {
+     "id": "2630.jpg",
+     "category": "cement bags",
+     "gt": 17,
+     "pred": 30,
+     "tp": 13,
+     "sec": 0.1354978084564209
+    },
+    {
+     "id": "2631.jpg",
+     "category": "cement bags",
+     "gt": 67,
+     "pred": 74,
+     "tp": 47,
+     "sec": 0.14658665657043457
+    },
+    {
+     "id": "2635.jpg",
+     "category": "cement bags",
+     "gt": 27,
+     "pred": 39,
+     "tp": 17,
+     "sec": 0.1355266571044922
+    },
+    {
+     "id": "2636.jpg",
+     "category": "cement bags",
+     "gt": 67,
+     "pred": 64,
+     "tp": 36,
+     "sec": 0.5183560848236084
+    },
+    {
+     "id": "2637.jpg",
+     "category": "cement bags",
+     "gt": 10,
+     "pred": 23,
+     "tp": 8,
+     "sec": 0.13480520248413086
+    },
+    {
+     "id": "2639.jpg",
+     "category": "cement bags",
+     "gt": 124,
+     "pred": 94,
+     "tp": 65,
+     "sec": 0.2630021572113037
+    },
+    {
+     "id": "2640.jpg",
+     "category": "cement bags",
+     "gt": 39,
+     "pred": 38,
+     "tp": 22,
+     "sec": 0.14402008056640625
+    },
+    {
+     "id": "2641.jpg",
+     "category": "cement bags",
+     "gt": 167,
+     "pred": 148,
+     "tp": 90,
+     "sec": 0.5382263660430908
+    },
+    {
+     "id": "2642.jpg",
+     "category": "cement bags",
+     "gt": 42,
+     "pred": 37,
+     "tp": 34,
+     "sec": 0.13434410095214844
+    },
+    {
+     "id": "2644.jpg",
+     "category": "cement bags",
+     "gt": 56,
+     "pred": 41,
+     "tp": 10,
+     "sec": 1.16440749168396
+    },
+    {
+     "id": "2646.jpg",
+     "category": "cement bags",
+     "gt": 41,
+     "pred": 35,
+     "tp": 17,
+     "sec": 0.1358799934387207
+    },
+    {
+     "id": "2647.jpg",
+     "category": "cement bags",
+     "gt": 38,
+     "pred": 54,
+     "tp": 20,
+     "sec": 0.5271856784820557
+    },
+    {
+     "id": "2648.jpg",
+     "category": "cement bags",
+     "gt": 91,
+     "pred": 87,
+     "tp": 73,
+     "sec": 0.14550328254699707
+    },
+    {
+     "id": "2650.jpg",
+     "category": "cement bags",
+     "gt": 28,
+     "pred": 28,
+     "tp": 23,
+     "sec": 0.12839555740356445
+    },
+    {
+     "id": "2651.jpg",
+     "category": "cement bags",
+     "gt": 34,
+     "pred": 27,
+     "tp": 17,
+     "sec": 0.14047527313232422
+    },
+    {
+     "id": "2769.jpg",
+     "category": "cans",
+     "gt": 66,
+     "pred": 85,
+     "tp": 60,
+     "sec": 0.14053106307983398
+    },
+    {
+     "id": "2770.jpg",
+     "category": "cans",
+     "gt": 108,
+     "pred": 70,
+     "tp": 38,
+     "sec": 0.5256555080413818
+    },
+    {
+     "id": "2771.jpg",
+     "category": "cans",
+     "gt": 63,
+     "pred": 64,
+     "tp": 45,
+     "sec": 0.13707852363586426
+    },
+    {
+     "id": "2772.jpg",
+     "category": "cans",
+     "gt": 44,
+     "pred": 16,
+     "tp": 9,
+     "sec": 0.1307675838470459
+    },
+    {
+     "id": "2774.jpg",
+     "category": "cans",
+     "gt": 101,
+     "pred": 122,
+     "tp": 89,
+     "sec": 0.15043997764587402
+    },
+    {
+     "id": "2775.jpg",
+     "category": "cans",
+     "gt": 1672,
+     "pred": 570,
+     "tp": 537,
+     "sec": 1.8286614418029785
+    },
+    {
+     "id": "2776.jpg",
+     "category": "cans",
+     "gt": 16,
+     "pred": 26,
+     "tp": 16,
+     "sec": 0.13574743270874023
+    },
+    {
+     "id": "2778.jpg",
+     "category": "cans",
+     "gt": 108,
+     "pred": 141,
+     "tp": 82,
+     "sec": 0.5423033237457275
+    },
+    {
+     "id": "2779.jpg",
+     "category": "cans",
+     "gt": 25,
+     "pred": 20,
+     "tp": 18,
+     "sec": 0.13063406944274902
+    },
+    {
+     "id": "2781.jpg",
+     "category": "cans",
+     "gt": 20,
+     "pred": 17,
+     "tp": 16,
+     "sec": 0.13494539260864258
+    },
+    {
+     "id": "2782.jpg",
+     "category": "cans",
+     "gt": 20,
+     "pred": 33,
+     "tp": 20,
+     "sec": 0.13684558868408203
+    },
+    {
+     "id": "2783.jpg",
+     "category": "cans",
+     "gt": 11,
+     "pred": 11,
+     "tp": 10,
+     "sec": 0.13171839714050293
+    },
+    {
+     "id": "2784.jpg",
+     "category": "cans",
+     "gt": 23,
+     "pred": 36,
+     "tp": 20,
+     "sec": 0.1372835636138916
+    },
+    {
+     "id": "2785.jpg",
+     "category": "cans",
+     "gt": 104,
+     "pred": 88,
+     "tp": 82,
+     "sec": 0.13848495483398438
+    },
+    {
+     "id": "2786.jpg",
+     "category": "cans",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.12946057319641113
+    },
+    {
+     "id": "2787.jpg",
+     "category": "cans",
+     "gt": 83,
+     "pred": 56,
+     "tp": 55,
+     "sec": 0.13228774070739746
+    },
+    {
+     "id": "2788.jpg",
+     "category": "cans",
+     "gt": 24,
+     "pred": 25,
+     "tp": 24,
+     "sec": 0.12900757789611816
+    },
+    {
+     "id": "2789.jpg",
+     "category": "cans",
+     "gt": 10,
+     "pred": 11,
+     "tp": 10,
+     "sec": 0.13321971893310547
+    },
+    {
+     "id": "2790.jpg",
+     "category": "cans",
+     "gt": 15,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.13250231742858887
+    },
+    {
+     "id": "2791.jpg",
+     "category": "cans",
+     "gt": 23,
+     "pred": 27,
+     "tp": 13,
+     "sec": 0.13605713844299316
+    },
+    {
+     "id": "2792.jpg",
+     "category": "cans",
+     "gt": 278,
+     "pred": 291,
+     "tp": 119,
+     "sec": 0.8545925617218018
+    },
+    {
+     "id": "2793.jpg",
+     "category": "cans",
+     "gt": 24,
+     "pred": 24,
+     "tp": 24,
+     "sec": 0.12607192993164062
+    },
+    {
+     "id": "2794.jpg",
+     "category": "cans",
+     "gt": 8,
+     "pred": 17,
+     "tp": 8,
+     "sec": 0.12948131561279297
+    },
+    {
+     "id": "2795.jpg",
+     "category": "cans",
+     "gt": 12,
+     "pred": 20,
+     "tp": 12,
+     "sec": 0.13477659225463867
+    },
+    {
+     "id": "2796.jpg",
+     "category": "cans",
+     "gt": 19,
+     "pred": 31,
+     "tp": 16,
+     "sec": 0.12854242324829102
+    },
+    {
+     "id": "2797.jpg",
+     "category": "cans",
+     "gt": 86,
+     "pred": 111,
+     "tp": 73,
+     "sec": 0.5277202129364014
+    },
+    {
+     "id": "2799.jpg",
+     "category": "cans",
+     "gt": 80,
+     "pred": 128,
+     "tp": 72,
+     "sec": 0.15309619903564453
+    },
+    {
+     "id": "2800.jpg",
+     "category": "cans",
+     "gt": 13,
+     "pred": 17,
+     "tp": 13,
+     "sec": 0.132460355758667
+    },
+    {
+     "id": "2802.jpg",
+     "category": "cans",
+     "gt": 10,
+     "pred": 8,
+     "tp": 8,
+     "sec": 0.13355016708374023
+    },
+    {
+     "id": "2803.jpg",
+     "category": "cans",
+     "gt": 61,
+     "pred": 46,
+     "tp": 36,
+     "sec": 0.13040637969970703
+    },
+    {
+     "id": "2804.jpg",
+     "category": "cans",
+     "gt": 16,
+     "pred": 18,
+     "tp": 16,
+     "sec": 0.13376617431640625
+    },
+    {
+     "id": "2805.jpg",
+     "category": "cans",
+     "gt": 40,
+     "pred": 47,
+     "tp": 40,
+     "sec": 0.135390043258667
+    },
+    {
+     "id": "2806.jpg",
+     "category": "cans",
+     "gt": 84,
+     "pred": 41,
+     "tp": 41,
+     "sec": 0.13483166694641113
+    },
+    {
+     "id": "3107.jpg",
+     "category": "nuts",
+     "gt": 80,
+     "pred": 115,
+     "tp": 72,
+     "sec": 0.5297272205352783
+    },
+    {
+     "id": "3108.jpg",
+     "category": "nuts",
+     "gt": 17,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.12822771072387695
+    },
+    {
+     "id": "3109.jpg",
+     "category": "nuts",
+     "gt": 31,
+     "pred": 42,
+     "tp": 27,
+     "sec": 0.5165112018585205
+    },
+    {
+     "id": "3110.jpg",
+     "category": "nuts",
+     "gt": 100,
+     "pred": 94,
+     "tp": 91,
+     "sec": 0.14458560943603516
+    },
+    {
+     "id": "3401.jpg",
+     "category": "nuts",
+     "gt": 42,
+     "pred": 44,
+     "tp": 42,
+     "sec": 0.2663247585296631
+    },
+    {
+     "id": "3402.jpg",
+     "category": "nuts",
+     "gt": 31,
+     "pred": 28,
+     "tp": 28,
+     "sec": 0.1274263858795166
+    },
+    {
+     "id": "3403.jpg",
+     "category": "nuts",
+     "gt": 18,
+     "pred": 20,
+     "tp": 17,
+     "sec": 0.13167929649353027
+    },
+    {
+     "id": "3404.jpg",
+     "category": "nuts",
+     "gt": 85,
+     "pred": 57,
+     "tp": 56,
+     "sec": 0.5233299732208252
+    },
+    {
+     "id": "3405.jpg",
+     "category": "nuts",
+     "gt": 77,
+     "pred": 69,
+     "tp": 65,
+     "sec": 0.13321971893310547
+    },
+    {
+     "id": "3406.jpg",
+     "category": "nuts",
+     "gt": 96,
+     "pred": 81,
+     "tp": 80,
+     "sec": 0.13273406028747559
+    },
+    {
+     "id": "3407.jpg",
+     "category": "nuts",
+     "gt": 17,
+     "pred": 19,
+     "tp": 16,
+     "sec": 0.12923407554626465
+    },
+    {
+     "id": "3408.jpg",
+     "category": "nuts",
+     "gt": 23,
+     "pred": 42,
+     "tp": 23,
+     "sec": 0.1363236904144287
+    },
+    {
+     "id": "3409.jpg",
+     "category": "nuts",
+     "gt": 8,
+     "pred": 13,
+     "tp": 8,
+     "sec": 0.13315868377685547
+    },
+    {
+     "id": "3410.jpg",
+     "category": "nuts",
+     "gt": 59,
+     "pred": 48,
+     "tp": 39,
+     "sec": 0.13293790817260742
+    },
+    {
+     "id": "3411.jpg",
+     "category": "nuts",
+     "gt": 11,
+     "pred": 18,
+     "tp": 11,
+     "sec": 0.13170146942138672
+    },
+    {
+     "id": "3412.jpg",
+     "category": "nuts",
+     "gt": 106,
+     "pred": 75,
+     "tp": 70,
+     "sec": 0.14393973350524902
+    },
+    {
+     "id": "3413.jpg",
+     "category": "nuts",
+     "gt": 65,
+     "pred": 47,
+     "tp": 44,
+     "sec": 0.132216215133667
+    },
+    {
+     "id": "3414.jpg",
+     "category": "nuts",
+     "gt": 67,
+     "pred": 57,
+     "tp": 52,
+     "sec": 0.1332852840423584
+    },
+    {
+     "id": "3415.jpg",
+     "category": "nuts",
+     "gt": 93,
+     "pred": 95,
+     "tp": 76,
+     "sec": 0.5287284851074219
+    },
+    {
+     "id": "3416.jpg",
+     "category": "nuts",
+     "gt": 25,
+     "pred": 25,
+     "tp": 25,
+     "sec": 0.12858104705810547
+    },
+    {
+     "id": "3417.jpg",
+     "category": "nuts",
+     "gt": 61,
+     "pred": 43,
+     "tp": 35,
+     "sec": 0.1535794734954834
+    },
+    {
+     "id": "3418.jpg",
+     "category": "nuts",
+     "gt": 106,
+     "pred": 90,
+     "tp": 86,
+     "sec": 0.13762402534484863
+    },
+    {
+     "id": "3419.jpg",
+     "category": "nuts",
+     "gt": 42,
+     "pred": 40,
+     "tp": 40,
+     "sec": 0.1297745704650879
+    },
+    {
+     "id": "3420.jpg",
+     "category": "nuts",
+     "gt": 53,
+     "pred": 36,
+     "tp": 32,
+     "sec": 0.13625693321228027
+    },
+    {
+     "id": "3421.jpg",
+     "category": "nuts",
+     "gt": 98,
+     "pred": 94,
+     "tp": 84,
+     "sec": 0.14354181289672852
+    },
+    {
+     "id": "3422.jpg",
+     "category": "nuts",
+     "gt": 81,
+     "pred": 1,
+     "tp": 1,
+     "sec": 0.12824034690856934
+    },
+    {
+     "id": "3423.jpg",
+     "category": "nuts",
+     "gt": 49,
+     "pred": 42,
+     "tp": 41,
+     "sec": 0.13933420181274414
+    },
+    {
+     "id": "3660.jpg",
+     "category": "toilet paper rolls",
+     "gt": 18,
+     "pred": 19,
+     "tp": 18,
+     "sec": 0.1317768096923828
+    },
+    {
+     "id": "3661.jpg",
+     "category": "toilet paper rolls",
+     "gt": 9,
+     "pred": 10,
+     "tp": 9,
+     "sec": 0.13410258293151855
+    },
+    {
+     "id": "3662.jpg",
+     "category": "toilet paper rolls",
+     "gt": 10,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.12856006622314453
+    },
+    {
+     "id": "3663.jpg",
+     "category": "toilet paper rolls",
+     "gt": 17,
+     "pred": 17,
+     "tp": 17,
+     "sec": 0.12775754928588867
+    },
+    {
+     "id": "3664.jpg",
+     "category": "toilet paper rolls",
+     "gt": 50,
+     "pred": 49,
+     "tp": 48,
+     "sec": 0.13408899307250977
+    },
+    {
+     "id": "3665.jpg",
+     "category": "toilet paper rolls",
+     "gt": 907,
+     "pred": 403,
+     "tp": 345,
+     "sec": 2.194927215576172
+    },
+    {
+     "id": "3666.jpg",
+     "category": "toilet paper rolls",
+     "gt": 32,
+     "pred": 28,
+     "tp": 24,
+     "sec": 0.12745380401611328
+    },
+    {
+     "id": "3668.jpg",
+     "category": "toilet paper rolls",
+     "gt": 31,
+     "pred": 34,
+     "tp": 27,
+     "sec": 0.1322629451751709
+    },
+    {
+     "id": "3669.jpg",
+     "category": "toilet paper rolls",
+     "gt": 8,
+     "pred": 14,
+     "tp": 8,
+     "sec": 0.128922700881958
+    },
+    {
+     "id": "3670.jpg",
+     "category": "toilet paper rolls",
+     "gt": 36,
+     "pred": 38,
+     "tp": 34,
+     "sec": 0.13638591766357422
+    },
+    {
+     "id": "3671.jpg",
+     "category": "toilet paper rolls",
+     "gt": 15,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.12816286087036133
+    },
+    {
+     "id": "3672.jpg",
+     "category": "toilet paper rolls",
+     "gt": 12,
+     "pred": 13,
+     "tp": 12,
+     "sec": 0.13584160804748535
+    },
+    {
+     "id": "3673.jpg",
+     "category": "toilet paper rolls",
+     "gt": 46,
+     "pred": 63,
+     "tp": 26,
+     "sec": 0.13399219512939453
+    },
+    {
+     "id": "3674.jpg",
+     "category": "toilet paper rolls",
+     "gt": 33,
+     "pred": 31,
+     "tp": 27,
+     "sec": 0.1372830867767334
+    },
+    {
+     "id": "3675.jpg",
+     "category": "toilet paper rolls",
+     "gt": 10,
+     "pred": 22,
+     "tp": 10,
+     "sec": 0.13191699981689453
+    },
+    {
+     "id": "4938.jpg",
+     "category": "tree logs",
+     "gt": 58,
+     "pred": 65,
+     "tp": 43,
+     "sec": 0.13881826400756836
+    },
+    {
+     "id": "4939.jpg",
+     "category": "tree logs",
+     "gt": 20,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.1271345615386963
+    },
+    {
+     "id": "4940.jpg",
+     "category": "tree logs",
+     "gt": 31,
+     "pred": 21,
+     "tp": 21,
+     "sec": 0.13082194328308105
+    },
+    {
+     "id": "4941.jpg",
+     "category": "tree logs",
+     "gt": 175,
+     "pred": 82,
+     "tp": 81,
+     "sec": 0.13095760345458984
+    },
+    {
+     "id": "4942.jpg",
+     "category": "tree logs",
+     "gt": 56,
+     "pred": 40,
+     "tp": 34,
+     "sec": 0.13867592811584473
+    },
+    {
+     "id": "4943.jpg",
+     "category": "tree logs",
+     "gt": 65,
+     "pred": 64,
+     "tp": 54,
+     "sec": 0.14172983169555664
+    },
+    {
+     "id": "4944.jpg",
+     "category": "tree logs",
+     "gt": 49,
+     "pred": 55,
+     "tp": 43,
+     "sec": 0.13338351249694824
+    },
+    {
+     "id": "4945.jpg",
+     "category": "tree logs",
+     "gt": 41,
+     "pred": 69,
+     "tp": 36,
+     "sec": 0.13627934455871582
+    },
+    {
+     "id": "4946.jpg",
+     "category": "tree logs",
+     "gt": 71,
+     "pred": 97,
+     "tp": 61,
+     "sec": 0.1453859806060791
+    },
+    {
+     "id": "4947.jpg",
+     "category": "tree logs",
+     "gt": 205,
+     "pred": 202,
+     "tp": 189,
+     "sec": 0.1587073802947998
+    },
+    {
+     "id": "4948.jpg",
+     "category": "tree logs",
+     "gt": 18,
+     "pred": 21,
+     "tp": 15,
+     "sec": 0.13633370399475098
+    },
+    {
+     "id": "4949.jpg",
+     "category": "tree logs",
+     "gt": 95,
+     "pred": 126,
+     "tp": 87,
+     "sec": 0.14618849754333496
+    },
+    {
+     "id": "4950.jpg",
+     "category": "tree logs",
+     "gt": 33,
+     "pred": 49,
+     "tp": 32,
+     "sec": 0.14101099967956543
+    },
+    {
+     "id": "4951.jpg",
+     "category": "tree logs",
+     "gt": 166,
+     "pred": 158,
+     "tp": 138,
+     "sec": 0.1433238983154297
+    },
+    {
+     "id": "4952.jpg",
+     "category": "tree logs",
+     "gt": 247,
+     "pred": 187,
+     "tp": 176,
+     "sec": 0.1495656967163086
+    },
+    {
+     "id": "4953.jpg",
+     "category": "tree logs",
+     "gt": 51,
+     "pred": 52,
+     "tp": 44,
+     "sec": 0.13625049591064453
+    },
+    {
+     "id": "4954.jpg",
+     "category": "tree logs",
+     "gt": 29,
+     "pred": 37,
+     "tp": 24,
+     "sec": 0.13509654998779297
+    },
+    {
+     "id": "4955.jpg",
+     "category": "tree logs",
+     "gt": 145,
+     "pred": 125,
+     "tp": 109,
+     "sec": 0.14244771003723145
+    },
+    {
+     "id": "4956.jpg",
+     "category": "tree logs",
+     "gt": 102,
+     "pred": 110,
+     "tp": 92,
+     "sec": 0.15538644790649414
+    },
+    {
+     "id": "4957.jpg",
+     "category": "tree logs",
+     "gt": 93,
+     "pred": 94,
+     "tp": 73,
+     "sec": 0.1490161418914795
+    },
+    {
+     "id": "4958.jpg",
+     "category": "tree logs",
+     "gt": 118,
+     "pred": 92,
+     "tp": 78,
+     "sec": 0.1562519073486328
+    },
+    {
+     "id": "4959.jpg",
+     "category": "tree logs",
+     "gt": 31,
+     "pred": 48,
+     "tp": 28,
+     "sec": 0.14569973945617676
+    },
+    {
+     "id": "4960.jpg",
+     "category": "tree logs",
+     "gt": 29,
+     "pred": 46,
+     "tp": 22,
+     "sec": 0.15404152870178223
+    },
+    {
+     "id": "4961.jpg",
+     "category": "tree logs",
+     "gt": 363,
+     "pred": 303,
+     "tp": 296,
+     "sec": 0.566180944442749
+    },
+    {
+     "id": "4962.jpg",
+     "category": "tree logs",
+     "gt": 30,
+     "pred": 47,
+     "tp": 30,
+     "sec": 0.13015127182006836
+    },
+    {
+     "id": "4963.jpg",
+     "category": "tree logs",
+     "gt": 218,
+     "pred": 205,
+     "tp": 200,
+     "sec": 0.16315460205078125
+    },
+    {
+     "id": "4964.jpg",
+     "category": "tree logs",
+     "gt": 51,
+     "pred": 50,
+     "tp": 49,
+     "sec": 0.12885046005249023
+    },
+    {
+     "id": "4965.jpg",
+     "category": "tree logs",
+     "gt": 15,
+     "pred": 8,
+     "tp": 8,
+     "sec": 0.13109183311462402
+    },
+    {
+     "id": "4966.jpg",
+     "category": "tree logs",
+     "gt": 46,
+     "pred": 39,
+     "tp": 30,
+     "sec": 0.13928794860839844
+    },
+    {
+     "id": "4967.jpg",
+     "category": "tree logs",
+     "gt": 19,
+     "pred": 23,
+     "tp": 16,
+     "sec": 0.13231873512268066
+    },
+    {
+     "id": "4969.jpg",
+     "category": "tree logs",
+     "gt": 109,
+     "pred": 97,
+     "tp": 92,
+     "sec": 0.1336216926574707
+    },
+    {
+     "id": "4970.jpg",
+     "category": "tree logs",
+     "gt": 44,
+     "pred": 71,
+     "tp": 38,
+     "sec": 0.13939428329467773
+    },
+    {
+     "id": "5039.jpg",
+     "category": "nuts",
+     "gt": 34,
+     "pred": 35,
+     "tp": 34,
+     "sec": 0.1343526840209961
+    },
+    {
+     "id": "5040.jpg",
+     "category": "nuts",
+     "gt": 8,
+     "pred": 8,
+     "tp": 8,
+     "sec": 0.13088345527648926
+    },
+    {
+     "id": "5041.jpg",
+     "category": "nuts",
+     "gt": 9,
+     "pred": 11,
+     "tp": 9,
+     "sec": 0.1306467056274414
+    },
+    {
+     "id": "5042.jpg",
+     "category": "nuts",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.13222479820251465
+    },
+    {
+     "id": "5150.jpg",
+     "category": "toilet paper rolls",
+     "gt": 57,
+     "pred": 60,
+     "tp": 56,
+     "sec": 0.13331174850463867
+    },
+    {
+     "id": "5151.jpg",
+     "category": "toilet paper rolls",
+     "gt": 32,
+     "pred": 21,
+     "tp": 16,
+     "sec": 0.13022470474243164
+    },
+    {
+     "id": "5152.jpg",
+     "category": "toilet paper rolls",
+     "gt": 8,
+     "pred": 13,
+     "tp": 8,
+     "sec": 0.13062667846679688
+    },
+    {
+     "id": "5153.jpg",
+     "category": "toilet paper rolls",
+     "gt": 15,
+     "pred": 16,
+     "tp": 15,
+     "sec": 0.13107824325561523
+    },
+    {
+     "id": "5154.jpg",
+     "category": "toilet paper rolls",
+     "gt": 32,
+     "pred": 32,
+     "tp": 30,
+     "sec": 0.12835216522216797
+    },
+    {
+     "id": "5155.jpg",
+     "category": "toilet paper rolls",
+     "gt": 10,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.13104033470153809
+    },
+    {
+     "id": "5156.jpg",
+     "category": "toilet paper rolls",
+     "gt": 12,
+     "pred": 16,
+     "tp": 11,
+     "sec": 0.12871289253234863
+    },
+    {
+     "id": "5157.jpg",
+     "category": "toilet paper rolls",
+     "gt": 31,
+     "pred": 28,
+     "tp": 22,
+     "sec": 0.13278722763061523
+    },
+    {
+     "id": "5480.jpg",
+     "category": "nuts",
+     "gt": 14,
+     "pred": 14,
+     "tp": 14,
+     "sec": 0.12833809852600098
+    },
+    {
+     "id": "5481.jpg",
+     "category": "nuts",
+     "gt": 22,
+     "pred": 25,
+     "tp": 20,
+     "sec": 0.1311359405517578
+    },
+    {
+     "id": "5482.jpg",
+     "category": "nuts",
+     "gt": 110,
+     "pred": 91,
+     "tp": 87,
+     "sec": 0.14627790451049805
+    },
+    {
+     "id": "5483.jpg",
+     "category": "nuts",
+     "gt": 12,
+     "pred": 13,
+     "tp": 10,
+     "sec": 0.13039898872375488
+    },
+    {
+     "id": "5484.jpg",
+     "category": "nuts",
+     "gt": 147,
+     "pred": 117,
+     "tp": 117,
+     "sec": 0.13691258430480957
+    },
+    {
+     "id": "5485.jpg",
+     "category": "nuts",
+     "gt": 12,
+     "pred": 11,
+     "tp": 11,
+     "sec": 0.13137316703796387
+    },
+    {
+     "id": "5486.jpg",
+     "category": "nuts",
+     "gt": 10,
+     "pred": 13,
+     "tp": 9,
+     "sec": 0.13257861137390137
+    },
+    {
+     "id": "5487.jpg",
+     "category": "nuts",
+     "gt": 74,
+     "pred": 52,
+     "tp": 48,
+     "sec": 0.14679884910583496
+    },
+    {
+     "id": "5488.jpg",
+     "category": "nuts",
+     "gt": 10,
+     "pred": 14,
+     "tp": 10,
+     "sec": 0.12778115272521973
+    },
+    {
+     "id": "5489.jpg",
+     "category": "nuts",
+     "gt": 99,
+     "pred": 71,
+     "tp": 69,
+     "sec": 0.14453458786010742
+    },
+    {
+     "id": "5490.jpg",
+     "category": "nuts",
+     "gt": 102,
+     "pred": 83,
+     "tp": 81,
+     "sec": 0.13346052169799805
+    },
+    {
+     "id": "5491.jpg",
+     "category": "nuts",
+     "gt": 26,
+     "pred": 27,
+     "tp": 26,
+     "sec": 0.13334107398986816
+    },
+    {
+     "id": "5492.jpg",
+     "category": "nuts",
+     "gt": 23,
+     "pred": 24,
+     "tp": 20,
+     "sec": 0.13204288482666016
+    },
+    {
+     "id": "5493.jpg",
+     "category": "nuts",
+     "gt": 48,
+     "pred": 42,
+     "tp": 38,
+     "sec": 0.1358625888824463
+    },
+    {
+     "id": "5494.jpg",
+     "category": "nuts",
+     "gt": 38,
+     "pred": 43,
+     "tp": 38,
+     "sec": 0.13693022727966309
+    },
+    {
+     "id": "5495.jpg",
+     "category": "nuts",
+     "gt": 23,
+     "pred": 22,
+     "tp": 20,
+     "sec": 0.1337890625
+    },
+    {
+     "id": "5496.jpg",
+     "category": "nuts",
+     "gt": 43,
+     "pred": 41,
+     "tp": 41,
+     "sec": 0.12982583045959473
+    },
+    {
+     "id": "5497.jpg",
+     "category": "nuts",
+     "gt": 39,
+     "pred": 40,
+     "tp": 37,
+     "sec": 0.13904094696044922
+    },
+    {
+     "id": "5499.jpg",
+     "category": "nuts",
+     "gt": 159,
+     "pred": 125,
+     "tp": 118,
+     "sec": 0.15394377708435059
+    },
+    {
+     "id": "5500.jpg",
+     "category": "nuts",
+     "gt": 72,
+     "pred": 50,
+     "tp": 47,
+     "sec": 0.1328730583190918
+    },
+    {
+     "id": "5501.jpg",
+     "category": "nuts",
+     "gt": 20,
+     "pred": 17,
+     "tp": 15,
+     "sec": 0.13010835647583008
+    },
+    {
+     "id": "5502.jpg",
+     "category": "nuts",
+     "gt": 43,
+     "pred": 22,
+     "tp": 22,
+     "sec": 0.14305567741394043
+    },
+    {
+     "id": "5915.jpg",
+     "category": "eggs",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.12722158432006836
+    },
+    {
+     "id": "5916.jpg",
+     "category": "eggs",
+     "gt": 38,
+     "pred": 39,
+     "tp": 34,
+     "sec": 0.5129735469818115
+    },
+    {
+     "id": "5917.jpg",
+     "category": "eggs",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.13023853302001953
+    },
+    {
+     "id": "5918.jpg",
+     "category": "eggs",
+     "gt": 12,
+     "pred": 13,
+     "tp": 12,
+     "sec": 0.12718892097473145
+    },
+    {
+     "id": "5919.jpg",
+     "category": "eggs",
+     "gt": 39,
+     "pred": 36,
+     "tp": 35,
+     "sec": 0.13360214233398438
+    },
+    {
+     "id": "5920.jpg",
+     "category": "eggs",
+     "gt": 18,
+     "pred": 18,
+     "tp": 18,
+     "sec": 0.1291801929473877
+    },
+    {
+     "id": "5921.jpg",
+     "category": "eggs",
+     "gt": 30,
+     "pred": 32,
+     "tp": 29,
+     "sec": 0.1399383544921875
+    },
+    {
+     "id": "5922.jpg",
+     "category": "eggs",
+     "gt": 35,
+     "pred": 35,
+     "tp": 35,
+     "sec": 0.12961173057556152
+    },
+    {
+     "id": "5923.jpg",
+     "category": "eggs",
+     "gt": 13,
+     "pred": 20,
+     "tp": 13,
+     "sec": 0.13540410995483398
+    },
+    {
+     "id": "5924.jpg",
+     "category": "eggs",
+     "gt": 16,
+     "pred": 18,
+     "tp": 15,
+     "sec": 0.13663697242736816
+    },
+    {
+     "id": "5925.jpg",
+     "category": "eggs",
+     "gt": 22,
+     "pred": 14,
+     "tp": 14,
+     "sec": 0.1300802230834961
+    },
+    {
+     "id": "5926.jpg",
+     "category": "eggs",
+     "gt": 10,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.13151240348815918
+    },
+    {
+     "id": "5927.jpg",
+     "category": "eggs",
+     "gt": 11,
+     "pred": 11,
+     "tp": 11,
+     "sec": 0.1319286823272705
+    },
+    {
+     "id": "5928.jpg",
+     "category": "eggs",
+     "gt": 58,
+     "pred": 51,
+     "tp": 46,
+     "sec": 0.12919998168945312
+    },
+    {
+     "id": "5929.jpg",
+     "category": "eggs",
+     "gt": 76,
+     "pred": 77,
+     "tp": 67,
+     "sec": 0.14492249488830566
+    },
+    {
+     "id": "5930.jpg",
+     "category": "eggs",
+     "gt": 14,
+     "pred": 18,
+     "tp": 14,
+     "sec": 0.12916803359985352
+    },
+    {
+     "id": "5931.jpg",
+     "category": "eggs",
+     "gt": 9,
+     "pred": 17,
+     "tp": 9,
+     "sec": 0.1341545581817627
+    },
+    {
+     "id": "5932.jpg",
+     "category": "eggs",
+     "gt": 20,
+     "pred": 23,
+     "tp": 20,
+     "sec": 0.1330571174621582
+    },
+    {
+     "id": "5933.jpg",
+     "category": "eggs",
+     "gt": 12,
+     "pred": 13,
+     "tp": 12,
+     "sec": 0.13325023651123047
+    },
+    {
+     "id": "5934.jpg",
+     "category": "eggs",
+     "gt": 17,
+     "pred": 16,
+     "tp": 16,
+     "sec": 0.12824320793151855
+    },
+    {
+     "id": "5935.jpg",
+     "category": "eggs",
+     "gt": 15,
+     "pred": 11,
+     "tp": 11,
+     "sec": 0.13045930862426758
+    },
+    {
+     "id": "5936.jpg",
+     "category": "eggs",
+     "gt": 18,
+     "pred": 27,
+     "tp": 18,
+     "sec": 0.13323330879211426
+    },
+    {
+     "id": "5937.jpg",
+     "category": "eggs",
+     "gt": 10,
+     "pred": 10,
+     "tp": 8,
+     "sec": 0.13198232650756836
+    },
+    {
+     "id": "5938.jpg",
+     "category": "eggs",
+     "gt": 31,
+     "pred": 30,
+     "tp": 28,
+     "sec": 0.13747310638427734
+    },
+    {
+     "id": "5939.jpg",
+     "category": "eggs",
+     "gt": 8,
+     "pred": 8,
+     "tp": 8,
+     "sec": 0.12937116622924805
+    },
+    {
+     "id": "5940.jpg",
+     "category": "eggs",
+     "gt": 27,
+     "pred": 19,
+     "tp": 19,
+     "sec": 0.12972354888916016
+    },
+    {
+     "id": "5941.jpg",
+     "category": "eggs",
+     "gt": 10,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.13353872299194336
+    },
+    {
+     "id": "5942.jpg",
+     "category": "eggs",
+     "gt": 10,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.12793326377868652
+    },
+    {
+     "id": "5943.jpg",
+     "category": "eggs",
+     "gt": 48,
+     "pred": 33,
+     "tp": 32,
+     "sec": 0.12949800491333008
+    },
+    {
+     "id": "5944.jpg",
+     "category": "eggs",
+     "gt": 15,
+     "pred": 19,
+     "tp": 15,
+     "sec": 0.12993860244750977
+    },
+    {
+     "id": "5999.jpg",
+     "category": "cans",
+     "gt": 15,
+     "pred": 17,
+     "tp": 13,
+     "sec": 0.13213109970092773
+    },
+    {
+     "id": "6000.jpg",
+     "category": "cans",
+     "gt": 42,
+     "pred": 56,
+     "tp": 41,
+     "sec": 0.13562464714050293
+    },
+    {
+     "id": "6198.jpg",
+     "category": "coins",
+     "gt": 16,
+     "pred": 16,
+     "tp": 16,
+     "sec": 0.13591361045837402
+    },
+    {
+     "id": "6199.jpg",
+     "category": "coins",
+     "gt": 153,
+     "pred": 107,
+     "tp": 106,
+     "sec": 0.14969491958618164
+    },
+    {
+     "id": "6200.jpg",
+     "category": "coins",
+     "gt": 52,
+     "pred": 50,
+     "tp": 47,
+     "sec": 0.13635778427124023
+    },
+    {
+     "id": "6201.jpg",
+     "category": "coins",
+     "gt": 33,
+     "pred": 24,
+     "tp": 23,
+     "sec": 0.12759780883789062
+    },
+    {
+     "id": "6202.jpg",
+     "category": "coins",
+     "gt": 119,
+     "pred": 47,
+     "tp": 46,
+     "sec": 0.13451457023620605
+    },
+    {
+     "id": "6203.jpg",
+     "category": "coins",
+     "gt": 38,
+     "pred": 35,
+     "tp": 26,
+     "sec": 0.13838815689086914
+    },
+    {
+     "id": "6204.jpg",
+     "category": "coins",
+     "gt": 14,
+     "pred": 14,
+     "tp": 14,
+     "sec": 0.13092994689941406
+    },
+    {
+     "id": "6205.jpg",
+     "category": "coins",
+     "gt": 50,
+     "pred": 56,
+     "tp": 50,
+     "sec": 0.13522005081176758
+    },
+    {
+     "id": "6206.jpg",
+     "category": "coins",
+     "gt": 74,
+     "pred": 72,
+     "tp": 72,
+     "sec": 0.13782596588134766
+    },
+    {
+     "id": "6207.jpg",
+     "category": "coins",
+     "gt": 68,
+     "pred": 61,
+     "tp": 59,
+     "sec": 0.15788483619689941
+    },
+    {
+     "id": "6208.jpg",
+     "category": "coins",
+     "gt": 97,
+     "pred": 105,
+     "tp": 97,
+     "sec": 0.16222691535949707
+    },
+    {
+     "id": "6209.jpg",
+     "category": "coins",
+     "gt": 283,
+     "pred": 189,
+     "tp": 177,
+     "sec": 0.15259742736816406
+    },
+    {
+     "id": "6210.jpg",
+     "category": "coins",
+     "gt": 11,
+     "pred": 11,
+     "tp": 11,
+     "sec": 0.13052868843078613
+    },
+    {
+     "id": "6211.jpg",
+     "category": "coins",
+     "gt": 16,
+     "pred": 17,
+     "tp": 15,
+     "sec": 0.13199448585510254
+    },
+    {
+     "id": "6212.jpg",
+     "category": "coins",
+     "gt": 10,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.12994956970214844
+    },
+    {
+     "id": "6213.jpg",
+     "category": "coins",
+     "gt": 8,
+     "pred": 8,
+     "tp": 8,
+     "sec": 0.12887096405029297
+    },
+    {
+     "id": "6214.jpg",
+     "category": "coins",
+     "gt": 44,
+     "pred": 55,
+     "tp": 44,
+     "sec": 0.1396028995513916
+    },
+    {
+     "id": "6216.jpg",
+     "category": "coins",
+     "gt": 40,
+     "pred": 48,
+     "tp": 16,
+     "sec": 0.7780518531799316
+    },
+    {
+     "id": "6217.jpg",
+     "category": "coins",
+     "gt": 33,
+     "pred": 39,
+     "tp": 30,
+     "sec": 0.1400768756866455
+    },
+    {
+     "id": "6218.jpg",
+     "category": "coins",
+     "gt": 80,
+     "pred": 41,
+     "tp": 40,
+     "sec": 0.5154592990875244
+    },
+    {
+     "id": "6219.jpg",
+     "category": "coins",
+     "gt": 58,
+     "pred": 46,
+     "tp": 42,
+     "sec": 0.1385176181793213
+    },
+    {
+     "id": "6220.jpg",
+     "category": "coins",
+     "gt": 60,
+     "pred": 39,
+     "tp": 39,
+     "sec": 0.13388586044311523
+    },
+    {
+     "id": "6221.jpg",
+     "category": "coins",
+     "gt": 54,
+     "pred": 39,
+     "tp": 37,
+     "sec": 0.1289198398590088
+    },
+    {
+     "id": "6222.jpg",
+     "category": "coins",
+     "gt": 9,
+     "pred": 9,
+     "tp": 9,
+     "sec": 0.13043427467346191
+    },
+    {
+     "id": "6223.jpg",
+     "category": "coins",
+     "gt": 98,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.1352550983428955
+    },
+    {
+     "id": "6224.jpg",
+     "category": "coins",
+     "gt": 35,
+     "pred": 28,
+     "tp": 28,
+     "sec": 0.1269688606262207
+    },
+    {
+     "id": "6225.jpg",
+     "category": "coins",
+     "gt": 72,
+     "pred": 59,
+     "tp": 22,
+     "sec": 0.5281009674072266
+    },
+    {
+     "id": "6226.jpg",
+     "category": "coins",
+     "gt": 16,
+     "pred": 16,
+     "tp": 16,
+     "sec": 0.13087725639343262
+    },
+    {
+     "id": "6227.jpg",
+     "category": "coins",
+     "gt": 63,
+     "pred": 54,
+     "tp": 54,
+     "sec": 0.14427709579467773
+    },
+    {
+     "id": "6228.jpg",
+     "category": "coins",
+     "gt": 53,
+     "pred": 51,
+     "tp": 49,
+     "sec": 0.1449413299560547
+    },
+    {
+     "id": "6229.jpg",
+     "category": "coins",
+     "gt": 69,
+     "pred": 70,
+     "tp": 51,
+     "sec": 0.13427114486694336
+    },
+    {
+     "id": "6230.jpg",
+     "category": "coins",
+     "gt": 68,
+     "pred": 67,
+     "tp": 67,
+     "sec": 0.13202643394470215
+    },
+    {
+     "id": "6231.jpg",
+     "category": "coins",
+     "gt": 25,
+     "pred": 26,
+     "tp": 25,
+     "sec": 0.1350998878479004
+    },
+    {
+     "id": "6232.jpg",
+     "category": "coins",
+     "gt": 93,
+     "pred": 65,
+     "tp": 57,
+     "sec": 0.14166021347045898
+    },
+    {
+     "id": "6233.jpg",
+     "category": "coins",
+     "gt": 27,
+     "pred": 26,
+     "tp": 21,
+     "sec": 0.13697123527526855
+    },
+    {
+     "id": "6234.jpg",
+     "category": "coins",
+     "gt": 32,
+     "pred": 19,
+     "tp": 18,
+     "sec": 0.1357884407043457
+    },
+    {
+     "id": "6235.jpg",
+     "category": "coins",
+     "gt": 72,
+     "pred": 63,
+     "tp": 63,
+     "sec": 0.13090181350708008
+    },
+    {
+     "id": "6236.jpg",
+     "category": "coins",
+     "gt": 39,
+     "pred": 39,
+     "tp": 39,
+     "sec": 0.13107562065124512
+    },
+    {
+     "id": "6237.jpg",
+     "category": "coins",
+     "gt": 186,
+     "pred": 113,
+     "tp": 111,
+     "sec": 0.14844393730163574
+    },
+    {
+     "id": "6238.jpg",
+     "category": "coins",
+     "gt": 35,
+     "pred": 29,
+     "tp": 29,
+     "sec": 0.13043975830078125
+    },
+    {
+     "id": "6239.jpg",
+     "category": "coins",
+     "gt": 25,
+     "pred": 8,
+     "tp": 8,
+     "sec": 0.12869715690612793
+    },
+    {
+     "id": "6286.jpg",
+     "category": "pills",
+     "gt": 49,
+     "pred": 49,
+     "tp": 40,
+     "sec": 0.5166647434234619
+    },
+    {
+     "id": "6287.jpg",
+     "category": "pills",
+     "gt": 23,
+     "pred": 29,
+     "tp": 19,
+     "sec": 0.13114714622497559
+    },
+    {
+     "id": "6288.jpg",
+     "category": "pills",
+     "gt": 18,
+     "pred": 24,
+     "tp": 18,
+     "sec": 0.5144667625427246
+    },
+    {
+     "id": "6289.jpg",
+     "category": "pills",
+     "gt": 16,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.1306898593902588
+    },
+    {
+     "id": "6290.jpg",
+     "category": "pills",
+     "gt": 31,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.13176655769348145
+    },
+    {
+     "id": "6291.jpg",
+     "category": "pills",
+     "gt": 15,
+     "pred": 27,
+     "tp": 15,
+     "sec": 0.5152609348297119
+    },
+    {
+     "id": "6292.jpg",
+     "category": "pills",
+     "gt": 9,
+     "pred": 7,
+     "tp": 7,
+     "sec": 0.12967371940612793
+    },
+    {
+     "id": "6293.jpg",
+     "category": "pills",
+     "gt": 9,
+     "pred": 8,
+     "tp": 8,
+     "sec": 0.13013935089111328
+    },
+    {
+     "id": "6294.jpg",
+     "category": "pills",
+     "gt": 50,
+     "pred": 32,
+     "tp": 30,
+     "sec": 0.1363227367401123
+    },
+    {
+     "id": "6295.jpg",
+     "category": "pills",
+     "gt": 70,
+     "pred": 65,
+     "tp": 64,
+     "sec": 0.13732337951660156
+    },
+    {
+     "id": "6296.jpg",
+     "category": "pills",
+     "gt": 33,
+     "pred": 33,
+     "tp": 32,
+     "sec": 0.13264894485473633
+    },
+    {
+     "id": "6297.jpg",
+     "category": "pills",
+     "gt": 16,
+     "pred": 18,
+     "tp": 16,
+     "sec": 0.13018107414245605
+    },
+    {
+     "id": "6298.jpg",
+     "category": "pills",
+     "gt": 61,
+     "pred": 52,
+     "tp": 50,
+     "sec": 0.14276671409606934
+    },
+    {
+     "id": "6299.jpg",
+     "category": "pills",
+     "gt": 28,
+     "pred": 28,
+     "tp": 28,
+     "sec": 0.12868833541870117
+    },
+    {
+     "id": "6300.jpg",
+     "category": "pills",
+     "gt": 24,
+     "pred": 28,
+     "tp": 23,
+     "sec": 0.1312263011932373
+    },
+    {
+     "id": "6301.jpg",
+     "category": "pills",
+     "gt": 24,
+     "pred": 23,
+     "tp": 23,
+     "sec": 0.13120627403259277
+    },
+    {
+     "id": "6302.jpg",
+     "category": "pills",
+     "gt": 58,
+     "pred": 63,
+     "tp": 54,
+     "sec": 0.13248038291931152
+    },
+    {
+     "id": "6303.jpg",
+     "category": "pills",
+     "gt": 9,
+     "pred": 14,
+     "tp": 9,
+     "sec": 0.1286780834197998
+    },
+    {
+     "id": "6304.jpg",
+     "category": "pills",
+     "gt": 17,
+     "pred": 16,
+     "tp": 16,
+     "sec": 0.12991547584533691
+    },
+    {
+     "id": "6305.jpg",
+     "category": "pills",
+     "gt": 32,
+     "pred": 18,
+     "tp": 18,
+     "sec": 0.12811708450317383
+    },
+    {
+     "id": "6306.jpg",
+     "category": "pills",
+     "gt": 11,
+     "pred": 11,
+     "tp": 11,
+     "sec": 0.5169939994812012
+    },
+    {
+     "id": "6307.jpg",
+     "category": "pills",
+     "gt": 10,
+     "pred": 10,
+     "tp": 10,
+     "sec": 0.1335921287536621
+    },
+    {
+     "id": "6311.jpg",
+     "category": "roof tiles",
+     "gt": 27,
+     "pred": 33,
+     "tp": 20,
+     "sec": 0.1334526538848877
+    },
+    {
+     "id": "6312.jpg",
+     "category": "roof tiles",
+     "gt": 32,
+     "pred": 22,
+     "tp": 17,
+     "sec": 0.13273096084594727
+    },
+    {
+     "id": "6313.jpg",
+     "category": "roof tiles",
+     "gt": 25,
+     "pred": 29,
+     "tp": 20,
+     "sec": 0.1317753791809082
+    },
+    {
+     "id": "6314.jpg",
+     "category": "roof tiles",
+     "gt": 24,
+     "pred": 28,
+     "tp": 19,
+     "sec": 0.13614273071289062
+    },
+    {
+     "id": "6315.jpg",
+     "category": "roof tiles",
+     "gt": 252,
+     "pred": 167,
+     "tp": 150,
+     "sec": 0.5313217639923096
+    },
+    {
+     "id": "6316.jpg",
+     "category": "roof tiles",
+     "gt": 50,
+     "pred": 44,
+     "tp": 29,
+     "sec": 0.14403414726257324
+    },
+    {
+     "id": "6317.jpg",
+     "category": "roof tiles",
+     "gt": 58,
+     "pred": 65,
+     "tp": 40,
+     "sec": 0.26886987686157227
+    },
+    {
+     "id": "6318.jpg",
+     "category": "roof tiles",
+     "gt": 16,
+     "pred": 19,
+     "tp": 15,
+     "sec": 0.13570642471313477
+    },
+    {
+     "id": "6319.jpg",
+     "category": "roof tiles",
+     "gt": 53,
+     "pred": 31,
+     "tp": 22,
+     "sec": 0.12994885444641113
+    },
+    {
+     "id": "6320.jpg",
+     "category": "roof tiles",
+     "gt": 31,
+     "pred": 33,
+     "tp": 24,
+     "sec": 0.14008259773254395
+    },
+    {
+     "id": "6321.jpg",
+     "category": "roof tiles",
+     "gt": 35,
+     "pred": 46,
+     "tp": 34,
+     "sec": 0.13864612579345703
+    },
+    {
+     "id": "6322.jpg",
+     "category": "roof tiles",
+     "gt": 159,
+     "pred": 90,
+     "tp": 71,
+     "sec": 0.14388513565063477
+    },
+    {
+     "id": "6323.jpg",
+     "category": "roof tiles",
+     "gt": 125,
+     "pred": 116,
+     "tp": 109,
+     "sec": 0.13791799545288086
+    },
+    {
+     "id": "6324.jpg",
+     "category": "roof tiles",
+     "gt": 109,
+     "pred": 218,
+     "tp": 106,
+     "sec": 0.16222047805786133
+    },
+    {
+     "id": "6325.jpg",
+     "category": "roof tiles",
+     "gt": 106,
+     "pred": 90,
+     "tp": 73,
+     "sec": 0.13377904891967773
+    },
+    {
+     "id": "6326.jpg",
+     "category": "roof tiles",
+     "gt": 86,
+     "pred": 73,
+     "tp": 71,
+     "sec": 0.13941144943237305
+    },
+    {
+     "id": "6327.jpg",
+     "category": "roof tiles",
+     "gt": 20,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.1294093132019043
+    },
+    {
+     "id": "6328.jpg",
+     "category": "roof tiles",
+     "gt": 815,
+     "pred": 353,
+     "tp": 296,
+     "sec": 2.1667673587799072
+    },
+    {
+     "id": "6329.jpg",
+     "category": "roof tiles",
+     "gt": 25,
+     "pred": 19,
+     "tp": 17,
+     "sec": 0.12911033630371094
+    },
+    {
+     "id": "6330.jpg",
+     "category": "roof tiles",
+     "gt": 16,
+     "pred": 15,
+     "tp": 10,
+     "sec": 0.13129568099975586
+    },
+    {
+     "id": "6331.jpg",
+     "category": "roof tiles",
+     "gt": 40,
+     "pred": 28,
+     "tp": 28,
+     "sec": 0.13210058212280273
+    },
+    {
+     "id": "6332.jpg",
+     "category": "roof tiles",
+     "gt": 183,
+     "pred": 177,
+     "tp": 91,
+     "sec": 0.5491645336151123
+    },
+    {
+     "id": "6333.jpg",
+     "category": "roof tiles",
+     "gt": 420,
+     "pred": 437,
+     "tp": 299,
+     "sec": 1.7190577983856201
+    },
+    {
+     "id": "6334.jpg",
+     "category": "roof tiles",
+     "gt": 30,
+     "pred": 23,
+     "tp": 21,
+     "sec": 0.13468503952026367
+    },
+    {
+     "id": "6335.jpg",
+     "category": "roof tiles",
+     "gt": 21,
+     "pred": 21,
+     "tp": 15,
+     "sec": 0.13771462440490723
+    },
+    {
+     "id": "6718.jpg",
+     "category": "coins",
+     "gt": 82,
+     "pred": 69,
+     "tp": 69,
+     "sec": 0.12937688827514648
+    },
+    {
+     "id": "6719.jpg",
+     "category": "cans",
+     "gt": 50,
+     "pred": 61,
+     "tp": 43,
+     "sec": 0.13391900062561035
+    },
+    {
+     "id": "6721.jpg",
+     "category": "pills",
+     "gt": 11,
+     "pred": 12,
+     "tp": 11,
+     "sec": 0.131547212600708
+    },
+    {
+     "id": "6731.jpg",
+     "category": "bricks",
+     "gt": 36,
+     "pred": 32,
+     "tp": 31,
+     "sec": 0.12932133674621582
+    },
+    {
+     "id": "6732.jpg",
+     "category": "eggs",
+     "gt": 39,
+     "pred": 22,
+     "tp": 19,
+     "sec": 0.13337087631225586
+    },
+    {
+     "id": "6733.jpg",
+     "category": "eggs",
+     "gt": 24,
+     "pred": 19,
+     "tp": 18,
+     "sec": 0.13061952590942383
+    },
+    {
+     "id": "6748.jpg",
+     "category": "pills",
+     "gt": 27,
+     "pred": 28,
+     "tp": 27,
+     "sec": 0.13105463981628418
+    },
+    {
+     "id": "6756.jpg",
+     "category": "eggs",
+     "gt": 35,
+     "pred": 38,
+     "tp": 35,
+     "sec": 0.13688373565673828
+    },
+    {
+     "id": "6761.jpg",
+     "category": "cans",
+     "gt": 75,
+     "pred": 67,
+     "tp": 67,
+     "sec": 0.13039779663085938
+    },
+    {
+     "id": "6765.jpg",
+     "category": "bottle caps",
+     "gt": 150,
+     "pred": 150,
+     "tp": 150,
+     "sec": 0.15305829048156738
+    },
+    {
+     "id": "6766.jpg",
+     "category": "cans",
+     "gt": 85,
+     "pred": 91,
+     "tp": 81,
+     "sec": 0.13615703582763672
+    },
+    {
+     "id": "6767.jpg",
+     "category": "pills",
+     "gt": 28,
+     "pred": 36,
+     "tp": 23,
+     "sec": 0.1278073787689209
+    },
+    {
+     "id": "6782.jpg",
+     "category": "pills",
+     "gt": 17,
+     "pred": 17,
+     "tp": 17,
+     "sec": 0.1430213451385498
+    },
+    {
+     "id": "6791.jpg",
+     "category": "coins",
+     "gt": 66,
+     "pred": 60,
+     "tp": 55,
+     "sec": 0.7909042835235596
+    },
+    {
+     "id": "6795.jpg",
+     "category": "coins",
+     "gt": 99,
+     "pred": 91,
+     "tp": 82,
+     "sec": 0.7998058795928955
+    },
+    {
+     "id": "6804.jpg",
+     "category": "eggs",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.12741780281066895
+    },
+    {
+     "id": "6807.jpg",
+     "category": "coins",
+     "gt": 107,
+     "pred": 64,
+     "tp": 37,
+     "sec": 0.5265564918518066
+    },
+    {
+     "id": "6818.jpg",
+     "category": "roof tiles",
+     "gt": 128,
+     "pred": 132,
+     "tp": 98,
+     "sec": 0.15506219863891602
+    },
+    {
+     "id": "6834.jpg",
+     "category": "roof tiles",
+     "gt": 270,
+     "pred": 285,
+     "tp": 257,
+     "sec": 0.21549296379089355
+    },
+    {
+     "id": "6835.jpg",
+     "category": "bottle caps",
+     "gt": 138,
+     "pred": 112,
+     "tp": 112,
+     "sec": 0.14100098609924316
+    },
+    {
+     "id": "6840.jpg",
+     "category": "pills",
+     "gt": 19,
+     "pred": 16,
+     "tp": 16,
+     "sec": 0.12990307807922363
+    },
+    {
+     "id": "6844.jpg",
+     "category": "roof tiles",
+     "gt": 429,
+     "pred": 438,
+     "tp": 410,
+     "sec": 0.43632006645202637
+    },
+    {
+     "id": "6846.jpg",
+     "category": "pills",
+     "gt": 28,
+     "pred": 31,
+     "tp": 27,
+     "sec": 0.2606220245361328
+    },
+    {
+     "id": "6852.jpg",
+     "category": "eggs",
+     "gt": 68,
+     "pred": 67,
+     "tp": 67,
+     "sec": 0.13934731483459473
+    },
+    {
+     "id": "6858.jpg",
+     "category": "pills",
+     "gt": 93,
+     "pred": 86,
+     "tp": 85,
+     "sec": 0.13101768493652344
+    },
+    {
+     "id": "6859.jpg",
+     "category": "eggs",
+     "gt": 24,
+     "pred": 24,
+     "tp": 24,
+     "sec": 0.1287555694580078
+    },
+    {
+     "id": "6867.jpg",
+     "category": "cans",
+     "gt": 61,
+     "pred": 63,
+     "tp": 60,
+     "sec": 0.13466835021972656
+    },
+    {
+     "id": "6870.jpg",
+     "category": "roof tiles",
+     "gt": 270,
+     "pred": 287,
+     "tp": 259,
+     "sec": 0.1803603172302246
+    },
+    {
+     "id": "6876.jpg",
+     "category": "eggs",
+     "gt": 58,
+     "pred": 62,
+     "tp": 44,
+     "sec": 0.13649964332580566
+    },
+    {
+     "id": "6879.jpg",
+     "category": "eggs",
+     "gt": 16,
+     "pred": 19,
+     "tp": 16,
+     "sec": 0.1333937644958496
+    },
+    {
+     "id": "6895.jpg",
+     "category": "cement bags",
+     "gt": 31,
+     "pred": 17,
+     "tp": 15,
+     "sec": 0.12839555740356445
+    },
+    {
+     "id": "6903.jpg",
+     "category": "cans",
+     "gt": 46,
+     "pred": 19,
+     "tp": 17,
+     "sec": 0.13111400604248047
+    },
+    {
+     "id": "6910.jpg",
+     "category": "coins",
+     "gt": 46,
+     "pred": 44,
+     "tp": 44,
+     "sec": 0.13071465492248535
+    },
+    {
+     "id": "6911.jpg",
+     "category": "pills",
+     "gt": 39,
+     "pred": 35,
+     "tp": 35,
+     "sec": 0.1339104175567627
+    },
+    {
+     "id": "6924.jpg",
+     "category": "bottle caps",
+     "gt": 30,
+     "pred": 30,
+     "tp": 21,
+     "sec": 0.12852954864501953
+    },
+    {
+     "id": "6925.jpg",
+     "category": "bottle caps",
+     "gt": 84,
+     "pred": 66,
+     "tp": 66,
+     "sec": 0.12883210182189941
+    },
+    {
+     "id": "6928.jpg",
+     "category": "eggs",
+     "gt": 30,
+     "pred": 33,
+     "tp": 30,
+     "sec": 0.13296818733215332
+    },
+    {
+     "id": "6941.jpg",
+     "category": "coins",
+     "gt": 93,
+     "pred": 88,
+     "tp": 71,
+     "sec": 0.5205123424530029
+    },
+    {
+     "id": "6945.jpg",
+     "category": "bricks",
+     "gt": 379,
+     "pred": 449,
+     "tp": 300,
+     "sec": 0.8157784938812256
+    },
+    {
+     "id": "6954.jpg",
+     "category": "eggs",
+     "gt": 78,
+     "pred": 63,
+     "tp": 63,
+     "sec": 0.12765884399414062
+    },
+    {
+     "id": "6972.jpg",
+     "category": "roof tiles",
+     "gt": 134,
+     "pred": 157,
+     "tp": 99,
+     "sec": 0.15140557289123535
+    },
+    {
+     "id": "6974.jpg",
+     "category": "bricks",
+     "gt": 366,
+     "pred": 204,
+     "tp": 170,
+     "sec": 0.5280284881591797
+    },
+    {
+     "id": "6978.jpg",
+     "category": "coins",
+     "gt": 40,
+     "pred": 49,
+     "tp": 36,
+     "sec": 0.13451290130615234
+    },
+    {
+     "id": "6983.jpg",
+     "category": "pills",
+     "gt": 40,
+     "pred": 51,
+     "tp": 40,
+     "sec": 0.14046597480773926
+    },
+    {
+     "id": "6984.jpg",
+     "category": "cement bags",
+     "gt": 89,
+     "pred": 75,
+     "tp": 69,
+     "sec": 0.14368438720703125
+    },
+    {
+     "id": "6988.jpg",
+     "category": "pills",
+     "gt": 24,
+     "pred": 37,
+     "tp": 24,
+     "sec": 0.13272356986999512
+    },
+    {
+     "id": "6989.jpg",
+     "category": "pills",
+     "gt": 76,
+     "pred": 77,
+     "tp": 71,
+     "sec": 0.13295841217041016
+    },
+    {
+     "id": "6996.jpg",
+     "category": "eggs",
+     "gt": 89,
+     "pred": 62,
+     "tp": 59,
+     "sec": 0.13300466537475586
+    },
+    {
+     "id": "6999.jpg",
+     "category": "roof tiles",
+     "gt": 198,
+     "pred": 238,
+     "tp": 165,
+     "sec": 0.18814682960510254
+    },
+    {
+     "id": "7005.jpg",
+     "category": "bricks",
+     "gt": 290,
+     "pred": 304,
+     "tp": 206,
+     "sec": 0.3815791606903076
+    },
+    {
+     "id": "7006.jpg",
+     "category": "pills",
+     "gt": 15,
+     "pred": 19,
+     "tp": 14,
+     "sec": 0.13306927680969238
+    },
+    {
+     "id": "7013.jpg",
+     "category": "pills",
+     "gt": 139,
+     "pred": 66,
+     "tp": 65,
+     "sec": 0.5141828060150146
+    },
+    {
+     "id": "7014.jpg",
+     "category": "cement bags",
+     "gt": 82,
+     "pred": 70,
+     "tp": 58,
+     "sec": 0.14614415168762207
+    },
+    {
+     "id": "7048.jpg",
+     "category": "bricks",
+     "gt": 288,
+     "pred": 406,
+     "tp": 171,
+     "sec": 0.8131043910980225
+    },
+    {
+     "id": "7053.jpg",
+     "category": "cans",
+     "gt": 23,
+     "pred": 26,
+     "tp": 23,
+     "sec": 0.12687397003173828
+    },
+    {
+     "id": "7059.jpg",
+     "category": "roof tiles",
+     "gt": 99,
+     "pred": 103,
+     "tp": 99,
+     "sec": 0.155928373336792
+    },
+    {
+     "id": "7060.jpg",
+     "category": "pills",
+     "gt": 65,
+     "pred": 35,
+     "tp": 32,
+     "sec": 0.26040220260620117
+    },
+    {
+     "id": "7099.jpg",
+     "category": "cement bags",
+     "gt": 42,
+     "pred": 49,
+     "tp": 42,
+     "sec": 0.14041948318481445
+    },
+    {
+     "id": "7101.jpg",
+     "category": "bricks",
+     "gt": 36,
+     "pred": 51,
+     "tp": 34,
+     "sec": 0.14606976509094238
+    },
+    {
+     "id": "7110.jpg",
+     "category": "coins",
+     "gt": 35,
+     "pred": 35,
+     "tp": 35,
+     "sec": 0.13436269760131836
+    },
+    {
+     "id": "7121.jpg",
+     "category": "pills",
+     "gt": 111,
+     "pred": 20,
+     "tp": 20,
+     "sec": 0.13070321083068848
+    },
+    {
+     "id": "7128.jpg",
+     "category": "eggs",
+     "gt": 49,
+     "pred": 46,
+     "tp": 39,
+     "sec": 0.14148330688476562
+    },
+    {
+     "id": "7135.jpg",
+     "category": "cement bags",
+     "gt": 33,
+     "pred": 32,
+     "tp": 26,
+     "sec": 0.13014006614685059
+    },
+    {
+     "id": "7145.jpg",
+     "category": "eggs",
+     "gt": 24,
+     "pred": 24,
+     "tp": 24,
+     "sec": 0.13146162033081055
+    },
+    {
+     "id": "7146.jpg",
+     "category": "eggs",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.13062047958374023
+    },
+    {
+     "id": "7147.jpg",
+     "category": "bricks",
+     "gt": 210,
+     "pred": 162,
+     "tp": 161,
+     "sec": 0.13803982734680176
+    },
+    {
+     "id": "7164.jpg",
+     "category": "pills",
+     "gt": 83,
+     "pred": 83,
+     "tp": 82,
+     "sec": 0.5280485153198242
+    },
+    {
+     "id": "7168.jpg",
+     "category": "bricks",
+     "gt": 66,
+     "pred": 73,
+     "tp": 60,
+     "sec": 0.14435768127441406
+    },
+    {
+     "id": "7173.jpg",
+     "category": "eggs",
+     "gt": 48,
+     "pred": 49,
+     "tp": 48,
+     "sec": 0.13521361351013184
+    },
+    {
+     "id": "7175.jpg",
+     "category": "eggs",
+     "gt": 38,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.13122797012329102
+    },
+    {
+     "id": "7181.jpg",
+     "category": "pills",
+     "gt": 135,
+     "pred": 135,
+     "tp": 135,
+     "sec": 0.14212369918823242
+    },
+    {
+     "id": "7188.jpg",
+     "category": "eggs",
+     "gt": 67,
+     "pred": 32,
+     "tp": 21,
+     "sec": 0.12996339797973633
+    },
+    {
+     "id": "7196.jpg",
+     "category": "cans",
+     "gt": 123,
+     "pred": 96,
+     "tp": 78,
+     "sec": 0.5377609729766846
+    },
+    {
+     "id": "7205.jpg",
+     "category": "eggs",
+     "gt": 113,
+     "pred": 108,
+     "tp": 65,
+     "sec": 0.15565752983093262
+    },
+    {
+     "id": "7226.jpg",
+     "category": "pills",
+     "gt": 74,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.13203835487365723
+    },
+    {
+     "id": "7230.jpg",
+     "category": "roof tiles",
+     "gt": 216,
+     "pred": 219,
+     "tp": 215,
+     "sec": 0.17255401611328125
+    },
+    {
+     "id": "7236.jpg",
+     "category": "cement bags",
+     "gt": 55,
+     "pred": 53,
+     "tp": 45,
+     "sec": 0.13042569160461426
+    },
+    {
+     "id": "7238.jpg",
+     "category": "cans",
+     "gt": 32,
+     "pred": 33,
+     "tp": 32,
+     "sec": 0.1294114589691162
+    },
+    {
+     "id": "7240.jpg",
+     "category": "eggs",
+     "gt": 49,
+     "pred": 49,
+     "tp": 46,
+     "sec": 0.14513659477233887
+    },
+    {
+     "id": "7249.jpg",
+     "category": "pills",
+     "gt": 61,
+     "pred": 44,
+     "tp": 44,
+     "sec": 0.13097620010375977
+    },
+    {
+     "id": "7250.jpg",
+     "category": "pills",
+     "gt": 18,
+     "pred": 24,
+     "tp": 18,
+     "sec": 0.1353437900543213
+    },
+    {
+     "id": "7252.jpg",
+     "category": "cement bags",
+     "gt": 170,
+     "pred": 93,
+     "tp": 93,
+     "sec": 0.1378180980682373
+    },
+    {
+     "id": "7260.jpg",
+     "category": "pills",
+     "gt": 193,
+     "pred": 51,
+     "tp": 51,
+     "sec": 0.13242745399475098
+    },
+    {
+     "id": "7266.jpg",
+     "category": "pills",
+     "gt": 118,
+     "pred": 115,
+     "tp": 102,
+     "sec": 0.13890600204467773
+    },
+    {
+     "id": "7272.jpg",
+     "category": "bricks",
+     "gt": 143,
+     "pred": 83,
+     "tp": 44,
+     "sec": 0.13953733444213867
+    },
+    {
+     "id": "7277.jpg",
+     "category": "eggs",
+     "gt": 26,
+     "pred": 26,
+     "tp": 25,
+     "sec": 0.12812089920043945
+    },
+    {
+     "id": "7285.jpg",
+     "category": "roof tiles",
+     "gt": 312,
+     "pred": 309,
+     "tp": 290,
+     "sec": 0.2107076644897461
+    },
+    {
+     "id": "7296.jpg",
+     "category": "cans",
+     "gt": 22,
+     "pred": 23,
+     "tp": 22,
+     "sec": 0.1339874267578125
+    },
+    {
+     "id": "7318.jpg",
+     "category": "pills",
+     "gt": 30,
+     "pred": 30,
+     "tp": 30,
+     "sec": 0.129319429397583
+    },
+    {
+     "id": "7320.jpg",
+     "category": "cans",
+     "gt": 34,
+     "pred": 34,
+     "tp": 34,
+     "sec": 0.13260865211486816
+    },
+    {
+     "id": "7323.jpg",
+     "category": "coins",
+     "gt": 21,
+     "pred": 13,
+     "tp": 12,
+     "sec": 0.5220198631286621
+    },
+    {
+     "id": "7346.jpg",
+     "category": "bottle caps",
+     "gt": 144,
+     "pred": 144,
+     "tp": 144,
+     "sec": 0.13482069969177246
+    },
+    {
+     "id": "7352.jpg",
+     "category": "roof tiles",
+     "gt": 352,
+     "pred": 356,
+     "tp": 333,
+     "sec": 0.21151328086853027
+    },
+    {
+     "id": "7356.jpg",
+     "category": "bricks",
+     "gt": 136,
+     "pred": 101,
+     "tp": 101,
+     "sec": 0.26093602180480957
+    },
+    {
+     "id": "7367.jpg",
+     "category": "pills",
+     "gt": 27,
+     "pred": 22,
+     "tp": 18,
+     "sec": 0.5186679363250732
+    },
+    {
+     "id": "7370.jpg",
+     "category": "eggs",
+     "gt": 11,
+     "pred": 11,
+     "tp": 11,
+     "sec": 0.12819600105285645
+    },
+    {
+     "id": "7380.jpg",
+     "category": "coins",
+     "gt": 63,
+     "pred": 62,
+     "tp": 62,
+     "sec": 0.12885689735412598
+    },
+    {
+     "id": "7407.jpg",
+     "category": "roof tiles",
+     "gt": 152,
+     "pred": 150,
+     "tp": 150,
+     "sec": 0.14428210258483887
+    },
+    {
+     "id": "7424.jpg",
+     "category": "eggs",
+     "gt": 145,
+     "pred": 76,
+     "tp": 72,
+     "sec": 0.132033109664917
+    },
+    {
+     "id": "7436.jpg",
+     "category": "pills",
+     "gt": 283,
+     "pred": 280,
+     "tp": 279,
+     "sec": 0.1542360782623291
+    },
+    {
+     "id": "7437.jpg",
+     "category": "cans",
+     "gt": 131,
+     "pred": 130,
+     "tp": 126,
+     "sec": 0.16077733039855957
+    },
+    {
+     "id": "7451.jpg",
+     "category": "cement bags",
+     "gt": 30,
+     "pred": 27,
+     "tp": 27,
+     "sec": 0.12731599807739258
+    },
+    {
+     "id": "7452.jpg",
+     "category": "eggs",
+     "gt": 85,
+     "pred": 49,
+     "tp": 49,
+     "sec": 0.1422867774963379
+    },
+    {
+     "id": "7454.jpg",
+     "category": "roof tiles",
+     "gt": 197,
+     "pred": 344,
+     "tp": 50,
+     "sec": 0.6726672649383545
+    },
+    {
+     "id": "7478.jpg",
+     "category": "bricks",
+     "gt": 50,
+     "pred": 45,
+     "tp": 43,
+     "sec": 0.12938904762268066
+    },
+    {
+     "id": "7481.jpg",
+     "category": "pills",
+     "gt": 27,
+     "pred": 34,
+     "tp": 23,
+     "sec": 0.13613462448120117
+    },
+    {
+     "id": "7492.jpg",
+     "category": "coins",
+     "gt": 76,
+     "pred": 82,
+     "tp": 76,
+     "sec": 0.14913654327392578
+    },
+    {
+     "id": "7503.jpg",
+     "category": "pills",
+     "gt": 22,
+     "pred": 23,
+     "tp": 22,
+     "sec": 0.1307680606842041
+    },
+    {
+     "id": "7514.jpg",
+     "category": "eggs",
+     "gt": 28,
+     "pred": 28,
+     "tp": 28,
+     "sec": 0.13217425346374512
+    },
+    {
+     "id": "7527.jpg",
+     "category": "eggs",
+     "gt": 47,
+     "pred": 47,
+     "tp": 47,
+     "sec": 0.13161492347717285
+    },
+    {
+     "id": "7548.jpg",
+     "category": "roof tiles",
+     "gt": 403,
+     "pred": 369,
+     "tp": 362,
+     "sec": 0.3526194095611572
+    },
+    {
+     "id": "7559.jpg",
+     "category": "cans",
+     "gt": 34,
+     "pred": 55,
+     "tp": 32,
+     "sec": 0.1361539363861084
+    },
+    {
+     "id": "7570.jpg",
+     "category": "coins",
+     "gt": 92,
+     "pred": 64,
+     "tp": 20,
+     "sec": 0.7852823734283447
+    },
+    {
+     "id": "7580.jpg",
+     "category": "eggs",
+     "gt": 15,
+     "pred": 15,
+     "tp": 15,
+     "sec": 0.12736153602600098
+    },
+    {
+     "id": "7582.jpg",
+     "category": "pills",
+     "gt": 25,
+     "pred": 25,
+     "tp": 25,
+     "sec": 0.1316218376159668
+    },
+    {
+     "id": "7593.jpg",
+     "category": "bottle caps",
+     "gt": 274,
+     "pred": 251,
+     "tp": 251,
+     "sec": 0.5410780906677246
+    },
+    {
+     "id": "7595.jpg",
+     "category": "eggs",
+     "gt": 30,
+     "pred": 30,
+     "tp": 30,
+     "sec": 0.13428664207458496
+    },
+    {
+     "id": "7600.jpg",
+     "category": "bottle caps",
+     "gt": 452,
+     "pred": 452,
+     "tp": 447,
+     "sec": 0.5698387622833252
+    },
+    {
+     "id": "7603.jpg",
+     "category": "bricks",
+     "gt": 1400,
+     "pred": 902,
+     "tp": 664,
+     "sec": 1.3102777004241943
+    },
+    {
+     "id": "7605.jpg",
+     "category": "eggs",
+     "gt": 20,
+     "pred": 20,
+     "tp": 20,
+     "sec": 0.12993168830871582
+    },
+    {
+     "id": "7617.jpg",
+     "category": "eggs",
+     "gt": 17,
+     "pred": 19,
+     "tp": 17,
+     "sec": 0.1308293342590332
+    },
+    {
+     "id": "7642.jpg",
+     "category": "coins",
+     "gt": 46,
+     "pred": 44,
+     "tp": 43,
+     "sec": 0.13442015647888184
+    },
+    {
+     "id": "7659.jpg",
+     "category": "pills",
+     "gt": 198,
+     "pred": 198,
+     "tp": 198,
+     "sec": 0.15131545066833496
+    },
+    {
+     "id": "7668.jpg",
+     "category": "eggs",
+     "gt": 23,
+     "pred": 21,
+     "tp": 21,
+     "sec": 0.1302039623260498
+    },
+    {
+     "id": "7669.jpg",
+     "category": "cans",
+     "gt": 61,
+     "pred": 56,
+     "tp": 55,
+     "sec": 0.13097238540649414
+    },
+    {
+     "id": "7673.jpg",
+     "category": "pills",
+     "gt": 15,
+     "pred": 21,
+     "tp": 15,
+     "sec": 0.13276267051696777
+    },
+    {
+     "id": "7681.jpg",
+     "category": "coins",
+     "gt": 58,
+     "pred": 56,
+     "tp": 56,
+     "sec": 0.13164687156677246
+    },
+    {
+     "id": "7682.jpg",
+     "category": "eggs",
+     "gt": 24,
+     "pred": 31,
+     "tp": 23,
+     "sec": 0.1426384449005127
+    },
+    {
+     "id": "7689.jpg",
+     "category": "eggs",
+     "gt": 12,
+     "pred": 12,
+     "tp": 12,
+     "sec": 0.12900161743164062
+    },
+    {
+     "id": "7714.jpg",
+     "category": "eggs",
+     "gt": 46,
+     "pred": 47,
+     "tp": 46,
+     "sec": 0.131727933883667
+    },
+    {
+     "id": "799.jpg",
+     "category": "bricks",
+     "gt": 268,
+     "pred": 259,
+     "tp": 192,
+     "sec": 0.6337671279907227
+    },
+    {
+     "id": "801.jpg",
+     "category": "bricks",
+     "gt": 199,
+     "pred": 121,
+     "tp": 83,
+     "sec": 0.5721025466918945
+    },
+    {
+     "id": "802.jpg",
+     "category": "bricks",
+     "gt": 28,
+     "pred": 22,
+     "tp": 22,
+     "sec": 0.13894081115722656
+    },
+    {
+     "id": "803.jpg",
+     "category": "bricks",
+     "gt": 61,
+     "pred": 46,
+     "tp": 44,
+     "sec": 0.14337420463562012
+    },
+    {
+     "id": "804.jpg",
+     "category": "bricks",
+     "gt": 1001,
+     "pred": 992,
+     "tp": 525,
+     "sec": 1.570556879043579
+    },
+    {
+     "id": "805.jpg",
+     "category": "bricks",
+     "gt": 1095,
+     "pred": 920,
+     "tp": 772,
+     "sec": 1.8564271926879883
+    },
+    {
+     "id": "806.jpg",
+     "category": "bricks",
+     "gt": 68,
+     "pred": 76,
+     "tp": 57,
+     "sec": 0.13576912879943848
+    },
+    {
+     "id": "807.jpg",
+     "category": "bottle caps",
+     "gt": 36,
+     "pred": 36,
+     "tp": 36,
+     "sec": 0.13552021980285645
+    },
+    {
+     "id": "808.jpg",
+     "category": "bottle caps",
+     "gt": 182,
+     "pred": 154,
+     "tp": 152,
+     "sec": 0.14387178421020508
+    },
+    {
+     "id": "809.jpg",
+     "category": "bottle caps",
+     "gt": 323,
+     "pred": 330,
+     "tp": 316,
+     "sec": 0.6191370487213135
+    },
+    {
+     "id": "810.jpg",
+     "category": "bottle caps",
+     "gt": 22,
+     "pred": 22,
+     "tp": 21,
+     "sec": 0.13259100914001465
+    },
+    {
+     "id": "811.jpg",
+     "category": "bottle caps",
+     "gt": 17,
+     "pred": 19,
+     "tp": 16,
+     "sec": 0.13519835472106934
+    },
+    {
+     "id": "812.jpg",
+     "category": "bottle caps",
+     "gt": 51,
+     "pred": 37,
+     "tp": 37,
+     "sec": 0.5207576751708984
+    },
+    {
+     "id": "813.jpg",
+     "category": "bottle caps",
+     "gt": 185,
+     "pred": 169,
+     "tp": 167,
+     "sec": 0.14754939079284668
+    },
+    {
+     "id": "814.jpg",
+     "category": "bottle caps",
+     "gt": 21,
+     "pred": 22,
+     "tp": 21,
+     "sec": 0.13205504417419434
+    },
+    {
+     "id": "817.jpg",
+     "category": "bottle caps",
+     "gt": 34,
+     "pred": 35,
+     "tp": 34,
+     "sec": 0.13459515571594238
+    },
+    {
+     "id": "819.jpg",
+     "category": "bottle caps",
+     "gt": 40,
+     "pred": 42,
+     "tp": 40,
+     "sec": 0.13892865180969238
+    },
+    {
+     "id": "820.jpg",
+     "category": "bottle caps",
+     "gt": 437,
+     "pred": 405,
+     "tp": 405,
+     "sec": 0.5522212982177734
+    },
+    {
+     "id": "822.jpg",
+     "category": "bottle caps",
+     "gt": 53,
+     "pred": 60,
+     "tp": 52,
+     "sec": 0.5280697345733643
+    },
+    {
+     "id": "823.jpg",
+     "category": "bottle caps",
+     "gt": 195,
+     "pred": 143,
+     "tp": 138,
+     "sec": 0.13768887519836426
+    },
+    {
+     "id": "824.jpg",
+     "category": "bottle caps",
+     "gt": 9,
+     "pred": 9,
+     "tp": 9,
+     "sec": 0.134138822555542
+    },
+    {
+     "id": "825.jpg",
+     "category": "bottle caps",
+     "gt": 50,
+     "pred": 40,
+     "tp": 38,
+     "sec": 0.13532042503356934
+    },
+    {
+     "id": "826.jpg",
+     "category": "bottle caps",
+     "gt": 70,
+     "pred": 73,
+     "tp": 70,
+     "sec": 0.13964247703552246
+    },
+    {
+     "id": "827.jpg",
+     "category": "bottle caps",
+     "gt": 40,
+     "pred": 40,
+     "tp": 40,
+     "sec": 0.1332716941833496
+    },
+    {
+     "id": "828.jpg",
+     "category": "bottle caps",
+     "gt": 87,
+     "pred": 68,
+     "tp": 66,
+     "sec": 0.14166688919067383
+    },
+    {
+     "id": "830.jpg",
+     "category": "bottle caps",
+     "gt": 577,
+     "pred": 571,
+     "tp": 571,
+     "sec": 0.7532427310943604
+    },
+    {
+     "id": "831.jpg",
+     "category": "bottle caps",
+     "gt": 117,
+     "pred": 116,
+     "tp": 116,
+     "sec": 0.1320209503173828
+    },
+    {
+     "id": "832.jpg",
+     "category": "bottle caps",
+     "gt": 116,
+     "pred": 135,
+     "tp": 108,
+     "sec": 0.1384902000427246
+    },
+    {
+     "id": "833.jpg",
+     "category": "bottle caps",
+     "gt": 54,
+     "pred": 22,
+     "tp": 20,
+     "sec": 0.13193011283874512
+    },
+    {
+     "id": "834.jpg",
+     "category": "bottle caps",
+     "gt": 80,
+     "pred": 80,
+     "tp": 80,
+     "sec": 0.14243364334106445
+    }
+   ]
+  }
+ }
+}
