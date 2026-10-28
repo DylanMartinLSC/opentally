@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Even SOTA AI can’t count a crowd</title>
+<style>
+  /* One fixed 1200 x 1500 frame (4:5, shows uncropped on X). Dark, single look.
+     Display: Bahnschrift (condensed, set like a measuring tape). Body: Segoe UI. */
+  :root {
+    --bg: #15181d;
+    --panel: #1c2027;
+    --line: #2b3039;
+    --ink: #f3f1ea;
+    --ink-2: #b7bcc4;
+    --ink-3: #868c96;
+    --sam: #1baf7a;
+    --owl: #d95926;
+    --base: #7d838c;
+    --brand: #e8590c;
+    --display: "Bahnschrift", "DIN Alternate", "Arial Narrow", sans-serif;
+    --body: "Segoe UI", "Segoe UI Variable", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { width: 1200px; height: 1500px; background: var(--bg); color: var(--ink); font-family: var(--body); overflow: hidden; }
+  .frame { height: 100%; padding: 50px 64px 40px; display: flex; flex-direction: column; gap: 24px; }
+
+  .kicker { font-family: var(--display); font-size: 20px; letter-spacing: .16em; color: var(--ink-3); text-transform: uppercase; display: flex; align-items: center; gap: 14px; }
+  .tally { display: inline-flex; gap: 4px; align-items: flex-end; height: 20px; position: relative; }
+  .tally i { width: 3px; height: 20px; background: var(--brand); border-radius: 2px; }
+  .tally b { position: absolute; left: -3px; top: 8px; width: 30px; height: 3px; background: var(--brand); border-radius: 2px; transform: rotate(-24deg); }
+  h1 { font-family: var(--display); font-weight: 700; font-size: 80px; line-height: .98; letter-spacing: -.01em; margin: 14px 0 0; text-wrap: balance; }
+  h1 em { font-style: normal; color: var(--sam); }
+  .sub { font-size: 25px; line-height: 1.35; color: var(--ink-2); margin: 16px 0 0; max-width: 960px; }
+  .sub strong { color: var(--ink); font-weight: 600; }
+
+  .waffles { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .wcard { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 22px 26px; display: grid; grid-template-columns: auto 1fr; gap: 26px; align-items: center; }
+  .wcard svg { display: block; }
+  .big { font-family: var(--display); font-weight: 700; font-size: 104px; line-height: .9; font-variant-numeric: tabular-nums; }
+  .big.good { color: var(--sam); }
+  .big.bad { color: var(--ink); }
+  .wlabel { font-size: 21px; line-height: 1.3; color: var(--ink-2); margin-top: 10px; }
+  .wlabel strong { color: var(--ink); font-weight: 600; }
+  .note { font-size: 16px; color: var(--ink-3); margin-top: -10px; }
+
+  .chartcard { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 24px 28px 14px; }
+  .chartcard h2 { margin: 0; font-family: var(--display); font-weight: 600; font-size: 30px; }
+  .chartcard p { margin: 4px 0 0; font-size: 17px; color: var(--ink-3); }
+
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .stat { border-top: 3px solid var(--line); padding-top: 14px; }
+  .stat .n { font-family: var(--display); font-weight: 700; font-size: 50px; line-height: 1; font-variant-numeric: tabular-nums; }
+  .stat .t { font-size: 18px; line-height: 1.38; color: var(--ink-2); margin-top: 8px; }
+  .stat.sam { border-top-color: var(--sam); }
+  .stat.owl { border-top-color: var(--owl); }
+
+  footer { margin-top: auto; display: grid; grid-template-columns: auto 1fr; gap: 4px 20px; align-items: center; padding-top: 18px; border-top: 1px solid var(--line); }
+  .logo { grid-row: span 2; display: grid; grid-template-columns: 16px 16px; gap: 5px; padding: 9px; background: var(--brand); border-radius: 12px; }
+  .logo i { width: 16px; height: 16px; border-radius: 50%; background: #fff; }
+  .logo i:last-child { opacity: .45; }
+  .brand { font-size: 23px; color: var(--ink-2); }
+  .brand strong { font-family: var(--display); font-size: 30px; color: var(--ink); font-weight: 700; margin-right: 10px; }
+  .url { font-family: var(--display); font-size: 30px; color: var(--ink); letter-spacing: .01em; }
+  .fine { grid-column: 1 / -1; font-size: 14px; line-height: 1.4; color: var(--ink-3); margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <header>
+    <div class="kicker"><span class="tally"><i></i><i></i><i></i><i></i><b></b></span>OpenTally benchmark · 578 real photos</div>
+    <h1>Even state-of-the-art AI<br>can’t count a <em>crowd</em></h1>
+    <p class="sub">Meta's <strong>SAM 3</strong> was the most accurate counter we tested, from one sample box per photo. <strong>Then the photos got crowded.</strong></p>
+  </header>
+
+  <section class="waffles">
+    <div class="wcard">
+      <svg id="w1" width="210" height="210" aria-label="95 of 100 dots filled"></svg>
+      <div><div class="big good">95%</div><div class="wlabel">of items found in photos with <strong>fewer than 20</strong></div></div>
+    </div>
+    <div class="wcard">
+      <svg id="w2" width="210" height="210" aria-label="7 of 100 dots filled"></svg>
+      <div><div class="big bad">7%</div><div class="wlabel">of items found in photos with <strong>200 or more</strong></div></div>
+    </div>
+  </section>
+  <div class="note">SAM 3 recall on FSC-147. Each dot is 1% of the items in the photo.</div>
+
+  <section class="chartcard">
+    <h2>Counted within 10% of the true number</h2>
+    <p>Share of photos, by how many items are in the photo</p>
+    <svg id="cliff" width="1070" height="306"></svg>
+  </section>
+
+  <section class="stats">
+    <div class="stat sam"><div class="n">4× slower</div><div class="t">SAM 3 takes 0.52 s a photo. OWLv2 takes 0.12 s; the free built-in engine, 0.03 s.</div></div>
+    <div class="stat sam"><div class="n">46%</div><div class="t">of SAM 3's marks land on the right kind when look-alike items share a photo.</div></div>
+    <div class="stat owl"><div class="n">48% → 73%</div><div class="t">OWLv2's recall at 200+ items once crowded photos are split into tiles. The same trick didn't help SAM 3.</div></div>
+  </section>
+
+  <footer>
+    <div class="logo"><i></i><i></i><i></i><i></i></div>
+    <div class="brand"><strong>OpenTally</strong>Free, offline, open-source photo counter. Draw a box, count them all.</div>
+    <div class="url">github.com/DylanMartinLSC/opentally</div>
+    <div class="fine">FSC-147 (Ranjan et al., CVPR 2021): 578 photos in 11 everyday categories, from pills and coins to bricks and logs. MixCount (Dumery et al., CC BY 4.0) for look-alike kinds. One sample box per photo, confidence 0.6, RTX 3090. Full method in the repo.</div>
+  </footer>
+</div>
+
+<script>
+  const NS = 'http://www.w3.org/2000/svg';
+  const el = (name, attrs, parent, text) => {
+    const n = document.createElementNS(NS, name);
+    for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+    if (text != null) n.textContent = text;
+    parent.appendChild(n);
+    return n;
+  };
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+  // 10 x 10 dot grids: filled dots in reading order.
+  function waffle(id, filled, color) {
+    const svg = document.getElementById(id);
+    const cell = 21, r = 7.8;
+    for (let i = 0; i < 100; i++) {
+      const cx = (i % 10) * cell + cell / 2, cy = Math.floor(i / 10) * cell + cell / 2;
+      if (i < filled) el('circle', { cx, cy, r, fill: color }, svg);
+      else el('circle', { cx, cy, r: r - 1, fill: 'none', stroke: css('--line'), 'stroke-width': 2 }, svg);
+    }
+  }
+  waffle('w1', 95, css('--sam'));
+  waffle('w2', 7, css('--sam'));
+
+  // The cliff: share of photos within 10%, by items per photo (FSC-147, confidence 0.6).
+  const buckets = ['<20', '20–49', '50–99', '100–199', '200+'];
+  const series = [
+    { name: 'Built-in', color: css('--base'), width: 3, values: [0.153, 0.247, 0.153, 0.233, 0.138] },
+    { name: 'OWLv2 (tiled)', color: css('--owl'), width: 3, values: [0.532, 0.441, 0.379, 0.256, 0.517] },
+    { name: 'SAM 3', color: css('--sam'), width: 6, values: [0.823, 0.661, 0.613, 0.163, 0.0] },
+  ];
+  const svg = document.getElementById('cliff');
+  const W = +svg.getAttribute('width'), H = +svg.getAttribute('height');
+  const m = { t: 22, r: 236, b: 52, l: 58 };
+  const x = (i) => m.l + (i / (buckets.length - 1)) * (W - m.l - m.r);
+  const y = (v) => m.t + (1 - v) * (H - m.t - m.b);
+  const ink3 = css('--ink-3'), ink = css('--ink'), line = css('--line');
+  for (const v of [0, 0.25, 0.5, 0.75, 1]) {
+    el('line', { x1: m.l, x2: W - m.r + 12, y1: y(v), y2: y(v), stroke: line, 'stroke-width': v === 0 ? 2 : 1 }, svg);
+    el('text', { x: m.l - 12, y: y(v), 'text-anchor': 'end', 'dominant-baseline': 'middle', fill: ink3, 'font-size': 17, 'font-family': css('--display') }, svg, `${v * 100}%`);
+  }
+  buckets.forEach((b, i) => {
+    el('text', { x: x(i), y: H - m.b + 28, 'text-anchor': 'middle', fill: ink, 'font-size': 20, 'font-family': css('--display') }, svg, b);
+  });
+  el('text', { x: x(buckets.length - 1), y: H - 2, 'text-anchor': 'middle', fill: ink3, 'font-size': 15, 'font-family': css('--body') }, svg, 'items in the photo');
+
+  // Shade the crowded zone where SAM 3 falls off.
+  const zone = el('rect', { x: (x(2) + x(3)) / 2, y: m.t, width: W - m.r + 12 - (x(2) + x(3)) / 2, height: H - m.t - m.b, fill: css('--sam'), opacity: 0.07 }, svg);
+  svg.insertBefore(zone, svg.firstChild);
+
+  for (const s of series) {
+    const d = s.values.map((v, i) => `${i ? 'L' : 'M'}${x(i)},${y(v)}`).join(' ');
+    el('path', { d, fill: 'none', stroke: s.color, 'stroke-width': s.width, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, svg);
+    s.values.forEach((v, i) => el('circle', { cx: x(i), cy: y(v), r: s.width + 2, fill: s.color, stroke: css('--panel'), 'stroke-width': 3 }, svg));
+  }
+  // Direct labels at the right end, nudged apart so they never touch.
+  const ends = series.map((s) => ({ s, y: y(s.values.at(-1)) })).sort((a, b) => b.y - a.y);
+  ends[0].y = Math.min(ends[0].y, y(0) - 18);
+  for (let i = 1; i < ends.length; i++) if (ends[i - 1].y - ends[i].y < 52) ends[i].y = ends[i - 1].y - 52;
+  for (const { s, y: ly } of ends) {
+    const v = s.values.at(-1);
+    el('text', { x: W - m.r + 44, y: ly - 4, fill: s.color, 'font-size': s.name === 'SAM 3' ? 26 : 21, 'font-weight': 700, 'font-family': css('--display') }, svg, s.name);
+    el('text', { x: W - m.r + 44, y: ly + 20, fill: s.name === 'SAM 3' ? ink : css('--ink-2'), 'font-size': 19, 'font-family': css('--display') }, svg, `${Math.round(v * 100)}% at 200+`);
+  }
+  // Callout on SAM 3's drop.
+  const cx = (x(2) + x(3)) / 2 + 14, cy = y(0.62) - 6;
+  el('text', { x: cx, y: cy, fill: ink, 'font-size': 22, 'font-weight': 700, 'font-family': css('--display') }, svg, 'SAM 3: 61% → 0%');
+  el('text', { x: cx, y: cy + 24, fill: css('--ink-2'), 'font-size': 17, 'font-family': css('--body') }, svg, 'once photos pass 100 items');
+</script>
+</body>
+</html>

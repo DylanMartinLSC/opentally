@@ -13,6 +13,10 @@ the tally.
   (cluttered shelves, mixed items, low contrast), or type what to count
   ("pipe", "white oval").
 
+<p align="center">
+  <img src="media/opentally-sam3-infographic.png" width="600" alt="Benchmark infographic: Meta's SAM 3 finds 95% of items in photos with fewer than 20, but 7% in photos with 200 or more. Share of photos counted within 10% falls from 61% to 0% once photos pass 100 items, while tiled OWLv2 holds 52%.">
+</p>
+
 ## Quick start
 
 ```bash
