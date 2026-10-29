@@ -1,5 +1,14 @@
 # OpenTally
 
+Count similar objects in a photo, locally in your browser.
+
+![OpenTally demo](media/demo.gif)
+
+[![Try it in your browser](https://img.shields.io/badge/Try_it_in_your_browser-OpenTally-238636)](https://DylanMartinLSC.github.io/opentally/)
+
+The browser demo uses the built-in counting engine. Optional local AI requires your own server. [Recording details](media/DEMO.md).
+
+
 **Count anything in a photo: free, offline, open source.**
 
 Pipes, logs, rebar, pills, cans, cells, seeds. Draw a box around one item and
