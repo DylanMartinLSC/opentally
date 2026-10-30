@@ -16,3 +16,11 @@ eval/results/report/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Portable build outputs
+build/
+dist/
+release/
+*.spec
+*.egg-info/
+.demo-recording/
